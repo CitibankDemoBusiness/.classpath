@@ -1,0 +1,52 @@
+{
+  "id": "/subscriptions/aba6fac4-db66-4d0c-8bce-e11e744b44df/resourceGroups/AzureQuantum/providers/Microsoft.Resources/deployments/Microsoft.DataShare-20220407061321",
+  "name": "Microsoft.DataShare-20220407061321",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "marketplaceItemId": "Microsoft.DataShare"
+  },
+  "properties": {
+    "templateHash": "10662009686605111958",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "Knvhu"
+      },
+      "location": {
+        "type": "String",
+        "value": "centralus"
+      },
+      "tagsByResource": {
+        "type": "Object",
+        "value": {
+          "Microsoft.DataShare/accounts": {
+            "tracking": "ece2817a-13c3-4202-83ae-1269b569940"
+          }
+        }
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2022-04-07T10:14:57.8359865Z",
+    "duration": "PT35.1130379S",
+    "correlationId": "d58c99e2-20c1-4105-9e3a-858915606ff5",
+    "providers": [
+      {
+        "namespace": "Microsoft.DataShare",
+        "resourceTypes": [
+          {
+            "resourceType": "accounts",
+            "locations": [
+              "centralus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "validationLevel": "Template"
+  }
+}

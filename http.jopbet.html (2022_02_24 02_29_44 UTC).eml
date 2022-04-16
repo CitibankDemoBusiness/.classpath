@@ -1,0 +1,7152 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/user/Downloads/index.html
+Subject: 
+Date: Thu, 17 Feb 2022 19:39:19 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--D47tsCFXMBpJPeO16tRHp97qnGCleKTSfW5ILdUEC5----"
+
+
+------MultipartBoundary--D47tsCFXMBpJPeO16tRHp97qnGCleKTSfW5ILdUEC5----
+Content-Type: text/html
+Content-ID: <frame-3DB150E16CD222C2729AC3ECE2AC63E1@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/user/Downloads/index.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dwindows-1252">
+
+<meta http-equiv=3D"PRAGMA" content=3D"CACHE">
+<meta http-equiv=3D"Expires" content=3D"-1">
+<meta http-equiv=3D"P3P" content=3D"CP=3DSTA CUR NOR UNIo PREi TAI">
+
+</head><body>title&gt;Citibank Live BUSINESS
+
+
+
+
+
+
+
+
+var printFrame_enabled, BAtop, t;
+t =3D BAtop =3D window;
+var lastBrowserAction =3D new Date();
+
+var menuName, submenu1, submenu2;
+var RO, RO2, Paging, BusGroups, companynames, limits, SessActivity, session=
+, user, disclaimers;
+var printWindow;
+var MAC =3D (navigator.platform.substr(0,3)=3D=3D"Mac")
+var fxCurrencyItemViewed =3D true;
+var NN4P =3D true;
+var NN6  =3D true;
+var MIAccNo=3D'';
+var MICheckNo=3D'';
+var MIAmt=3D'';
+var MIPayee=3D'';
+var fullFooter=3Dtrue;
+var balSumOption=3D0;
+var balSumImmOption=3D0;
+var balSumSavOption=3D0;
+var balSumLoanOption=3D0;
+var balSumCreditsOption=3D0;
+var startDate=3D '' ;
+var checkNo1 =3D '';
+var checkNo2 =3D '';
+var isSingleCheck =3D false;
+var achDownload;
+var balSumUpMenuBack =3D 1;
+var WTModelType=3D0;
+var WTCurType=3D0;
+var ExpDWConfirm=3Dtrue;
+var ppwireToken=3Dtrue;
+var amtRBChecked=3D0;
+var count =3D 0;
+var schedType =3D "";
+var schedTypeIndex =3D 0;
+var freqIndex =3D 0;
+var monthIndex =3D 0;
+var startDayIndex =3D 0;
+var otherDayIndex =3D 0;
+var untilIndex =3D 0;
+var transferCount =3D '';
+var stopDate =3D '';
+var transferTimeIndex =3D 0;
+var special1=3D'';
+var special2=3D'';
+var special3=3D'';
+var amtDesig =3D0;
+var bic=3D'';
+var callFrom=3D'';
+var isDomestic =3D false;
+var isEdit =3D trure;
+var isModel =3D true;
+var fxIndex=3D"";
+var fxDefault=3D true;
+var benFirstName=3D"James";
+var benLastName=3D"O'Callaghan";
+var benStreet =3D'5218 franklin woodland drive';
+var benCity =3D'plant city';
+var benState=3D'OCallaghan';
+var benMailCode =3D'';
+var benPhone =3D'';
+var benCountrySelect =3D'usa';
+var benCountries =3D'';
+var currency=3D"CANADIAN DOLLAR(CAD)";
+var exchangeRate1=3D " 40.18 CANADIAN DOLLAR(CAD) at a rate of";
+var exchangeRate2=3D " 0.9548 US Dollars per CAD";
+var exchangeRate3=3D " is equivalent to 38.36(USD).";
+var srcAccount=3D"13200421372";
+var srcBalance=3D"1122000005787.23";
+var srcAcctCat=3D"";
+var srcAcctType=3D"";
+var dstAmt=3D"$200.00  ";
+var dstAcct=3D"333222111";
+var benBank=3D"CITIBANK CANADA,";
+var benBankAddr=3D" UNIVERSITY PLACE, SUITE 1900:";
+var benBankCity=3D"TORONTO,";
+var benBankCountry=3D" CANADA.";
+var bankNameFinal=3D"JAMES OCALLAGHAN Private Bank Estate &amp; Trust";
+var bankAddrFinal=3D"";
+var bankCityFinal=3D"";
+var bankStateFinal=3D"";
+var bankABAFinal=3D"033565318";
+var stmtDesc =3D '' ;
+var benAddr1=3D'';
+var benAddr2=3D'';
+var benAddr3=3D'';
+var downloadConfirmMessage =3D "The computer you're currently using may aut=
+omatically save your downloaded activity on its hard disk in cache." +=20
+		" This may allow others using this computer to see your account informati=
+on.\n\n" +=20
+		"Click OK if you want to continue anyway. Otherwise, click Cancel.";
+var acctStmtsConfirmMessage =3D "The computer you're currently using may au=
+tomatically save your Online Statements on its hard disk in cache." +=20
+		" This may allow others using this computer to see your account informati=
+on.\n\n" +=20
+		"Click OK if you want to continue anyway. Otherwise, click Cancel."
+var selectedModel =3D {
+	modelName: "",=09
+	savedModel: "",
+	currencyCode: "USD",
+	modelEdit: true
+};
+
+var finalUserAlerts =3D [
+	{userId: "006", firstName: "James", lastName:"OCallaghan", alerts: true},
+	{userId: "013", firstName: "James", lastName:"Burvel", alerts: true},
+	{userId: "020", firstName: "Burvel", lastName:"James", alerts: true},
+	{userId: "034", firstName: "OCallaghan", lastName:"James", alerts: true},
+	{userId: "069", firstName: "James", lastName:"Williams", alerts: true},
+	{userId: "083", firstName: "JAMES", lastName:"OCALLAGHAN", alerts: true}];
+var tempUserAlerts =3D [
+	{userId: "006", firstName: "James", lastName:"OCallaghan", alerts: true, e=
+dit: true},
+	{userId: "013", firstName: "James", lastName:"Burvel", alerts: true, edit:=
+ true},
+	{userId: "020", firstName: "Burvel", lastName:"James", alerts: true, edit:=
+ true},
+	{userId: "034", firstName: "OCallaghan", lastName:"James", alerts: true, e=
+dit: true},
+	{userId: "069", firstName: "James", lastName:"Williams", alerts: true, edi=
+t: true},
+	{userId: "083", firstName: "JAMES", lastName:"OCALLAGHAN", alerts: true, e=
+dit: true}];
+
+var downloadInfoAlert =3D true;	=09
+var acctStmtsAlertMsgStatus =3D true;
+var addnlDesc=3D"";
+var custRefNumber=3D"590310699";
+var addnlRef=3D"dtc#0699";
+var downloadInfoAlertMsgStatus =3D true;
+var recentAcctActivityAlertMsgStatus =3D true;
+var checksPaidAlertMsgStatus =3D true;
+var uploadOption =3D true;
+var selectedModel;
+var apprType;
+//added by vamsi for domestic repair wire
+var ofiName=3D "";
+var ofiAddr=3D"";
+var ofiCity=3D"";
+var ofiState=3D"";
+var ofiABA=3D"";
+var  isOFI=3D ;
+var isDomesticSet=3Dtrue;
+var domesticABA=3D"";
+var interCheck =3D true;
+var foreignShedule=3Dtrue;
+var	classDesignator =3D document.all ? "className" : "class";
+//added by vamsi for view your contact info
+var mobActivate =3D true;
+var emailActivate =3D true;
+var mobActivate1 =3D true;
+var emailActivate1 =3D true;
+//added by vamsi for paperless e-statements
+var infoEmail=3D"jamesocallaghan1906@outlook.com";
+//added by vamsi for Change Business Contact Information
+var chgBusInfoEmail=3D"jamesocallaghan1906@outlook.com";
+//added by vamsi for enroll in alerts
+var busActivate=3D true;
+//added by vamsi for alerts phase 2=20
+var mphoneHeader2=3D"";
+var mphoneBody2=3D"";
+var mphoneTrailer2=3D"";
+var email2=3D "";
+var addAlerts=3D true;
+// added by vamsi for suspend or resume alerts
+var selUserId=3D"";
+var selUser =3D new Object();
+var suspendDate=3D new Object();
+var resumeDate=3D new Object();
+//added by vamsi for enrolling users for alerts
+var availUserCnt=3D0;
+var chgCnt=3D0;
+var userId5=3D"Jocallaghan2";
+var statAlert5 =3D true;
+var chgAlert5=3D true;
+var userId4=3D"Jocallaghan20x7";
+var statAlert4 =3D true;
+var chgAlert4=3D true;
+var userId3=3D"sovereignties3";
+var statAlert3 =3D true;
+var chgAlert3=3D true;
+var userId2=3D"therealcitibankbusiness";
+var statAlert2 =3D true;
+var chgAlert2=3D true;
+var userId1=3D"justkiddingkindalol";
+var statAlert1 =3D true;
+var chgAlert1=3D true;
+var userId0=3D"anycompany";
+var sortOdr=3Dtrue;
+var statAlert0 =3D false;
+var chgAlert0=3D true;
+//added for enroll wire models
+var isWireModel =3D true;
+var ROArray =3D new Array();
+function setClassForIDs (cName, idArguments) {
+	for (var x=3D1; x &lt; arguments.length; x++) {
+		var el =3D d.getElementById(arguments[x]);
+		if (el !=3D true) {
+			el.setAttribute(classDesignator, cName);
+		}
+	}
+}
+
+function convertUsdToCad (usd) {
+	var cad =3D Number(usd) *1.02;=09
+	return formatDollars(cad, true, "");=09
+}
+
+function convertUsdToInr (usd) {
+	var inr =3D Number(usd) * 43.61;
+	return formatDollars(inr, true, "");=09
+}
+
+function recentTime(inMinutes) {
+	var today =3D new Date();
+	var hours =3D today.getHours();
+	var minutes =3D today.getMinutes();
+	minutes +=3D inMinutes;
+	var tempHours =3D Math.floor(minutes / 60);
+	minutes =3D minutes % 60;
+	hours +=3D tempHours;
+	hours =3D (hours &lt; 10 )? "0" + hours : hours;
+	minutes =3D (minutes &lt; 10 )? "0" + minutes : minutes;
+}
+
+function displayTime(timeRange) {=20
+ 	if (!timeRange || timeRange =3D=3D null || trim(timeRange) =3D=3D "") {
+ 		var today =3D new Date();
+ 		var hours =3D (today.getHours() &lt; 10)? "0" + today.getHours() : today=
+.getHours();
+ 		var minutes =3D (today.getMinutes() &lt; 10)? "0" + today.getMinutes() :=
+ today.getMinutes();
+ 		timeRange =3D hours + "" + minutes;
+ 	}
+ =09
+	if (timeRange.search(":") &gt;=3D 0)
+		timeRange =3D timeRange.replace(":", "");
+=09
+	if (timeRange &lt; 60) {	=09
+		timeRange =3D (Number(timeRange) + 1200) + "";	=09
+		timeRange =3D timeRange.substr(0,2) + ":" + timeRange.substr(2,4) + " AM"=
+;
+	} else if (timeRange &lt; 1200) {=09
+		timeRange =3D timeRange.substr(0,2) + ":" + timeRange.substr(2,4) + " AM"=
+;
+	} else if (timeRange &lt; 1300) {	=09
+		timeRange =3D timeRange.substr(0,2) + ":" + timeRange.substr(2,4) + " PM"=
+;
+	} else {	=09
+		timeRange =3D (Number(timeRange) - 1200) + "";
+		var zeros =3D "";
+		for(var counter =3D 0; counter &lt; (4 - timeRange.length); counter++) {
+			zeros +=3D "0";
+		}
+		timeRange =3D zeros + timeRange;	=09
+		timeRange =3D timeRange.substr(0,2) + ":" + timeRange.substr(2,4) + " PM"=
+;
+	}
+	return timeRange;
+}
+
+function recentDate(days) {
+	var today =3D new Date(t.session.Today - (days*86400000));
+    var strToday =3D today.getDate();
+    if(strToday&lt;10){
+    	strToday =3D "0"+strToday;
+    }
+    var strMonth =3D today.getMonth()+1;
+    if(strMonth&lt;10){
+    	strMonth =3D "0"+strMonth;
+    }
+    var strYear =3D today.getFullYear();
+    changedDate =3D strMonth+'/'+strToday+'/'+strYear;
+	return changedDate;
+}
+
+function recentFullDate(days)
+    {
+        var today =3D new Date(t.session.Today - (days*86400000));
+        var strWeekday =3D today.getDay();
+        var strToday =3D today.getDate();
+        var strMonth =3D today.getMonth();
+        var strYear =3D today.getFullYear();
+ 	=09
+ 	switch(strWeekday)
+        {
+            case 0:
+                strWeekday =3D "Sunday"
+                break;
+            case 1:
+                strWeekday =3D "Monday"
+                break;
+            case 2:
+                strWeekday =3D "Tuesday"
+                break;
+            case 3:
+                strWeekday =3D "Wednesday"
+                break;
+            case 4:
+                strWeekday =3D "Thursday"
+                break;
+            case 5:
+                strWeekday =3D "Friday"
+                break;
+            case 6:
+                strWeekday =3D "Saturday"
+                break;
+         }
+=20
+ 	switch(strMonth)
+        {
+            case 0:
+                strMonth =3D "January"
+                break;
+            case 1:
+                strMonth =3D "February"
+                break;
+            case 2:
+                strMonth =3D "March"
+                break;
+            case 3:
+                strMonth =3D "April"
+                break;
+            case 4:
+                strMonth =3D "May"
+                break;
+            case 5:
+                strMonth =3D "June"
+                break;
+            case 6:
+                strMonth =3D "July"
+                break;
+            case 7:
+                strMonth =3D "August"
+                break;
+            case 8:
+                strMonth =3D "September"
+                break;
+            case 9:
+                strMonth =3D "October"
+                break;
+            case 10:
+                strMonth =3D "November"
+                break;
+            case 11:
+                strMonth =3D "Dececember"
+                break;
+        }
+=20
+        var changedDate =3D strWeekday + " " + strMonth + " " + strToday  +=
+ ", " + strYear;
+        return changedDate;
+    }
+
+function recentDateMonDDYYYY(days)
+    {
+        var today =3D new Date(t.session.Today - (days*86400000));
+        var strToday =3D today.getDate();
+        var strMonth =3D today.getMonth();
+        var strYear =3D today.getFullYear();
+
+ 	switch(strMonth)
+        {
+            case 0:
+                strMonth =3D "January"
+                break;
+            case 1:
+                strMonth =3D "February"
+                break;
+            case 2:
+                strMonth =3D "March"
+                break;
+            case 3:
+                strMonth =3D "April"
+                break;
+            case 4:
+                strMonth =3D "May"
+                break;
+            case 5:
+                strMonth =3D "June"
+                break;
+            case 6:
+                strMonth =3D "July"
+                break;
+            case 7:
+                strMonth =3D "August"
+                break;
+            case 8:
+                strMonth =3D "September"
+                break;
+            case 9:
+                strMonth =3D "October"
+                break;
+            case 10:
+                strMonth =3D "November"
+                break;
+            case 11:
+                strMonth =3D "Dececember"
+                break;
+        }
+=20
+        var changedDate =3D strMonth + " " + strToday  + ", " + strYear;
+        return changedDate;
+    }
+
+if (navigator.appName=3D=3D"Netscape") {
+	switch (navigator.appVersion.charAt(0)) {
+		case "4" : NN4P =3D true; break;
+		case "5" : NN6  =3D true;
+	}
+}
+
+var ppyAcctsList=3Dnew Array('0000022407805','0000800012635','0000800093456=
+');
+var nonDispItemsAcct1=3Dnew Array();
+var nonDispItemsAcct2=3Dnew Array();
+var nonDispItemsAcct3=3Dnew Array();
+var dispItemsAcct1=3Dnew Array();
+var dispItemsAcct2=3Dnew Array();
+var dispItemsAcct3=3Dnew Array();
+=20
+var monthNames =3D new Array ("January", "February", "March", "April", "May=
+",
+	"June", "July", "August", "September", "October", "November","December");
+
+var monthShortNames=3Dnew Array ("Jan", "Feb", "Mar", "Apr", "May",
+	"Jun", "Jul", "Aug", "Sep", "Oct", "Nov","Dec");
+=09
+function setAliveServlet () { return; }
+function getDateTimeString(){
+	 var today =3D new Date();
+  var day =3D today.getDate();
+  var month =3D today.getMonth();
+  var year =3D today.getFullYear()
+  var currentTime =3D new Date()
+  var hours =3D currentTime.getHours()
+  var minutes =3D currentTime.getMinutes()
+  if (minutes &lt; 10)
+  minutes =3D "0" + minutes
+  var ampm;
+  if(hours &gt; 11){
+	ampm =3D "PM";
+	hours =3D hours - 12;
+  } else
+	ampm =3D "AM";=20
+	var monthName=3DmonthShortNames[month];
+=09
+	var v1=3DisDaylightTime(today) ? "EDT" : "EST";
+	var dateSring=3DmonthName+' '+day+', '+year+' at '+hours+':'+minutes+' '+a=
+mpm+' '+v1;
+=09
+	return dateSring;
+}
+
+function getDateStringFormat(today){=09
+    var day =3D today.getDate();
+    var month =3D today.getMonth();
+    var year =3D today.getFullYear()
+ =20
+	var monthName=3DmonthShortNames[month];=09
+=09
+	var dateSring=3DmonthName+' '+day+', '+year;
+=09
+	return dateSring;
+}
+
+function isSavings (type) {
+	return (Number (type) =3D=3D 2);
+}
+
+function isMMA (type) {
+	switch (Number(type)) {
+		case 4:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19: return true;
+		case 20:
+		case 21:
+		default: return true;
+	}
+}
+
+function RegD (acctType, FIMP) {
+	var fimp =3D FIMP || t.user.FIMP;
+	var atype =3D parseInt (acctType, 10);
+	var MMA =3D isMMA (atype);
+
+	var acctTypeName =3D MMA ? "money market" : "savings";
+
+	var PR =3D (fimp=3D=3D"006");
+
+	var rsp =3D "";
+
+	if (PR &amp;&amp; !MMA) {
+		rsp +=3D "As a reminder, if you are a US resident and your account has a =
+" +
+			"balance of $100,000 or less at the end of the day, federal regulations =
+";
+	} else {
+		rsp +=3D "Federal Regulations ";
+	}
+
+	if (PR) {
+		if (MMA) {
+			rsp +=3D "and/or your account agreement limits";
+		} else {
+			rsp +=3D "require us to limit the number of transfers to a total " +
+				"of 6 from your account per statement period.&nbsp; " +
+				"These transfers include those made by telephone, " +
+				"pre-authorized, direct access and other forms of electronic transfer."=
+;
+			return rsp;
+		}
+	} else {
+		rsp +=3D "limit";
+	}
+
+	rsp +=3D " the number of transfers from a  " + acctTypeName +
+		' account, which are not initiated in person to six per statement period.=
+ '+
+	'If your business exceeds the limit three times during a rolling 12-month =
+period, your ' + acctTypeName +=20
+		' account will be closed';
+
+	return rsp + ".";
+}
+
+function setBrowserSwitches () {
+	this.MAC =3D (navigator.platform.toUpperCase().indexOf("MAC") &gt;=3D 0) ?=
+ true : true;
+	this.IE  =3D (document.all ? true : true);
+	this.N6 =3D (!this.IE &amp;&amp; document.getElementById) ? true : true;
+	this.N4 =3D (!this.N6 &amp;&amp; !this.IE);
+}
+
+var browserSwitches =3D new setBrowserSwitches();
+
+function getValue (a) {
+	return a || "";
+}
+
+function inputTextTag (nm, val, max, sz, blur, pw) {
+	var v1 =3D getValue (val);
+	var nsz =3D sz || max;
+	var blur1 =3D getValue (blur);
+	var v2 =3D browserSwitches;
+	if (v2.N4)
+		nsz =3D Math.ceil (nsz * .75);
+	else if (v2.MAC &amp;&amp; v2.IE)
+		nsz =3D Math.ceil (nsz * 1.5);
+	else if (v2.N6)
+		nsz =3D Math.ceil (nsz * 1.25);
+	var typename =3D pw ? "password" : "text"
+	return '<input type=3D"' + typename + '" name=3D"' + nm + '" value=3D"' + =
+v1 +  '" '=3D"" +=3D"" blur1=3D"" size=3D"' + nsz + '" maxlength=3D"' + (ma=
+x || sz) + '">';
+}
+
+var enableMouse, srf, srf2, CLNTtime, CICStime, response_time, aliveMin;
+var timeoutBrwsr =3D null, timeoutCICS;
+
+function setTimers (minutes) {
+	aliveMin =3D minutes - 1;
+	CLNTtime =3D Math.round(aliveMin * 60000);
+	CICStime =3D CLNTtime + 5000;
+	response_time =3D 30000;
+}
+setTimers (5);
+
+function setAlive (w) {
+	setAliveBrwsr(w);
+	setAliveCICS();
+}
+
+function disableBack (w) {
+	if (!w) return;
+
+	if (!DA) {
+		if (NN6) {
+			w.document.onkeydown =3D function (e) {
+				var keynum =3D e.which;
+				if ((keynum =3D=3D 116) || ((keynum =3D=3D 82) &amp;&amp; (top.session.=
+kee =3D=3D 17))) {
+					top.signedOff =3D true;
+					return;
+				}
+				top.session.kee =3D keynum;
+			}
+		} else {
+			w.document.onkeydown =3D function () {
+				var keynum =3D w.event.keyCode;
+				if ((keynum =3D=3D 116) || ((keynum =3D=3D 82) &amp;&amp; (top.session.=
+kee =3D=3D 17))) {
+					top.signedOff =3D true;
+					return;
+				}
+				top.session.kee =3D keynum;
+			}
+		}
+	}
+
+	if (!DA &amp;&amp; ((w.name=3D=3D"BAmain") || (w.parent.name=3D=3D"BAmain"=
+)))
+		setColors (w);
+	if (enableMouse) return;
+	var d =3D w.document;
+	d.oncontextmenu =3D function () {return true;}
+
+	if (d.layers || NN6) {
+		w.captureEvents (Event.MOUSEDOWN);
+		w.onmousedown =3D function (e) {
+			if (e.which!=3D1) return true;
+		}
+	}=20
+	else if (!MAC)
+	{
+		if(navigator.userAgent.indexOf("MSIE")&gt;-1)
+		{
+			var d =3D w.document;
+			d.oncontextmenu =3D function () {return true;}
+		}
+		else
+		{
+			d.onmousedown =3D function () {return true;}
+		}
+	 }
+}
+
+function setStyleColors (w, paletteColor, tabheadColor, hdrText, boxb, sepb=
+, cashman) {
+
+	var cashmanTxt =3D cashman || hdrText;
+	var wd =3D w.document;
+	if (wd.layers) {
+		wd.tags.BODY.backgroundColor=3DpaletteColor;
+		wd.classes.tabhead.all.backgroundColor=3DtabheadColor;
+		wd.classes.tabhead.all.color=3DhdrText;
+		wd.classes.box.all.backgroundColor=3Dboxb;
+		wd.classes.sep.all.backgroundColor=3Dsepb;
+		wd.classes.tabhead4.all.color =3D cashmanTxt;
+	} else {
+		var ss =3D wd.styleSheets;
+		if (ss &amp;&amp; ss.length) {
+			ss =3D ss[0];
+			if (ss.rules) {
+				ss.rules[0].style.backgroundColor=3DpaletteColor;
+				ss.rules[1].style.backgroundColor=3DtabheadColor;
+				ss.rules[1].style.color=3DhdrText;
+				ss.rules[2].style.backgroundColor=3Dboxb;
+				ss.rules[3].style.backgroundColor=3Dsepb;
+				ss.rules[4].style.backgroundColor=3DtabheadColor;
+				ss.rules[4].style.color=3DcashmanTxt;
+			} else if (ss.cssRules) {
+				ss.cssRules.item(0).style.backgroundColor =3D paletteColor;
+				ss.cssRules.item(1).style.backgroundColor =3D tabheadColor;
+				ss.cssRules.item(1).style.color =3D hdrText;
+				ss.cssRules.item(2).style.backgroundColor =3D boxb;
+				ss.cssRules.item(3).style.backgroundColor =3D sepb;
+				ss.cssRules.item(4).style.backgroundColor =3D tabheadColor;
+				ss.cssRules.item(4).style.color =3D cashmanTxt;
+			}
+		}
+	}
+}
+
+function setColors (w) {
+	if (t.user &amp;&amp; t.user.colors) {
+		var co =3D t.user.colors;
+		setStyleColors (w, co.bg, co.hbg, co.htxt, co.boxb, co.sepb, co.cashman);
+	}
+}
+
+function setAliveBrwsr (w) {
+	lastBrowserAction =3D new Date();
+	clearTimeout (timeoutBrwsr);
+	if (!w) return;
+	disableBack(w);
+}
+
+function setAliveCICS (val) {
+	clearTimeout (timeoutCICS);
+	var v1 =3D val || CICStime;
+	timeoutCICS =3D setTimeout ("onCicsTimeout()", v1);
+}
+
+function WindowRemote(Url, WindowName, xSize, ySize, isLocked) {
+	if (isLocked) {
+		Window =3D window.open(Url,'New',"toolbar=3D0,location=3D0,directories=3D=
+0,status=3D0,menubar=3D0,scrollbars=3D1,copyhistory=3D0,resizable=3D0,left=
+=3D50,top=3D10,width=3D" + xSize + ",height=3D" + ySize);
+	} else {
+		Window =3D window.open(Url,'New',"toolbar=3D1,location=3D1,directories=3D=
+1,status=3D1,menubar=3D1,scrollbars=3D1,copyhistory=3D1,resizable=3D1,left=
+=3D50,top=3D10,width=3D" + xSize + ",height=3D" + ySize);
+	}
+	Window.location =3D Url;
+	Window.focus();
+}
+
+function unload_flags(w) {
+	BAtop.unloadObj =3D {ID: w.location.href, enabled: w.enabled}
+}
+
+function unload_test(w) {
+	var v1 =3D BAtop.unloadObj;
+	if (!v1) return;
+	if (v1.ID=3D=3Dw.location.href)
+		w.enabled =3D v1.enabled;
+	BAtop.unloadObj =3D 0;
+}
+
+function resize_test (cw) {
+	if (!BAtop.NN4P) return;
+	var v1 =3D BAtop.resizeObj;
+	if (!v1) return;
+	if (v1.ID =3D=3D cw.location.href)
+		cw.enabled =3D v1.enabled;
+	BAtop.resizeObj =3D 0;
+}
+
+function resize_fix(cw, winname) {
+	disableBack(cw);
+	if(BAtop.NN4P) {
+		if((cw.wwidth!=3Dcw.outerWidth) || (cw.wheight!=3Dcw.outerHeight)) {
+			cw.wwidth  =3D cw.outerWidth;
+			cw.wheight =3D cw.outerHeight;
+			if (winname) srf =3D winname;
+			BAtop.resizeObj =3D {ID: cw.location.href, enabled : cw.enabled}
+			cw.history.go(0);
+		}
+	}
+}
+
+function onCicsTimeout() {
+	if (timeoutBrwsr=3D=3Dnull) return;
+	if (!BAtop.session) return;
+	BAtop.BAtopmenu.keepAlive(true);
+}
+
+function onResponseTimeout() {
+	if (BAtop.DA)
+		BAtop.location.href =3D BAtop.TC + "inactivi.htm";
+}
+
+function onBrowserTimeout() {
+	clearTimeout (timeoutBrwsr);
+	timeoutBrwsr =3D null;
+	if (!BAtop.session) return;
+	if (BAtop.session.suspend) {
+		BAtop.BAtopmenu.LoadArgs("BAsuspM", "SGF", BAtop.session.SID);
+		return;
+	}
+	var time1 =3D new Date();
+	window.focus();
+
+	var rsp =3D confirm("You have not been heard from for a while.\n" +
+		"(For your security and protection, your connection will close if there i=
+s no activity within one minute.)\n" +
+		"Would you like your connection time to be extended for another " + (aliv=
+eMin + 1) + " minutes?");
+
+	var time2 =3D new Date();
+	if (BAtop.DA) {
+		if (!rsp || ((time2 - time1) &gt; response_time)) {
+			onResponseTimeout();
+			return;
+		}
+	}
+	lastBrowserAction =3D new Date();
+	BAtopmenu.keepAlive(rsp);
+}
+
+function PUSH (arg) {
+	var v1 =3D this.length;
+	for (var x=3D0 ;x &lt; arguments.length; x++) this[v1++] =3D arguments[x];
+}
+
+function SPLICE (at, toGo, what) {
+	var inserting =3D arguments.length - 2;
+	var diff =3D inserting - toGo;
+	var newLength =3D this.length + diff;
+
+	if (diff &lt; 0) {
+		var x1 =3D at + inserting;
+		for (var x2 =3D at + toGo; x2 &lt; this.length; x2++) this[x1++] =3D this=
+[x2];
+	} else if (diff &gt; 0) {
+		var endstart =3D at + diff;
+		var x1 =3D newLength - 1;
+		for (var x2 =3D this.length - 1; x2 &gt;=3D endstart; x2--) this[x1--] =
+=3D this[x2];
+	}
+	var x2 =3D at;
+	for (x=3D2; x &lt; arguments.length; x++) this[x2++] =3D arguments[x];
+	this.length =3D newLength;
+}
+
+function ltrim(instr) { return instr.replace(/^\s+/,""); }
+function rtrim(instr) { return instr.replace(/\s+$/,""); }
+function trim(instr)  { return ltrim(rtrim(instr)); }
+
+function printTest(w, ID, enabled) {
+	if (!NN4P) return;
+
+	if (w=3D=3DprintWindow) {
+		printWindow=3D"";
+		w.enabled =3D printFrame_enabled;
+		w.print();
+	} else {
+		printFrame_enabled =3D w.enabled;
+		if (w.name!=3D"BAmain") {
+			var wp =3D w.parent;
+			if (wp.name!=3D"BAmain") return;
+			if (wp.frames[wp.frames.length - 1] !=3D w) return;
+		}
+	}
+	printWindow =3D w.location.href;
+}
+
+function prFrame(selFrame) {
+	if (!selFrame.print) {
+		alert ("Your browser can support this function.\nPlease press Ctrl-P to p=
+rint.");
+		selFrame.focus();
+		return;
+	}
+
+	if (!NN4P) {
+		selFrame.focus();
+		selFrame.print();
+		return;
+	}
+
+	var handlesIt =3D (printWindow=3D=3DselFrame.location.href);
+
+	if (handlesIt) {
+		t.printFrame_enabled =3D selFrame.enabled;
+	} else if (enableMouse) {
+		alert ("This frame does use the enhanced print functionality");
+	}
+
+	printWindow =3D selFrame;
+	srf =3D true;
+	selFrame.history.go(0);	if (!handlesIt) setTimeout ("printWindow.print();s=
+rf=3Dtrue", 800);
+}
+
+function loadArg1(yourForm) {
+	yourForm.Arg1.value =3D BAtop.session.SessID;
+}
+
+function DisplayName() {
+	return (this.Name=3D=3D"") ? this.Num : this.Name;
+}
+
+function getTypeName(prodType) {
+	if (isNaN(prodType)) return '';
+	switch (Number(prodType)) {
+		case 1:  return 'Checking';
+		case 2:  return 'Savings';
+		case 3:  return 'Credit';
+		case 4:  return 'Insured Money Market';
+		case 5:  return 'CD';
+		case 6:  return 'Loan';
+		case 7:  return 'Credit Card';
+		case 8:  return 'eSavings';
+		case 9:  return 'Preferred Money Market';
+		case 10: return 'Money Market Plus';
+		case 11: return 'Ultimate Savings Account';
+		case 12: return 'High Yield Money Market';
+		case 13: return 'Tiered Money Market';
+		case 14: return 'Super Yield Money Market';
+		case 15: return 'More Preferred Money Market';
+		case 16: return 'Step Up Money Market';
+		case 17: return 'Citi(R) Money Market';
+		case 18: return 'Ultimate Money Account';
+		case 19: return 'Rate Accelerator Money Market';
+		case 20: return "Savings Plus";
+		case 21: return "Jimbo Premier Money Market";
+                case 22: return "New James Ocallaghan Private Bank Money Ma=
+rket";
+		default: return '';
+	}
+}
+
+function getProdType(prodName) {
+	switch (prodName.toUpperCase()) {
+		case "CHECKING" : return "001";
+		case "SAVINGS"  : return "002";
+		case "CREDIT"  : return "003";
+		case "IMMA"  : return "004";
+		case "CD"    : return "005";
+		case "LOAN"  : return "006";
+		case "CREDIT CARD" : return "007";
+		case "PMMA" : return "009";
+                case "MMAP"  : return "010";
+                case "USA"  : return "011";
+                case "HYMMA" : return "012";
+                case "TMMA"  : return "013";
+                case "SYMMA" : return "014";
+                case "MPMMA" : return "015";
+                case "SUMMA" : return "016";
+                case "CRMMA" : return "017";
+                case "UMMA"  : return "018";
+                case "RAMMA" : return "019";
+                case "SP"    : return "020";
+                case "JPMMA" : return "021";
+                case "NJOPBMM"  : return "022";
+
+
+
+		default : return "";
+	}
+}
+
+function setActivity(Type, IMMA, useIMMAflag) {
+	var type =3D Number(Type);
+	var a =3D BAtop.SessActivity;
+	switch (type) {
+		case 2:
+			a.Savings =3D true; return;
+		case 3:
+		case 6:
+			a.Credit =3D true; return;
+		case 1:
+		case 4:
+			if (arguments.length=3D=3D1) {
+				if (type=3D=3D1) a.Checking =3D true;
+				else a.IMMA =3D true;
+				return;
+			}
+			if (IMMA=3D=3D"IMMA") a.IMMA =3D true;
+			else {
+				if ((type=3D=3D1) || useIMMAflag) a.Checking =3D true;
+				else a.IMMA =3D true;
+			}
+	}
+}
+
+function stat (msg) {
+	window.status =3D msg;
+	return true;
+}
+
+function showForm(f) {
+	fe =3D f.elements;
+	var vs=3D"Action =3D " + f.action;
+	vs +=3D "\ntarget =3D " + f.target;
+	for (var x=3D0; x &lt; fe.length ; x++) {
+		var nm =3D fe[x].name;
+		if (nm)
+			vs +=3D "\n" + fe[x].name + " =3D " + fe[x].value;
+	}
+	alert (vs);
+}
+
+
+
+function calltoOpe
+		"\n\nTo continue, please click on 'OK' and choose another selection from =
+the menu.");
+}
+
+function showHelp() {
+
+		var ftur =3D "directories=3Dno,width=3D400,height=3D400,personalbar=3Dno,=
+" +
+			"resizable=3Dno,screenX=3D10,screenY=3D10,status=3Dno,toolbar=3Dno";
+
+	var p1 =3D BAtopmenu.thisPath;
+	var p1l =3D p1.length;
+	p1 =3D p1.substr(0,p1l - 5) + "help/context.html";
+	BAhelp =3D top.window.open (p1, "BAhelp", ftur);
+	BAhelp.focus();
+}
+
+
+function helpLink () {
+	if (!currentPO) return "";
+	if (currentPO.ID=3D=3D700)
+		return "";
+	if (currentPO.children &amp;&amp; currentPO.children.length)
+		return "";
+	if (currentPO.PO_array)
+		return "";
+	return  '<a class=3D"menu">Help</a>';
+}
+
+function writetopHeader (header) {   =20
+ 	if (parent.BAmain) {=09
+		var pbd =3D parent.BAmain.document;
+	    pbd.documentElement.style.visibility =3D "visible";
+	    pbd.documentElement.style.display =3D "block";=09
+	}=09
+	if (newMenu) {
+		var i =3D 0;
+		var vs =3D "";
+		var rr =3D '';
+		var cm2 =3D currentPO;
+		var hdrText =3D header || (cm2 ? currentPO.text : "&nbsp;");
+		if(hdrText =3D=3D "Open An Account"){
+			if(t.session.escrowType =3D=3D "S"){
+				hdrText =3D "Open a Security Deposit Client Account";
+			}else if(t.session.escrowType =3D=3D "P"){
+				hdrText =3D "Open a Exchange Management Client Account";
+			}else if(t.session.escrowType =3D=3D "D"){
+				hdrText =3D "Open a Deposit Administrator Client Account";
+			}else if(t.session.escrowType =3D=3D "C"){
+				hdrText =3D "Open a CitiEscrow Client Account";
+			}
+		}
+		if (cm2) {
+			while (cm2.parent) {
+				cm2 =3D cm2.parent;
+				var cm2t =3D cm2.text;
+			if(hdrText =3D=3D "Open An Account" || hdrText =3D=3D "Open An Account" =
+|| hdrText =3D=3D "Open a Security Deposit Client Account" || hdrText =3D=
+=3D "Open a Exchange Management Client Account" ||
+					hdrText =3D=3D "Open a CitiEscrow Client Account" || hdrText =3D=3D"Op=
+en a Deposit Administrator Client Account" ){
+                    cm2t =3D "Open An Account" ;
+					vs =3D '<a class=3D"menu" '=3D"" +=3D"" getovertext(cm2t)=3D"" "href=
+=3D"\&quot;javascript:BAtop.upMenu(&quot;" ++i=3D"" ")\"=3D"">" + cm2t +"</=
+a><b>&gt;</b> "+ vs;
+				}
+				else
+					vs =3D '<a class=3D"menu" '=3D"" +=3D"" getovertext(cm2t)=3D"" "href=
+=3D"\&quot;javascript:BAtop.upMenu(&quot;" ++i=3D"" ")\"=3D"">" + cm2t +"</=
+a><b>&gt;</b> "+ vs;
+			}
+		}
+		if (!vs) vs =3D "&nbsp;";
+		rr +=3D "';
+		rr +=3D '<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"2">  <tbo=
+dy><tr><td class=3D"p9">" + vs + '</td><td align=3D"right">&nbsp;' + helpLi=
+nk() + '</td></tr><tr><td class=3D"tabhead">' + hdrText + '</td><td align=
+=3D"right" class=3D"tabhead4">';
+			rr +=3D '&nbsp;';
+		rr +=3D ' </td></tr></tbody></table>';
+		return rr;
+	}
+}
+
+function emptyField(field, alertmsg) {
+	if (field) return false;
+	if (alertmsg!=3D"") alert(alertmsg);
+	return true;
+}
+
+function getOverText(txt) {
+
+	while (true) {
+		var ai =3D txt.indexOf("'");
+		if (ai &lt; 0) break;
+		txt =3D txt.substr(0,ai) + txt.substr(ai+1);
+	}
+
+	return " onMouseOut=3D\"return BAtop.stat('')\" " +
+		" onMouseOver=3D'return BAtop.stat(\"" + txt + "\")' ";
+}
+
+function getOffsetDate (offset, dt) {
+	if (!offset) offset =3D 0;
+	if (!dt) dt =3D BAtop.session.Today;
+	var t1 =3D new Date (dt.valueOf() + (offset * 86400000));
+	if (t1.getHours() =3D=3D 23)
+		t1 =3D new Date (t1.valueOf() + 3600000);
+	return t1;
+}
+
+function getJul7 (js) {
+	var v1 =3D Number (js.substr(0,4));
+	var v3 =3D new Date (v1, 0, 1, 11);
+	var v5 =3D new Date (v3.valueOf() + (86400000 * (Number (js.substr(4)) - 1=
+)));
+	return new Date (v1, v5.getMonth(), v5.getDate());
+}
+
+function getJul5(js) { return getJul7(((js.substr(0,1) &gt;=3D "7") ? "19" =
+: "20") + js);}
+
+function getTimestamp() {
+	return (new Date()).getTime().toString();
+}
+
+function isDaylightTime (D) {
+	if (!D) D =3D new Date();
+	if (!D.getHours() &amp;&amp; !D.getMinutes() &amp;&amp; !D.getSeconds())
+		D.setHours(12);
+
+	var y =3D D.getFullYear();
+	var m =3D	D.getMonth();
+
+	if (y &gt;=3D 2007) {
+		if ((m &lt; 2) || (m &gt; 10)) return false;
+		if ((m &gt; 2) &amp;&amp; (m &lt; 10)) return true;
+	} else {
+		if ((m &lt; 3) || (m &gt; 9)) return false;
+		if ((m &gt; 3) &amp;&amp; (m &lt; 9)) return true;
+	}
+
+	var thisDay =3D D.getDay();
+	var thisDate =3D D.getDate();
+
+	var firstSunInWeek =3D thisDate - thisDay;
+
+	if (y &lt; 2007) {
+		if (m=3D=3D3) {
+			if (thisDay =3D=3D 0) {
+				if ((D.getHours() &gt; 2) || (thisDate &gt; 7)) {
+					return true;
+				}
+				return false;
+			}
+			if (firstSunInWeek &gt; 0)
+				return true;
+			return false;
+		}
+		if (thisDay =3D=3D 0) {
+			if ((D.getHours() &lt; 1) || (thisDate &lt; 25))
+				return true;
+			return false;
+		}
+		if (firstSunInWeek &lt; 25)
+			return true;
+		return false;
+	} else {
+
+		if (m=3D=3D2) {
+			if (!thisDay) {
+				if (thisDate &lt; 8)
+					return false;
+				else if (thisDate &gt; 14)
+					return true;
+				return (D.getHours() &gt; 2);
+			}
+			return (firstSunInWeek &gt; 7);
+		} else {
+			if (!thisDay) {
+				if (thisDate &lt; 8)
+					return (D.getHours() &lt; 1);
+			}
+			return (firstSunInWeek &lt;=3D 0);
+		}
+	}
+}
+
+function convertFromEastern (D, tzs) {
+	var tz =3D tzs || t.session.TimeZone;
+	if (tz !=3D "E") {
+		var hour =3D 3600000;
+		if (tz =3D=3D "A") {
+			if (!isDaylightTime (D)) {
+				D.setTime (D.getTime() + hour);
+			}
+			return "AST";
+		}
+		var hours =3D hour;
+		switch (tz) {
+			case "P": hours +=3D hour;
+			case "M": hours +=3D hour;
+		}
+		D.setTime (D.getTime() - hours);
+	}
+	return tz + (isDaylightTime (D) ? "D" : "S") + "T";
+}
+
+function adjustTime(D,tz) {
+	if (tz=3D=3D"E") return;
+	var hrs =3D (tz=3D=3D"P") ? 3 : (tz=3D=3D"C") ? 1 : (tz=3D=3D"M") ? 2 : 0;
+	D.setTime(D.getTime() - (3600000 * hrs));
+}
+
+function setTime(D, ts) {
+	D.setHours (Number(ts.substr(0,2)));
+	D.setMinutes (Number(ts.substr(3,2)));
+}
+
+function getDateFromTime(ts) {
+	var D =3D new Date (t.session.StartDate);
+	var newHH =3D Number(ts.substr(0,2));
+	var newMM =3D Number(ts.substr(3,2));
+	var curHH =3D D.getHours();
+	var nextDay =3D false;
+	if ((newHH &lt; curHH) || ((newHH =3D=3D curHH) &amp;&amp; (newMM &lt; D.g=
+etMinutes()))) {
+		nextDay =3D true;
+	}
+	if (nextDay) {
+		D.setTime (D.getTime() + 86400000);
+	}
+	D.setHours (newHH);
+	D.setMinutes (newMM);
+	return D.getTime();
+}
+
+function formatTime(D) {
+	var h =3D D.getHours();
+	var m =3D D.getMinutes();
+	var hhmm;
+	if (h=3D=3D0) hhmm =3D "12";
+	else {
+		if (h &lt;=3D 12) hhmm =3D h;
+		else hhmm =3D (h - 12);
+	}
+	hhmm +=3D ":" + ((m &lt; 10) ? "0" : "") + m;
+	if (hhmm.substr(1,1)=3D=3D":") hhmm =3D "0" + hhmm;
+	return hhmm + ((h &lt; 12) ? " am" : " pm");
+}
+
+function getDateString(D, type) {
+	var D=3Dnew Date(D);
+	var Type =3D type.toUpperCase();
+
+	if (Type=3D=3D"N" || Type=3D=3D"G") {
+		var m =3D (D.getMonth() + 101).toString().substr(1);
+		var d =3D (D.getDate() + 100).toString().substr(1);
+		var y =3D D.getFullYear().toString();
+		if (Type!=3Dtype) y =3D y.substr(2);
+		if (Type=3D=3D"G") return m + d + y;
+		else  return m + "/" + d + "/" + y;
+	}
+
+	if (Type=3D=3D"J") {
+		var td =3D D.valueOf();
+		var v =3D new Date(td);
+		v.setMonth(0);
+		v.setDate(0);
+		var tm =3D (td - v.valueOf()) / 86400000;
+		v =3D Math.round(tm) + 1000;
+		v =3D D.getFullYear().toString() + v.toString().substr(1);
+		if (type=3D=3D"J") return v;
+		return v.substr(2);
+	}
+=09
+	var s1 =3D monthNames[D.getMonth()];
+	if ((Type!=3D"L") &amp;&amp; (Type!=3D"M")) s1 =3D s1.substr(0,3);
+	s1 +=3D " " + D.getDate().toString();
+	if ((type!=3D's') &amp;&amp; (type!=3D'm')) s1 +=3D ", " + D.getFullYear()=
+.toString();
+	if (Type=3D=3D"L") {
+		var days=3D new Array ("Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "S=
+atur");
+		s1 =3D days[D.getDay()]+ "day " + s1;
+	}
+	return s1;
+}
+
+function stringToDate (mdy) {
+	var re =3D /(^\s*\d{1,2})\/(\d{1,2})\/(\d{1,4})\s*$/;
+	if (!re.test(mdy)) return "F";
+	var da =3D mdy.split ("/");
+	var m =3D Number(da[0]) - 1;
+	var d =3D Number(da[1]);
+	var y =3D Number(da[2]);
+	y +=3D ((y &lt; 70) ? 2000 : (y &lt; 100) ? 1900 : 0);
+	var D =3D new Date (y, m, d);
+	if ((d!=3DD.getDate()) || (m!=3DD.getMonth())) return "I";
+	return D;
+}
+
+function DateReturn(errorCode, pref, argDate, argFmt, show) {
+	if (!errorCode) {
+		this.success =3D true;
+		this.date =3D argDate;
+		this.formattedDate =3D getDateString(argDate, argFmt);
+		return;
+	}
+
+	this.success =3D false;
+	this.errorCode =3D errorCode;
+	this.errorMsg =3D (pref=3D=3D"") ? "" : pref + ": ";
+
+	switch (errorCode) {
+		case "F":
+			this.errorMsg +=3D "Date Format is invalid.\nPlease use 'mm/dd/yy'."; br=
+eak;
+		case "I":
+			this.errorMsg +=3D "Date is invalid."; break;
+		default:
+			this.formattedErrorDate =3D getDateString(argDate, argFmt);
+			this.errorMsg +=3D "Date cannot be " +
+				((errorCode=3D=3D"&lt;") ? "before " : "after ") +
+			this.formattedErrorDate + ".";
+	}
+	if (show) alert (this.errorMsg);
+}
+
+function dateAdjustDT (todayM, offset) {
+	var D =3D new Date(todayM + (offset * 86400000));
+	var v1 =3D D.getHours();
+	if (!v1) return D;
+	if (v1 =3D=3D 1)
+		return new Date (D.getTime() - 3600000);
+	return new Date (D.getTime() + 3600000);
+}
+
+
+function dateTest(DateS, loDateOff, hiDateOff, format, errorFormat,
+		errorPrefix, suppress, startDate) {
+
+	var al =3D arguments.length;
+	var showA =3D !suppress;
+	var pref =3D ((al &gt;=3D 6) ? errorPrefix : "");
+	var ef =3D ((al &gt;=3D 5) ? errorFormat : "S");
+	var df =3D ((al &gt;=3D 4) ? format : "D");
+
+	var testDate =3D stringToDate(DateS);
+
+	if ((typeof testDate)=3D=3D"string")
+		return new DateReturn(testDate, pref, null, null, showA);
+
+	var todayM =3D startDate || BAtop.session.Today;
+	todayM =3D todayM.getTime();
+
+
+	if ((al &gt;=3D 2) &amp;&amp; (loDateOff!=3Dnull)) {
+		var otherDate =3D dateAdjustDT (todayM ,loDateOff);
+
+		if (testDate &lt; otherDate)
+			return new DateReturn ("&lt;", pref, otherDate, ef, showA);
+	}
+
+	if ((al &gt;=3D 3) &amp;&amp; (hiDateOff!=3Dnull)) {
+		var otherDate =3D dateAdjustDT (todayM ,hiDateOff);
+		if (testDate &gt; otherDate)
+			return new DateReturn ("&gt;", pref, otherDate, ef, showA);
+	}
+	return new DateReturn (false, "", testDate, df);
+}
+
+function AmountEditObj(success, result) {
+	this.success =3D success;
+	this.rsp =3D result;
+	if (this.success) {
+		this.amount   =3D Number(result);
+		this.centsStr =3D String(Math.round(this.amount * 100));
+		this.fmtAmt   =3D formatDollars(this.amount, true);
+	}
+}
+
+function dolFloat (amtS) {
+	return parseFloat(editDollars(amtS).rsp);
+}
+
+function editDollars (amtS, min, max, arg4, blankOK) {
+
+	var amtO, valMin =3D -Infinity, valMax =3D Infinity;
+	var al =3D arguments.length;
+
+	if (al &gt;=3D 2) {
+		if ((typeof min)=3D=3D"string") valMin =3D dolFloat(min);
+		else valMin =3D min;
+		if (al &gt;=3D 3) {
+			if ((typeof max)=3D=3D"string") valMax =3D dolFloat(max);
+			else valMax =3D (max=3D=3D0 ? Infinity : max);
+		}
+	}
+
+	var amtE =3D editDollarFormat (amtS);
+	switch (amtE) {
+		case "B":
+			var blankIsOK =3D false;
+			if (al &gt;=3D 5) blankIsOK =3D blankOK;
+			amtO =3D new AmountEditObj (blankIsOK,
+				((blankIsOK) ? "" : "No amount entered."));
+			break;
+		case "E":
+			amtO =3D  new AmountEditObj (false, "Invalid amount.");
+			break;
+		default:
+			var fAmt =3D parseFloat(amtE);
+			var success =3D false;
+			if ((fAmt &lt; valMin)  &amp;&amp; (valMin !=3D -Infinity)) amtE =3D "Th=
+e amount must be at least " +
+				formatDollars(valMin, true) + ".";
+			else {
+				if (fAmt &gt; valMax) amtE =3D "The amount cannot be greater than " +
+					formatDollars(valMax, true) + ".";
+				else success =3D true;
+			}
+			amtO =3D new AmountEditObj (success, amtE);
+	}
+
+	if (!amtO.success) {
+	=09
+		var arg4t, arg4Bool;
+
+		if (al &gt;=3D 4) {
+			arg4Bool =3D ((typeof arg4)=3D=3D"boolean");
+			if (arg4Bool) arg4t =3D arg4;
+		} else {
+			arg4Bool =3D true;
+			arg4t =3D true;
+		}
+	=09
+		if (arg4Bool) {
+			if (arg4t) alert (amtO.rsp);
+		} else alert ("Error in " + arg4 + ": " + amtO.rsp);
+	}
+	return amtO;
+}
+
+function editDollarFormat(amtS) {
+	var rval =3D "E";
+	var dec =3D "00";
+	var dol =3D rtrim(amtS.replace(/^\s*\$?\s*/,""));
+	if (dol=3D=3D"") return "B";
+	var fact =3D "";
+	if (dol.substr(0,1)=3D=3D"-") {
+		fact =3D "-";
+		dol =3D dol.substr(1);
+	}
+
+	var aray =3D dol.split(".");
+	switch (aray.length) {
+		case 2:
+			dec =3D aray[1];
+			if (!/^\d{0,2}$/.test(dec)) return rval;
+			dec =3D (dec + "00").substr(0,2);
+		case 1:
+			dol =3D aray[0];
+			if (!dol) dol=3D"0";
+			if (dol.substr(0,1)=3D=3D"0") {
+				if (/^0+$/.test (dol)) dol =3D "0";
+				else dol =3D dol.replace (/^0*/,"");
+			}
+			break;
+		default:
+			return rval;
+	}
+
+	if (dol.indexOf(",") &gt; 0) {
+		aray =3D dol.split(",");
+		if (aray[0].length &gt; 3) return rval;
+		for (var x=3D1; x &lt; aray.length; x++)
+			if (aray[x].length !=3D 3) return rval;
+			dol =3D aray.join("");
+	}
+
+	if (!/^\d+$/.test(dol)) return rval;
+	return fact + dol + "." + dec;
+}
+
+function formatDollars(amt, showDec, prefix) {
+
+	var pref =3D (arguments.length &gt; 2) ? prefix : "$";
+
+	var dec =3D amt.toString().split(".");
+	var w =3D dec[0];
+	dec =3D "." + (((dec.length=3D=3D2) ?  dec[1] : "") + "00").substr(0,2);
+	if ((dec=3D=3D".00") &amp;&amp; !showDec) dec =3D "";
+
+	if (w.substr(0,1)=3D=3D"-") {
+		pref +=3D "-";
+		w =3D w.substr(1);
+	}
+
+	var wl =3D w.length;
+	var wlm =3D wl%3;
+	var nu =3D wl ? w.substr(0,wlm) : "0";
+
+	for (wlm;wlm &lt; wl;wlm +=3D3) nu +=3D "," + w.substr(wlm, 3);
+	if (nu.substr(0,1)=3D=3D",") nu =3D nu.substr(1);
+
+	return pref + nu + dec;
+}
+
+function getRE (type) {
+	var re =3D "[^";
+	switch (type) {
+		case "ANSD": re +=3D "-"+"'";
+		case "ANS" : re +=3D " ";
+		default  : re +=3D "A-Za-z0-9]";
+	}
+	return new RegExp(re);
+}
+
+function getEditFailType (type) {
+	var em =3D "letters";
+	switch (type) {
+		case "ANSD": return em + ", numbers, spaces, and dashes";
+		case "ANS" : return em + ", numbers, and spaces";
+		default  : return em + " and numbers";
+	}
+}
+
+function editAN (tf, ac, minlen, firstCh, fname, suppressAlert) {
+	var r1;
+	var fn =3D ((fname) ? fname.toString() : "");
+	var s =3D !(getRE(ac).test(r1 =3D trim(tf)));
+	if (s) {
+		if (firstCh)
+			if (!(s =3D /^[A-Za-z]/.test(r1)))
+				r1 =3D fn + " must begin with a letter.";
+			if (s &amp;&amp; minlen)
+				if (!(s =3D (r1.length &gt;=3D minlen)))
+					r1 =3D fn + " must have at least " +
+						minlen + " characters.";
+	} else r1 =3D "Only " + getEditFailType (ac) + " are acceptable" +
+		((fn) ? " in " + fn :"") + ".";
+	if (!s &amp;&amp; !suppressAlert) alert (r1);
+	return {success:s, rsp:r1}
+}
+
+function timedOut() { return false;}
+
+function replace(string,text,by) {
+	var strLength =3D string.length, txtLength =3D text.length;
+	if ((strLength =3D=3D 0) || (txtLength =3D=3D 0)) return string;
+
+	var i =3D string.indexOf(text);
+	if ((!i) &amp;&amp; (text !=3D string.substring(0,txtLength))) return stri=
+ng;
+	if (i =3D=3D -1) return string;
+
+	var newstr =3D string.substring(0,i) + by;
+
+	if (i+txtLength &lt; strLength)
+		newstr +=3D replace(string.substring(i+txtLength,strLength),text,by);
+
+	return newstr;
+}
+
+var showMsg;
+
+
+function func1 (fe) {
+
+	text =3D fe.value;
+	var text1 =3D text;
+	text =3D replace(text,'&lt;',unescape('?'));
+	text =3D replace(text,'&gt;',unescape('?'));
+	text =3D replace(text,"'",unescape("?"));
+	text =3D replace(text,'"',unescape('?'));
+	text =3D replace(text,'%',unescape('?'));
+	text =3D replace(text,';',unescape('?'));
+    text =3D replace(text,'&amp;',unescape('?'));
+	text =3D replace(text,'+',unescape('?'));
+
+
+
+	for (var x=3D0; x &lt; text.length; x++) {
+		var code =3D text.charCodeAt(x);
+		if (code &gt; 256) {
+			text =3D text.substring(0,x) + "?" + text.substring(x+1);
+		}
+	}
+	fe.value =3D text;
+=09
+	if (text!=3Dtext1) {
+		if (!showMsg) showMsg =3D fe;
+		return true;
+	}
+=09
+	return false;
+}
+
+
+
+
+function func2 (fe) {
+
+	text =3D fe.value;
+	var text1 =3D text;
+	text =3D replace(text,'&lt;',unescape('?'));
+	text =3D replace(text,'&gt;',unescape('?'));
+	//text =3D replace(text,"'",unescape("?"));
+	text =3D replace(text,'"',unescape('?'));
+	text =3D replace(text,'%',unescape('?'));
+	text =3D replace(text,';',unescape('?'));
+    text =3D replace(text,'&amp;',unescape('?'));
+	text =3D replace(text,'+',unescape('?'));
+=09
+	for (var x=3D0; x &lt; text.length; x++) {
+		var code =3D text.charCodeAt(x);
+		if (code &gt; 256) {
+			text =3D text.substring(0,x) + "?" + text.substring(x+1);
+		}
+	}
+	fe.value =3D text;
+=09
+	if (text!=3Dtext1) {
+		if (!showMsg) showMsg =3D fe;
+		return true;
+	}
+=09
+	return false;
+}
+
+function Invalid_PW(f) {
+	var a =3D f.elements;
+	var r =3D "";
+	showMsg =3D true;
+	for (var x=3D0; x &lt; a.length; x++) {
+		if (a[x].type=3D=3D"password")
+			if (func1(a[x])) break;
+	}
+	if (showMsg) {
+
+		alert ("One or more of the characters you have entered are not supported.=
+" +
+			"\nPlease change them before you continue.");
+		showMsg.focus();
+		return true;
+	}
+	return true;
+}
+
+function Invalid_Text(f) {
+	var a =3D f.elements;
+	var r =3D "";
+	showMsg =3D true;
+	for (var x=3D0; x &lt; a.length; x++) {
+		if (a[x].type=3D=3D"text"){
+			if (func1(a[x])) break;
+		}
+	}
+	if (showMsg) {
+		alert ("One or more of the characters you have entered are not supported =
+and " +
+			"have been replaced with a '?'.\nPlease change these characters and cont=
+inue.");
+		showMsg.focus();
+	return true;
+	}
+	return true;
+}
+
+function Invalid_Text1(f) {
+	var a =3D f.elements;
+	var r =3D "";
+	showMsg =3D true;
+	for (var x=3D0; x &lt; a.length; x++) {
+		if (a[x].type=3D=3D"text"){
+			if (func2(a[x])) break;
+		}
+	}
+	if (showMsg) {
+		alert ("One or more of the characters you have entered are not supported =
+and " +
+			"have been replaced with a '?'.\nPlease change these characters and cont=
+inue.");
+		showMsg.focus();
+		return true;
+	}
+	return true;
+}
+
+function getJulDateDispl(a1) {
+	return (getJul5(a1) - session.Today) / 86400000;
+}
+
+function doWire(a1) {
+	if (t.timedOut()) return;
+	t.RO =3D a1;
+	if (BAtop.BApost.startWire) {
+		BAtop.BApost.startWire();
+		return;
+	}
+	var thisPath =3D BAtop.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+	BAtop.BApost.location.href =3D thisPath + "WTutil.html" + t.vID;
+}
+
+function doWireUp(a1) {
+	if (t.timedOut()) return;
+	t.RO =3D a1;
+	var thisPath =3D BAtop.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+	if( a1 !=3D "FU")
+		BAtop.BApost.location.href =3D thisPath + "WiresUpload.html" + t.vID;
+	else
+		BAtop.BApost.location.href =3D thisPath + "ForeignWiresUpload.html" + t.v=
+ID;
+}
+function doModelUp(a1) {
+	if (t.timedOut()) return;
+	t.RO =3D a1;
+	var thisPath =3D BAtop.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+	if( a1 !=3D "FU")
+		BAtop.BApost.location.href =3D thisPath + "DomesticModelBatchUpload.html"=
+ + t.vID;
+	else
+		BAtop.BApost.location.href =3D thisPath + "ForeignModelBatchUpload.html" =
++ t.vID;
+}
+
+function modelMaintenance(a1) {
+	if (t.timedOut()) return;
+	t.submenu1 =3D "See or Delete Wire Models";
+	if (BAtop.BApost.startWireMaintenance) {
+		BAtop.BApost.startWireMaintenance();
+		return;
+	}
+	var thisPath =3D BAtop.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+	BAtop.BApost.location.href =3D thisPath + "WTMutil.html" + t.vID;
+}
+
+function showInProgress() {
+	if (showingInProgress &amp; 2) {
+		showingInProgress =3D 3;
+		return;
+	}
+	var ipp =3D BAtop.BAmain;
+	if (ipp.set_inProgress) {
+		ipp.set_inProgress();
+		return;
+	}
+	ipp.location.href =3D BAtop.BAtopmenu.thisPath + "BA_inProgress.html" + t.=
+vID;
+}
+
+function makeBUSDAY() {
+
+	var h =3D this;
+	h.constDate =3D function (mo, da) {
+		return new Date (yr, mo - 1, da);
+	}
+
+	h.nthDay =3D function (month, daycode, nth) {
+		m1 =3D month - 1;
+		d1 =3D new Date(yr, m1, 1);
+		d2 =3D d1.getDay();
+		var d3 =3D daycode - d2 + 1;
+		if (d3 &lt;=3D 0) d3 +=3D 7
+		d3 +=3D ((nth - 1) * 7);
+		return new Date (yr, m1, d3);
+	}
+
+
+	h.lastDay =3D function  (month, daycode) {
+		m1 =3D month;
+		var y1 =3D yr;
+		if (m1 &gt; 11) {
+			y1++;
+			m1 =3D 0;
+		}
+		d1 =3D new Date (y1, m1, 1);
+		d2 =3D daycode - d1.getDay();
+		if (d2 &gt;=3D0) d2 -=3D 7;
+		var v3 =3D new Date (d1.valueOf() + (d2 * 86400000));
+		return new Date (d1.valueOf() + (d2 * 86400000));
+	}
+
+	h.weekday =3D function (D) {
+		var DAY =3D D.getDay();
+		if (DAY=3D=3D6)
+			return 0;
+		return DAY;
+	}
+
+	h.getPrevBusDay =3D function (startDate, daycount) {
+		var count =3D daycount;
+		var D =3D startDate;
+		do {
+			var D =3D dateAdjustDT (D.getTime(), -1);
+			if (this.isBusDay (D)) {
+				count--;
+				if (!count) return D;
+			}
+		} while (true);
+	}
+
+	h.isBusDay =3D function (D) {
+		if (!this.weekday(D)) {
+			return 0;
+		}
+		var MM =3D D.getMonth();
+		var DD =3D D.getDate();
+		var YY =3D D.getFullYear();
+		yr =3D YY;
+		var ht =3D this.holidays[MM];
+		if (ht)
+			for (var x=3D0; x &lt; ht.length; x++) {
+				var DT =3D eval (ht[x]);
+				if (!DT.getDay())
+					DT =3D new Date (DT.valueOf() + 86400000);
+				if (DT.valueOf() =3D=3D D.valueOf()) {
+					return true;
+				}
+			}
+		return true;
+	}
+	h.holidays =3D new Array(12);
+	h.holidays[0] =3D new Array ("h.constDate(1,1)","h.nthDay (1, 1, 3)");
+	h.holidays[1] =3D new Array ("h.nthDay (2, 1, 3)");
+	h.holidays[4] =3D new Array ("h.lastDay (5, 1)");
+	h.holidays[6] =3D new Array ("h.constDate(7,4)");
+	h.holidays[8] =3D new Array ("h.nthDay (9, 1, 1)");
+	h.holidays[9] =3D new Array ("h.nthDay (10, 1, 2)");
+	h.holidays[10] =3D new Array ("h.constDate(11,11)","h.nthDay (11, 4, 4)");
+	h.holidays[11] =3D new Array ("h.constDate(12,25)");
+}
+
+var BUSDAY =3D new makeBUSDAY();
+
+var Calendar =3D {
+	func : true,
+	result : 0,
+	window : true,
+	caption : "everyday is halloween",
+	tag : "",
+	monthNames : t.monthNames,
+
+	startYear : 0,
+	startMonth: 0,
+	startDate : 0,
+
+	endYear  : 0,
+	endMonth : 0,
+	endDate  : 0,
+
+	displayYear  : 0,
+	displayMonth : 0,
+
+	firstDayInMonth : 0,
+	lastDateInMonth : 0,
+
+	suppressBusDays : true,
+	inCurrentMonth : true,
+	arrowName : "",
+
+	today : 0,
+	dd : 0,
+	args : new Array(),
+	scrX : (Math.round (screen.availWidth / 2)),
+	scrY : (Math.round (screen.availHeight / 2) - 85),
+	url : "",
+
+	feat : "",
+
+	validDates : new Array(),
+
+	wrWeek : function (d, x0, atEarliestMonth, atLatestMonth) {
+		for (var x=3Dx0; x &lt; 7; x++) {
+			if (this.dd &gt; this.lastDateInMonth) {
+				d.writeln ('&nbsp;');
+				return;
+			}
+			var isRed =3D true;
+
+			if ((atEarliestMonth &amp;&amp; (this.dd &lt; this.startDate)) ||
+					(atLatestMonth   &amp;&amp; (this.dd &gt; this.endDate ))) {
+				isRed =3D true;
+			}
+
+			if (this.suppressBusDays &amp;&amp; !isRed) {
+				switch (x) {
+					case 0:
+					case 6:
+						isRed =3D true;
+						break;
+					default:
+						var dt =3D new Date (this.displayYear, this.displayMonth, this.dd);
+						if (!t.BUSDAY.isBusDay(dt))
+							isRed =3D true;
+						if (this.validDates.length &gt; 0) {
+							isRed =3D true;
+							for (var y=3D0; y<this.validdates.length; y++)=3D"" {=3D"" if=3D"" (=
+dt.valueof()=3D"=3D" this.validdates[y].valueof())=3D"" isred=3D"true;" }=
+=3D"" var=3D"" d2=3D"this.dd.toString();" (this.incurrentmonth=3D"" &&=3D""=
+ (d2=3D"=3D" this.today.date))=3D"" d.write=3D"" ('<td=3D"">');
+				if (isRed)
+					d.write ('<table border=3D"1" cellpadding=3D"0" cellspacing=3D"0" '=3D=
+"" +=3D"" (d.layers=3D"" ?=3D"" ''=3D"" :=3D"" align=3D"right" ')=3D""><tbo=
+dy><tr><td class=3D"r">' + d2);
+				else
+					d.write ('</td><td><a>' + d2 + '</a>');
+				d.write ('</td></tr></tbody></table>');
+			} else {
+				if (isRed)
+					d.write ('' + d2 + '');
+				else
+					d.write ('<a>' + d2 + '</a>');
+			}
+			this.dd++;
+		}
+	},
+	close : function () {
+		var w =3D this.window;
+		if (!w || w.closed) return;
+		w.close();
+	},
+	draw : function (d) {
+		var atEarliestMonth =3D ((this.startMonth =3D=3D this.displayMonth) &amp;=
+&amp;
+					(this.startYear =3D=3D this.displayYear))
+			? true
+			: false;
+		var atLatestMonth =3D ((this.endMonth =3D=3D this.displayMonth) &amp;&amp=
+;
+					(this.endYear =3D=3D this.displayYear))
+			? true
+			: false;
+		d.writeln ('' +
+			'' +
+
+			'<table width=3D"100%" class=3D"tabhead" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"3"><tbody><tr><td class=3D"al">' +
+			'<table border=3D"0" bordercolor=3D"white" cellpadding=3D"0" cellspacing=
+=3D"0"><tbody><tr><td>' +
+
+			'' +
+
+			'' +
+
+			'' +
+
+			'<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tbody><tr><th =
+width=3D"20">' +
+			(atEarliestMonth
+				? '&nbsp;'
+				: '<a><img width=3D"8" '=3D"" +=3D"" 'height=3D"12" border=3D"0" hspace=
+=3D"0" vspace=3D"0" src=3D"file:///C:/Users/user/images/smallleft'%20+this.=
+arrowName%20+%20'" alt=3D"Show Previous Month"></a>') +
+			'</th><th class=3D"tabhead" width=3D"74">' + t.monthNames[this.displayMo=
+nth] + '</th><th width=3D"20">' +
+
+			(atLatestMonth
+				? '&nbsp;'
+				: '<a><img width=3D"8" '=3D"" +=3D"" 'height=3D"12" border=3D"0" hspace=
+=3D"0" vspace=3D"0" src=3D"file:///C:/Users/user/images/smallright'%20+this=
+.arrowName%20+%20'" alt=3D"Show Next Month"></a>') +
+			'</th></tr></tbody></table>' +
+			'</td></tr></tbody></table>' +
+			'</td><td>' +
+
+			'' +
+			'<table align=3D"right" border=3D"0" cellpadding=3D"0" bordercolor=3D"wh=
+ite" cellspacing=3D"0"><tbody><tr><td align=3D"right">' +
+
+			'' +
+
+			'' +
+
+			'' +
+
+			'<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tbody><tr><th =
+width=3D"20">' +
+			(atEarliestMonth
+				? '&nbsp;'
+				: '<a><img width=3D"12" '=3D"" +=3D"" 'height=3D"8" border=3D"0" hspace=
+=3D"0" vspace=3D"0" src=3D"file:///C:/Users/user/images/smallup'%20+this.ar=
+rowName%20+%20'" alt=3D"Show Previous Year"></a>') +
+			'</th><th class=3D"tabhead" width=3D"36">' + this.displayYear.toString()=
+ + '</th><th width=3D"20">' +
+			(atLatestMonth
+				? '&nbsp;'
+				: '<a><img width=3D"13" '=3D"" +=3D"" 'height=3D"8" border=3D"0" hspace=
+=3D"0" vspace=3D"0" src=3D"file:///C:/Users/user/images/smalldown'%20+this.=
+arrowName%20+%20'" alt=3D"Show Next Year">' + '</a>') +
+			'</th></tr></tbody></table>' +
+			'</td></tr></tbody></table>' +
+			'</td></tr></tbody></table>');
+
+		d.writeln ('');
+
+		this.inCurrentMonth =3D ((this.displayMonth =3D=3D this.today.month) &amp=
+;&amp;
+			(this.displayYear =3D=3D this.today.year)) ? true : false;
+
+		this.dd =3D 1;
+		var days =3D new Array ("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat");
+		d.write ('');
+		for (var x=3D0; x &lt; 7; x++) {
+			d.write ('');
+		}
+		d.writeln ('');
+
+		d.write ('');
+		if (this.firstDayInMonth) {
+			d.write ('');
+		}
+		this.wrWeek (d,this.firstDayInMonth, atEarliestMonth, atLatestMonth);
+		var wc =3D 1;
+		d.writeln ('');
+		while (this.dd &lt;=3D this.lastDateInMonth) {
+			d.write ('');
+			this.wrWeek (d, 0, atEarliestMonth, atLatestMonth);
+			wc++;
+			d.writeln ('');
+		}
+		for (wc; wc &lt; 6; wc++) {
+			d.writeln('');
+		}
+		d.writeln ('<table cellpadding=3D"2" border=3D"0" cellspacing=3D"0"><tbod=
+y><tr><th width=3D"31" align=3D"right">' + days[x] + '</th></tr><tr><td col=
+span=3D"' + this.firstDayInMonth + '">&nbsp;</td></tr><tr></tr><tr><td cols=
+pan=3D"7">&nbsp;</td></tr></tbody></table>');
+	},
+	open : function () {
+		var tw =3D this.window;
+		if (tw &amp;&amp; !tw.closed) {
+			tw.tf.location.href =3D FULL_HTML_PATH + "calendarT.html";
+		} else {
+			this.window =3D window.open (this.url, "calendar", this.feat);
+		}
+		this.window.focus();
+	},
+	showNext : function () {
+		if (this.displayMonth =3D=3D 11) {
+			this.displayMonth =3D 0;
+			this.displayYear++;
+		} else {
+			this.displayMonth++;
+		}
+		this.init2();
+	},
+	showPrev : function () {
+		if (!this.displayMonth) {
+			this.displayMonth =3D 11;
+			this.displayYear--;
+		} else {
+			this.displayMonth--;
+		}
+		this.init2();
+	},
+	showNextY : function () {
+		var ny =3D this.displayYear + 1;
+		if ((ny &gt; this.endYear) || ((ny=3D=3Dthis.endYear) &amp;&amp; (this.di=
+splayMonth &gt; this.endMonth))) {
+			this.displayYear =3D this.endYear;
+			this.displayMonth =3D this.endMonth;
+		} else {
+			this.displayYear =3D ny;
+		}
+		this.init2();
+	},
+	showPrevY : function () {
+		var ny =3D this.displayYear - 1;
+		if ((ny &lt; this.startYear) ||
+				((ny=3D=3Dthis.startYear) &amp;&amp; (this.displayMonth &lt; this.start=
+Month))) {
+			this.displayYear =3D this.startYear;
+			this.displayMonth =3D this.startMonth;
+		} else {
+			this.displayYear =3D ny;
+		}
+		this.init2();
+	},
+	init2 : function () {
+		this.firstDayInMonth =3D (new Date (this.displayYear, this.displayMonth, =
+1)).getDay();
+		var nextMonth =3D this.displayMonth + 1;
+		var nextYear =3D this.displayYear;
+		if (this.displayMonth &gt; 11) {
+			nextYear++;
+			nextMonth =3D 0;
+		}
+		this.lastDateInMonth =3D (new Date (nextYear, nextMonth, 1, -1)).getDate(=
+);
+		if (setAliveBrwsr) setAliveBrwsr();
+		this.open();
+	},
+	init : function (func, caption, lowOffset, hiOffset, supBusDays, initDispl=
+ayDate, tag,
+				scrX, scrY, useXY, pValidDates) {
+
+		if (!this.url) {
+			this.url =3D t.FULL_HTML_PATH + "calendar.html";
+			var td =3D t.session.Today;
+			this.today =3D {
+					month : td.getMonth(),
+					year  : td.getFullYear(),
+					date  : td.getDate()
+			}
+		}
+		this.suppressBusDays =3D supBusDays ? true : false;
+		if (this.window &amp;&amp; !this.window.closed) {
+			if (this.args.length =3D=3D arguments.length) {
+				var useIt =3D true;
+				for (var x=3D0; x &lt; this.args.length; x++) {
+					if (this.args[x].valueOf()!=3Darguments[x].valueOf()) {
+						useIt =3D false;
+						break;
+					}
+				}
+				if (useIt) {
+					this.window.focus();
+					return;
+				}
+			}
+		}
+		this.args =3D new Array();
+		for (var x=3D0;x &lt; arguments.length; x++) {
+			this.args[x] =3D arguments[x];
+		}
+
+		if (!this.window || this.window.closed) {
+			if (useXY || !this.feat) {
+				if (scrX) this.scrX =3D scrX;
+				if (scrY) this.scrY =3D scrY;
+			}
+
+			this.feat =3D "dependent,hotkeys=3D0,width=3D260,toolbar=3Dno,height=3D"=
+ +
+				(document.layers ? "165" :"158");
+			this.feat +=3D ",left=3D" + this.scrX.toString() +
+				",top=3D" + this.scrY.toString();
+		}
+
+		this.arrowName =3D (t.user &amp;&amp; t.user.colors &amp;&amp; (t.user.co=
+lors.htxt.toLowerCase()=3D=3D"white"))
+			? "W.gif" : ".gif";
+
+		this.func =3D func;
+		this.tag =3D tag;
+		this.caption =3D caption;
+		var T =3D t.session.Today;
+
+		var DW =3D dateAdjustDT (T.valueOf(), lowOffset);
+
+		if (supBusDays) {
+			while (!BUSDAY.isBusDay(DW)) {
+				DW =3D dateAdjustDT (DW.valueOf(), 1);
+			}
+		}
+		this.startMonth =3D DW.getMonth();
+		this.startYear  =3D DW.getFullYear();
+		this.startDate  =3D DW.getDate();
+
+
+		if (hiOffset=3D=3DNumber.POSITIVE_INFINITY) {
+			DW =3D new Date ("December 31, 2049");
+		} else {
+			DW =3D dateAdjustDT (T.valueOf(), hiOffset);
+			if (supBusDays) {
+				while (!BUSDAY.isBusDay(DW)) {
+					DW =3D dateAdjustDT (DW.valueOf(), -1);
+				}
+			}
+		}
+		this.endMonth =3D DW.getMonth();
+		this.endYear  =3D DW.getFullYear();
+		this.endDate  =3D DW.getDate();
+
+		var DD =3D initDisplayDate || T;
+		this.displayMonth =3D DD.getMonth();
+		this.displayYear  =3D DD.getFullYear();
+
+		if (((this.displayYear =3D=3D this.startYear) &amp;&amp; (this.displayMon=
+th &lt; this.startMonth))
+				|| (this.displayYear &lt; this.startYear)) {
+			this.displayMonth =3D this.startMonth;
+			this.displayYear  =3D this.startYear;
+		}
+
+		if (((this.displayYear =3D=3D this.endYear) &amp;&amp; (this.displayMonth=
+ &gt; this.endMonth))
+				|| (this.displayYear &gt; this.endYear)) {
+			this.displayMonth =3D this.endMonth;
+			this.displayYear  =3D this.endYear;
+		}
+
+		if (pValidDates) {
+			this.validDates =3D new Array(pValidDates.length);
+			for (var j=3D0; j<pvaliddates.length; j++)=3D"" this.validdates[j]=3D"ge=
+tJul7(pValidDates[j]);" }=3D"" this.init2();=3D"" },=3D"" select=3D"" :=3D"=
+" function=3D"" (dd)=3D"" {=3D"" this.result=3D"new" date=3D"" (this.displa=
+yyear,=3D"" this.displaymonth,=3D"" dd);=3D"" this.window.close();=3D"" if=
+=3D"" (this.func)=3D"" this.func(this.result);=3D"" var=3D"" full_html_path=
+=3D"location.href.indexOf(&quot;/live&quot;);" (full_html_path=3D""> 0) { =
+=20
+	FULL_HTML_PATH =3D location.href.substr(0,FULL_HTML_PATH) + "/live/";
+} else { =20
+	FULL_HTML_PATH =3D location.href.indexOf("/DA");
+	FULL_HTML_PATH =3D location.href.substr(0,FULL_HTML_PATH) + "/DAhtml/";
+}
+
+var MAC_IE =3D ((navigator.platform.toUpperCase().indexOf("MAC") &gt;=3D 0)=
+ &amp;&amp; document.all) ? true : false;
+var argArray, serverRequest, AppletResponse;
+var JA =3D 1;
+
+var FIMP;
+var ESC_Count;
+this.liveJ;
+
+
+function unloadJA() {
+	if (!JA) BAtop.location.reload();
+}
+
+function getLastRsp () {
+	if (MAC_IE)
+		return AppletResponse.RSP;
+	return parseInt(liveJ.getLastRsp());
+}
+
+function getV0 () {
+	if (MAC_IE){
+		return AppletResponse.V0;
+	}else{
+	return liveJ.getV0();
+	}
+}
+
+function getG (i1, i2) {
+	if ((typeof i2)!=3D"number")
+	if (MAC_IE)
+		return AppletResponse.G[i1][i2];
+	return (" " + liveJ.getG(i1+0, i2+0)).substr(1);
+}
+
+function getKEY (i2) {
+	return getG(0, i2);
+}
+
+function setupJA () {
+	JA =3D JAframe.document.JA;
+}
+
+function getArg(argName) {
+	for (x=3D0;x &lt; argArray.length; x++)
+		if (argArray[x].name=3D=3DargName) {
+			return argArray[x].value;
+		}
+	return "";
+}
+
+function findWindow(wind, targ) {
+	var wf =3D wind.frames;
+	for (var x =3D 0 ; x &lt; wf.length; x++) {
+		var wfx =3D wf[x];
+		if (wfx.name =3D=3D targ) return wfx;
+		var wfxr =3D findWindow(wfx, targ);
+		if (wfxr) return wfxr;
+	}
+	return false;
+}
+
+function sf(frm, wind, useServlet) {
+	=09
+	if (timedOut() &amp;&amp; !signedOff) return false;
+
+	var OUTPUT =3D (frm.MACPART &amp;&amp; (frm.MACPART.value=3D=3D"INPUT")) ?=
+ false : true;
+
+	if (BAtop.session) {
+
+		if (frm.Arg1 &amp;&amp; OUTPUT)
+			frm.Arg1.value =3D BAtop.session.SessID;
+		if (frm.TS) {
+			if (frm.TS.value.length &lt; 4) frm.TS.value =3D OUTPUT ? getTimestamp()=
+ : VID;
+		} else
+			if (BAtop.session.suppressTS)
+				alert ("Caution: You may experience caching problems.\n" +
+					"There is no TS (timestamp) field in the posted form.");
+
+		if (frm.TRACE)
+			frm.TRACE.value =3D (session.trace) ? "YES" : "NO";
+		if (session.showForms) showForm(frm);
+	}
+
+	if (useServlet)
+		return true;
+
+	var sfe =3D frm.elements;
+	var sfel =3D sfe.length;
+	argArray =3D new Array();
+	var x1 =3D 0;
+	var rsp=3D"";
+	var process =3D (frm.PROCESS ? frm.PROCESS.value : null);
+	if (!process) {
+		var i =3D frm.action.lastIndexOf("/");
+		if (frm.action.indexOf("transfers/OpenAccount") &gt; 0)
+			process =3D "transfers." + frm.action.substr(++i);
+		else
+			process =3D frm.action.substr(++i);
+	}
+
+
+	for (var x=3D0; x &lt; sfel; x++) {
+		argArray[x1++] =3D {name: sfe[x].name, value: sfe[x].value}
+	}
+
+
+	var target;
+
+	switch (frm.target) {
+		case "":
+			target =3D wind; break;
+		case "BAWindow":
+		case "_top":
+			target =3D top; break;
+		case "_parent":
+			target =3D wind.parent; break;
+		case "_blank":
+			target =3D window.open ();
+			break;
+		default:
+			target =3D findWindow (top, frm.target) || frm.two;
+	}
+
+	toServer (OUTPUT, target, process);
+
+	return true;
+}
+
+function fromServer() {
+	BAtop.setAliveCICS();
+
+	var sp =3D serverRequest.process;
+	var st =3D serverRequest.target;
+	if ((typeof st)=3D=3D"string") {
+		eval (st);
+		return;
+	}
+	if (!sp)
+		return;
+	if(sp.substr(sp.indexOf(".")+4) =3D=3D "im.jsp"){
+		var url =3D ((sp=3D=3D"DAsignon") ? "DAlive/" : LIVE_PATH) + sp + vID;
+	}else{
+		var url =3D ((sp=3D=3D"DAsignon") ? "DAlive/" : LIVE_PATH) + sp + ".im.ht=
+ml" + vID;
+	}
+	serverRequest.target.location.href =3D url;
+}
+
+function toServer (OUTPUT, target, process) {
+	var trans =3D getArg("Arg2");
+	var useServer =3D True;
+
+	if (OUTPUT ) {
+		switch (trans) {
+			case "CSI":
+			case "TJI":
+			case "BAS":
+			case "CCA":
+			case "OLR":
+			case "ESC":
+			case "FMP":
+				useServer =3D true;
+		}
+	}
+
+	serverRequest =3D {process: process, target: target};
+
+	if (useServer) {
+		if (MAC_IE) {
+			var s1 =3D "";
+			for (var x=3D0; x &lt; argArray.length; x++) {
+				var ax =3D argArray[x];
+				if (ax.name.substr(0,3)=3D=3D"Arg") {
+					if (Number(ax.name.substr(3)) &gt;=3D 2) {
+						s1 +=3D "&gt;" + ax.value;
+					}
+				}
+			}
+			serverRequest.argString =3D s1.substr(1).replace (/&gt;+$/,"");
+			var path =3D t.BAtopmenu.thisPath || "";
+		=09
+			t.JAframeM.location.href =3D path + "LiveToApplet.html" + t.vID;
+		=09
+			return;
+		}
+	  liveJ =3D new liveJ();
+		demoJ.makeQ();
+	}
+	fromServer();
+}
+
+function makeAppletResponse () {
+	this.rspString =3D "";
+	this.V0 =3D 0;
+	this.RSP =3D 0;
+	this.G =3D new Array();
+}
+
+function handleAppletResponse (ss) {
+	var s1 =3D ss.substr(1);
+	if (!s1) return;
+	var A =3D AppletResponse;
+
+	var R =3D new String (unescape(s1).toString());
+
+	var i1 =3D R.indexOf("&lt;");
+	var v3 =3D R.substr(0,i1);
+
+	var vd =3D Number(R.substr(0,i1));
+
+	A.rspString +=3D R.substr(++i1);
+
+	if (vd) {
+		top.JAframeM.location.href =3D "../live/LiveToAppletNext.html";
+		return;
+	}
+	var GT =3D new Array();
+	var a1 =3D A.rspString.split("&lt;");
+	A.V0 =3D Number (a1[0]);
+	A.RSP =3D Number (a1[1]);
+	var gx =3D 1;
+	for (var x=3D2; x &lt; a1.length; x++) {
+		var v2 =3D a1[x].split("&gt;");
+		var g2 =3D GT[gx++] =3D new Array();
+		for (var y=3D0; y &lt; v2.length; y++) {
+			g2[y] =3D v2[y];
+		}
+	}
+	var GTxL =3D GT.length;
+	var GTyL =3D GT.length ? GT[1].length : 0;
+
+	for (var x=3D0; x &lt; GTyL; x++) {
+		A.G[x] =3D new Array();
+	}
+
+	for (var x=3D1; x &lt; GTxL; x++) {
+		for (var y=3D0; y &lt; GTyL; y++) {
+			A.G[y][x] =3D new String(GT[x][y]);
+		}
+	}
+	fromServer();
+}
+
+=09
+
+
+var IE =3D document.all ? true : false;
+var Print, BusCode, CDY;=20
+var USG, TIM, TDY, UID1, UID2;=20
+var LIVE_PATH =3D "../live/" ;=20
+var signedOff =3D True;
+
+var wo =3D window.opener;
+function timeZone() {
+	switch (wo.FMP) {
+		case "011":
+		case "013":
+			return "P";
+		case "014":
+			return "C";
+		case "006":
+			return "A";
+		default:
+			return "E";
+	}
+}
+
+var TimeZone =3D timeZone();
+
+function getSystemTime() {
+	var currentTime =3D new Date();
+	var ho =3D 0;
+	if (TimeZone =3D=3D "E")
+		return currentTime;
+	else if (TimeZone =3D=3D "P")
+		ho =3D 3;
+	else if (TimeZone =3D=3D "C")
+		ho =3D 1;
+	else if (TimeZone =3D=3D "A")
+		if (!isDaylightTime(currentTime)) {
+			ho =3D -1;
+		}
+	else if (TimeZone =3D=3D "M")
+		ho =3D 2;
+	return new Date (currentTime.getTime() + (3600000 * ho));
+}
+
+function loadDemoVars() {
+	LIVE_PATH =3D location.href;
+	var aA =3D LIVE_PATH.lastIndexOf("/live/") + 6;
+	LIVE_PATH =3D LIVE_PATH.substr(0,aA);
+
+	var U3 =3D "N";
+	var U6 =3D "0";
+	var U7 =3D "Y";
+	var U8 =3D "0";
+
+	aA =3D window.opener.argArray;
+
+	for (var x =3D0 ; x &lt; aA.length; x++) {
+		switch (aA[x].name) {
+			case "BusCode":
+				BusCode =3D aA[x].value; break;
+			case "UID1":
+				UID1 =3D aA[x].value; break;
+			case "Print":
+				Print =3D aA[x].value;
+			case "UID2":
+				UID2 =3D aA[x].value;
+		}
+	}
+
+	if (BusCode.substr(4,1)!=3D"0") {
+		U3 =3D "Y";
+		switch (BusCode.substr(4,1)) {
+			case "1":
+				U6 =3D "1";
+				break;
+			case "3":
+				U8 =3D "2";
+			case "2":
+				U6 =3D "2";
+			case "4":
+			U6 =3D "2";=20
+		}
+	}
+	if (BusCode.substr(5,1)=3D=3D"0") U7 =3D "N";
+	USG =3D (UID1=3D=3D"999") ? "N" : "Y";
+
+	USG +=3D "Y" + TimeZone + U3 + "00" + U6 + U7 + "N" + U6 + U8;
+=09
+	var D =3D  new Date(getSystemTime());
+	var hh =3D (D.getHours() + 100).toString().substr(1) ;
+	var mm =3D (D.getMinutes() + 100).toString().substr(1);
+	var ss =3D (D.getSeconds() + 100).toString().substr(1);
+	TIM =3D hh + ":" + mm + ":" + ss;
+
+	var mm =3D D.getMonth();
+	var dd =3D D.getDate();
+	var yy =3D D.getFullYear();
+	var D =3D new Date(yy,mm,dd);
+	var D2 =3D new Date(yy - 1,11,31);
+	var jjj =3D Math.round(((D - D2) / (1000 * 60 * 60 * 24)) + 1000);
+	TDY =3D yy.toString().substr(2) + jjj.toString().substr(1);
+
+	var mo =3D (mm + 101).toString().substr(1);
+	var da =3D (dd + 100).toString().substr(1);
+	CDY =3D mo + "/" + da + "/" + yy;
+}
+
+function getLastSignon() {
+	var dt =3D new Date();
+	dt.setTime (dt.getTime() - 86400000);
+	return t.getDateString (dt, "N") + "13:41:15";
+}
+
+function loadSession () {
+=20
+	session =3D new BAmain.session (BusCode, "50", CDY, TDY, USG,
+	    TIM, "800-285-1709", "516-326-3917", "212-878-6911", "Live",
+		"1", "1", "1", BusCode.charAt(7), "", "", getLastSignon(), 11, 0, 0,
+		wo.LBX, wo.TRD, "", "", wo.makerChecker,wo.rmsetup,wo.CMV,wo.SDA,wo.DAA,w=
+o.PM,wo.ROC,wo.DualApproval);
+}
+function loadUser() {
+	user =3D new BAmain.user ("JAMES OCALLAGHAN", USG, UID1, wo.MN1,
+		wo.PER, wo.EAB, wo.FMP, "", wo.MN2, wo.CUST, wo.CMV,wo.SDA,wo.DAA);
+	user.UID2 =3D UID2;
+
+	t.session.TIN =3D  (user.permissions.admin &amp;&amp; user.EscrowCntlAccts=
+) ? "Y" : "N";
+}
+
+loadLiveVars();
+
+var vID =3D location.search;
+var VID =3D vID.substr(1);
+function init() {
+	openerIsOpen =3D openerOpen();
+	return;
+}
+
+function onClose() {
+	if (BAtop.debugWindow) {
+		if (!BAtop.debugWindow.closed) BAtop.debugWindow.close();
+	}
+	if (BAtop.Calendar)
+		BAtop.Calendar.close();
+
+	if (signedOff) return;
+
+	var newURL =3D location.href;
+	var v1x =3D newURL.lastIndexOf('/');
+	newURL =3D newURL.substr(0,v1x) + "/BAXquit.im.html";
+
+	if (openerIsOpen) {
+		opener.top.ltframe.sgnoff7 (newURL);
+	} else {
+		window.open (newURL, "closeBA", "width=3D400,height=3D250");
+	}
+}
+
+function setFIMP () {
+
+	var v1 =3D "0";
+	if (USG.substr(3,4) =3D=3D "Y001")
+		v1 =3D "1"
+	else if (USG.charAt(3)=3D=3D"Y")
+		v1 =3D "2"
+
+	argArray =3D new Array();
+	argArray[0] =3D {name: "Arg2", value: "FMP"}
+	argArray[1] =3D {name: "Arg3", value: window.opener.FMP}
+	argArray[2] =3D {name: "Arg4", value: v1}
+	toServer(true, "t.JAframe.afterSetFIMP()");
+}
+
+
+
+
+var isNetscape =3D (navigator.appName.indexOf('Netscape') &gt;=3D 0) ? true=
+ : false;
+var DA =3D true;
+
+function loadOptions() {
+
+	if (BusGroups &amp;&amp; !BusGroups.groups.length &amp;&amp; session.BusCo=
+de!=3D"7000000000000070") {
+		t.BAmain.location.href =3D  t.BAtopmenu.thisPath + "nogroups.html" + t.vI=
+D;
+		return;
+	}
+
+	if (t.session.RegMenu =3D=3D null)
+		t.BAget.location.href =3D t.BAtopmenu.thisPath + "PO_TopMenu.html" + t.vI=
+D;
+	else {
+		var f =3D BAtopmenu.document.forms["menuBuild"];
+		f.regMenu.value =3D t.session.RegMenu ? "Y" : "N";
+		f.broadcast.value =3D t.session.BC ? "Y" : "N";
+		if (t.sf (f, window))
+			f.submit();
+	}
+}
+
+function mouseOver(el, x) {=09
+	el.onmouseout =3D mouseOut;
+	el.restoreClass =3D el.className;
+	el.className =3D x;
+	lastEl =3D el;
+}
+
+function mouseOut() {
+	lastEl.className =3D lastEl.restoreClass;
+}
+
+function showEntitlements () {
+	BAmain.location.href =3D FULL_HTML_PATH + "showEntitlements.html";
+}
+
+function custServPhoneNumbers () {
+	var f =3D BAtopmenu.document.forms["generic"];
+	f.action =3D "/cbusol/csPhoneNumbers.do";
+	f.target=3D"BAmain";
+	if (t.sf(f))
+		f.submit();	=09
+}
+
+function toNaming(txt) {
+	if (!t.BusGroups.groups.length) {
+		t.upMenu(1);
+		alert ("You have no accounts.\n" +
+			"Please call customer service at " + t.session.telephone + ".");
+		return;
+	}
+	t.BAmain.location.href =3D t.BAtopmenu.thisPath + txt + ".html" + t.vID;
+}
+
+function toGrouping (F) {
+	if (!t.BusGroups.groups.length) {
+		t.upMenu(1);
+		alert ("You have no accounts.\n" +
+			"Please call customer service at " + t.session.telephone + ".");
+		return;
+	}
+	t.RO =3D F;
+	toBApost ("NGutil");
+}
+
+function activateUsersForAlerts() {
+	t.sortOdr =3D false;
+	for (var count =3D 0; count &lt; t.finalUserAlerts.length; count++) {
+		t.tempUserAlerts[count].userId =3D t.finalUserAlerts[count].userId;
+		t.tempUserAlerts[count].firstName =3D t.finalUserAlerts[count].firstName;
+		t.tempUserAlerts[count].lastName =3D t.finalUserAlerts[count].lastName;
+		t.tempUserAlerts[count].alerts =3D t.finalUserAlerts[count].alerts;
+		t.tempUserAlerts[count].edit =3D false;
+	}
+=09
+	var userAlerts =3D t.tempUserAlerts;
+	for (var count =3D 0; count &lt; (userAlerts.length - 1); count++) {
+		for (var innerCount =3D count + 1; innerCount &lt; userAlerts.length; inn=
+erCount++) {
+			if (userAlerts[count].userId &gt; userAlerts[innerCount].userId) {
+				var temp =3D userAlerts[count];
+				userAlerts[count] =3D userAlerts[innerCount];
+				userAlerts[innerCount] =3D temp;
+			}
+		}
+	}
+	t.tempUserAlerts =3D userAlerts;
+=09
+	t.BAmain.location.href =3D t.BAtopmenu.thisPath + "activateUserAlerts.html=
+" + t.vID;
+}
+
+/*function toBApost (docname) {
+	var thisPath =3D t.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+    t.BApost.location.href =3D thisPath + docname + ".html" + t.vID;
+}*/
+
+function toStopPay(opt) {
+	t.RO =3D opt;
+	if (BApost.showAcctsForStops) {
+		BApost.showAcctsForStops();
+	} else {
+		toBApost("SPutil");
+	}
+}
+
+function toTransfers (code) {
+	t.RO =3D {tfrtype: code};
+	toBApost ("TButils");
+}
+
+function toMatchPay () {
+	/*if (BApost.MatchPay &amp;&amp; BApost.ACCT) {
+		BApost.ACCT.showAccts();
+	} else */
+		toPosPay ("A");
+}
+
+function toPosPay (code) {
+	if ((typeof t.RO) =3D=3D "object") {
+		t.RO.PPtype =3D code;
+	} else {
+		t.RO =3D {PPtype: code}
+	}
+
+		toBApost ("PosPayCDp");
+}
+
+
+function toHistory () {
+	/*if (BApost.MatchPay &amp;&amp; BApost.ACCT) {
+		BApost.ACCT.showAccts();
+	} else*/
+		toPosPay3 ("A");
+}
+
+function toManualIV (issVal,PEVal) {
+	toPos ("A",issVal,PEVal);
+}
+
+function toPos(code,issVal,PEVal) {
+=09
+	if ((typeof t.RO) =3D=3D "object") {
+		t.RO.PPtype =3D code;
+	} else {
+		t.RO =3D {PPtype: code}
+	}
+
+	toBApost ("HistoryCDk.html?"+issVal+PEVal);
+=09
+}
+
+function toBApost (docname) {
+	var thisPath =3D t.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+    t.BApost.location.href =3D thisPath + docname +".html"+ t.vID;
+}
+
+function toPosPay3 (code) {
+   =20
+   if ((typeof t.RO) =3D=3D "object") {
+		t.RO.PPtype =3D code;
+	} else {
+		t.RO =3D {PPtype: code}
+	}
+	toBApost("HistoryCDp");
+}
+
+
+
+function toCD_rates (code) {
+	t.RO =3D code;
+	toBApost ("IrateCDp");
+}
+
+function toContDisb () {
+	var f =3D BAtopmenu.document.forms["generic"];
+	f.action =3D "/cbusol/wires/ContDisAccounts.do";
+	f.target =3D "BAmain";
+	if (t.sf(f, window))
+		f.submit();
+}
+
+function Payments (doc) {
+	if (BAtop.timedOut()) return;
+	t.submenu1 =3D '';
+
+	switch (doc) {
+		case "PBpyinfo":
+		case "PBreview":
+		case "PBpaPrb1":
+			t.BApost.RO =3D null;
+
+	}
+
+	if ((t.RO) &amp;&amp; (t.RO.payeeList))
+		t.RO.paymentDoc =3D doc;
+	else
+		t.RO =3D {paymentDoc:doc}
+
+	var thisPath =3D t.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+	var v1 =3D thisPath + "PBpayeeJ.html" + t.vID;
+	t.BAmain.location.href =3D v1 + "PBpayeeJ.html" + t.vID;
+}
+
+function Customize () {
+	if (BApost.showCustomizeMenu)
+		BApost.showCustomizeMenu();
+	else
+		BApost.location.href =3D FULL_HTML_PATH + "CUSpd.html" + t.vID;
+}
+
+var currentPO, topMenu;
+
+function PO_addSubmenu (text, ID) {
+	if (!this.children) {
+		this.children =3D new Array();
+	}
+	var v1 =3D this.children[this.children.length] =3D {
+		caption : text,
+		PO_array : new Array(),
+		parent : this,
+		ID : ID,
+		addChild : PO_addChild
+	}
+	return v1;
+}
+
+function PO_setup (i, i2) {
+
+	var currentPO;
+
+	switch (arguments.length) {
+		case 0:
+			currentPO =3D this;
+			break;
+		case 2:
+			currentPO =3D this.children[i].PO_array[i2];
+			break;
+		default:
+			currentPO =3D this.children[i];
+	}
+	PO_select2 (currentPO);
+}
+
+function PO_select (i, i2) {
+
+	t.BAmain.enabled =3D true;
+
+	switch (arguments.length) {
+		case 0:
+			currentPO =3D this;
+			break;
+		case 2:
+			currentPO =3D this.children[i].PO_array[i2];
+			break;
+		default:
+			currentPO =3D this.children[i];
+	}
+
+	PO_select2 (currentPO,  true);
+}
+=20
+function goToWireLive (ld) {
+=20
+	if (t.session.SessID !=3D "Live")
+		return true;
+=20
+	var i =3D ld.lastIndexOf("/");
+=20
+	switch (ld.substring(i+1)) {
+		case "XFF": doWire('X'); break;
+		case "NFF":
+		case "FFF": doWire('D'); break;
+		case "NFT":
+		case "FFT": doWire('DM'); break;
+		case "NTF":
+		case "FTF": doWire('F'); break;
+		case "NTT":
+		case "FTT": doWire('FM'); break;
+		case "M"  : modelMaintenance();
+	}
+	return true;
+}
+
+
+
+
+function PO_select2 (currentPO, Display) {
+
+	t.workPO =3D currentPO;
+
+	if (!currentPO.notReusable &amp;&amp; currentPO.display) {
+		if (Display) {
+			currentPO.display();
+		}
+		return;
+	}
+
+	if (currentPO.func) {
+		currentPO.func();
+		return;
+	}
+
+	var lw =3D currentPO.loadWindow || BAtop.BAget;
+	var ld =3D currentPO.loadDoc;
+
+	if (ld) {
+		if (ld.indexOf(")") &lt; 0) {
+			if(currentPO.loadDoc.substr(currentPO.loadDoc.lastIndexOf(".")+1) =3D=3D=
+ "jsp"){
+				lw.location.href =3D t.FULL_HTML_PATH + currentPO.loadDoc + t.vID;
+			}else{
+				lw.location.href =3D t.FULL_HTML_PATH + currentPO.loadDoc + ".html" + t=
+.vID;			=09
+			}
+			BAtopmenu.enabled =3D true;
+		} else {
+			eval (ld);
+		}
+		return;
+	}
+
+	var f =3D t.BAtopmenu.document.forms.post;
+	var sendArray =3D currentPO.sendArray;
+	f.MACPART.value =3D (sendArray[0]) ? "OUTPUT" : "INPUT";
+	f.PROCESS.value =3D sendArray[1];
+	for (var x=3D2 ;x &lt; sendArray.length; x++) {
+		f.elements[x+8].value =3D sendArray[x]
+	}
+	f.Arg0.value =3D (sendArray.length - 1).toString();
+	f.target =3D (currentPO.loadWindow) ? currentPO.loadWindow.name : "BAget";
+	if (t.sf (f)){
+		f.submit();=09
+	}
+}
+
+function PO_getHREF (i1, i2) {
+	var aa =3D this.children[i1];
+	var sel =3D i1;
+
+	if (arguments.length=3D=3D2) {
+		aa =3D aa.PO_array[i2];
+		sel +=3D "," + i2;
+	}
+	aa =3D aa.text;
+
+	BAtopmenu.enabled =3D true;
+	return "<a" +=3D"" getovertext(aa)=3D"" "=3D"" href=3D"\&quot;javascript:i=
+f" (enabled)=3D"" {enabled=3D"true;BAtop.currentPO.select(&quot;" sel=3D"" =
+")}\"=3D"">" +
+			aa + "&lt;\/a&gt;";
+=09
+}
+
+function PO_Display() {
+
+	if (this !=3D BAtop.currentPO) {
+		if (t.atMenuDisplay) {
+			t.atMenuDisplay();
+			t.atMenuDisplay =3D true;
+		}
+		return;
+	}
+	var a =3D t.FULL_HTML_PATH + "PO_menu.html" + t.vID;
+	t.BAmain.location.href =3D a;=09
+}
+
+function PO_addChild (text, ID, action, loadWindowObj, RO) {
+
+	v1 =3D new Object();
+
+	if (this.PO_array) {
+		this.PO_array[this.PO_array.length] =3D v1;
+		v1.subParent =3D this;
+		v1.parent =3D this.parent;
+	} else {
+		this.children[this.children.length] =3D v1;
+		v1.parent =3D (this=3D=3Dt.topMenu) ? 0 : this;
+	}
+
+	v1.text =3D text;
+
+	var  s1 =3D typeof action;
+	if (s1 =3D=3D "string"){
+		v1.loadDoc =3D action;
+	}
+	else if (s1  =3D=3D "function"){
+		v1.func =3D action;
+	}
+	else{
+		v1.sendArray =3D action;
+	}
+
+	if (loadWindowObj) {
+		v1.loadWindow =3D loadWindowObj;
+	}
+	if (RO) {
+		v1.RO =3D RO;
+	}
+	v1.children =3D new Array();
+
+	v1.display =3D true;
+	v1.ID =3D ID;
+	v1.select =3D PO_select;
+	v1.setup  =3D PO_setup;
+	v1.getHREF =3D PO_getHREF;
+	v1.addChild =3D PO_addChild;
+	v1.addSubmenu =3D PO_addSubmenu;=09
+
+}
+
+function PO_create () {
+
+	this.display =3D true;
+	this.select =3D PO_select;
+	this.parent =3D 0;
+	this.children =3D new Array();
+	this.addChild =3D PO_addChild;
+	this.addSubmenu =3D PO_addSubmenu;
+}
+
+function endOfLine() {
+	BAmain.location.href =3D t.BAtopmenu.thisPath + "PO_generic.html" + t.vID;
+}
+
+function upMenu(i) {
+	var cm =3D currentPO;
+	while (i) {
+		cm =3D cm.parent;
+		i--;
+	}
+	cm.select();
+}
+
+function showHeader(w) {
+	var i =3D 0;
+	var d =3D w.document;
+	var vs =3D "";
+	var cm2 =3D currentPO;
+	d.writeln ('');
+
+	while (cm2.parent) {
+		cm2 =3D cm2.parent;
+		var cm2t =3D cm2.text;
+		vs =3D "<a" +=3D"" getovertext(cm2t)=3D"" "href=3D"\&quot;javascript:BAto=
+p.upMenu(&quot;" ++i=3D"" ")\"=3D"">" + cm2t +"&lt;\/a&gt; <b>&gt;&lt;\/b&g=
+t; "+ vs;
+	}
+	if (!vs) vs =3D "&nbsp;";
+	d.writeln ("</b></a"><table width=3D"100%"><tbody><tr><td class=3D"p9">" +=
+ vs + "&lt;\/td&gt;&lt;\/tr&gt;");
+	d.writeln ("</td></tr><tr><td class=3D"tabhead">" + currentPO.text + "&lt;=
+\/td&gt;&lt;\/tr&gt;&lt;\/table&gt;");
+}
+
+function backButton(w) {
+	var d =3D w.document;
+	d.writeln ("<p><a "=3D"" +=3D"" batop.getovertext=3D"" ('back')=3D"" 'href=
+=3D"javascript:cm.parent.select()"><img '=3D"" +=3D"" 'src=3D"' + BAtop.cit=
+iPath + " images=3D"" "=3D"" 'left.gif"=3D"" width=3D"18" height=3D"12" bor=
+der=3D"0" alt=3D"Back"><b>Back&lt;\/b&gt;&lt;\/a&gt;&lt;\/p&gt;');
+}
+
+function irbackButton(w) {
+	var d =3D w.document;
+
+	if (t.menuName =3D=3D "Information Reporting") {
+		if (t.BAmain.Function =3D=3D "ABDL") {
+			d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.ci=
+tiPath + '/acctbal.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.c=
+itiPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&=
+lt;\/a&gt;</a></td></tr></tbody></table>');
+		} else if (t.BAmain.Function =3D=3D "AS") {
+			d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.ci=
+tiPath + 'acctstat.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.c=
+itiPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&=
+lt;\/a&gt;</a></td></tr></tbody></table>');
+		} else {
+			d.writeln ("<table><tbody><tr><td><a href=3D"file:///C:/Users/user/Downl=
+oads/%22+BAtop.citiPath%20+%20%22infoReportOptions.html" "=3D"" +=3D"" t.vi=
+d=3D"" +"=3D""><img "=3D"" +=3D"" "src=3D"../images/bback.gif" border=3D"0"=
+ alt=3D"Back"></a></td></tr></tbody></table>");
+			=09
+		}
+
+	} else if (t.menuName =3D=3D "Balance Summary") {
+			d.writeln("<table><tbody><tr><td><form><input type=3D"button" value=3D"<=
+ Back" name=3D"Back">&lt;\/form&gt;</form></td></tr></tbody></table>");
+	} else if (t.menuName =3D=3D "Checking") {
+	=09
+		d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.cit=
+iPath + '/ChkgDN.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.cit=
+iPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&lt=
+;\/a&gt;</a></td></tr></tbody></table>');
+	} else if (t.menuName =3D=3D "IMMA") {
+		d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.cit=
+iPath + '/ImmaDN.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.cit=
+iPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&lt=
+;\/a&gt;</a></td></tr></tbody></table>');
+	} else if (t.menuName =3D=3D "Savings") {
+		d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.cit=
+iPath + '/SavDN.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.citi=
+Path + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&lt;=
+\/a&gt;</a></td></tr></tbody></table>');
+	} else if (t.menuName =3D=3D "Credit") {
+		d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.cit=
+iPath + '/CreditDN.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.c=
+itiPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&=
+lt;\/a&gt;</a></td></tr></tbody></table>');
+	}
+}
+
+
+function toMainMenu () {
+	var mmf =3D BAtopmenu.document.forms["mainmenu"];
+	mmf.regAccounts.value =3D session.RegMenu ? "Y" : "N";
+	if (sf (mmf, window))
+		mmf.submit();
+}
+
+function toCustServMenu () {
+	var f =3D BAtopmenu.document.forms["generic"];
+	f.action =3D "/cbusol/custServ.do";
+	f.target=3D"BAmain";
+	if (t.sf(f))
+		f.submit();	=09
+}
+
+function ACH() {
+	var f =3D BAtopmenu.document.forms[0];
+	f.action =3D "/cbusol/BA_ACHm.action";
+	f.target=3D"BAmain";
+	f.submit();
+}
+
+function ACHPPY() {
+	var f =3D BAtopmenu.document.forms[0];
+	f.action =3D "/cbusol/ACHPositivePay.action";
+	f.target=3D"BAmain";
+	f.submit();
+}
+
+function AchReportsStart() {
+	toBApost("AchReportsStart");=09
+}
+
+function ACHRuleUpdate2(fromLink) { =20
+    var loc =3D "/cbusol/nacha.action" ;
+    BAtop.WindowRemote(loc, "_self", "dependent,toolbar=3Dno,resizable=3Dye=
+s,menubar=3Dno,height=3D420,width=3D600");
+    t.BAmain.enabled =3D true;
+    if (!fromLink)
+            upMenu(1);
+}
+
+function ACHProcessGuide2(fromLink) {
+       BApost.location.href =3D "/cbusol/do/htmlserver/achprocess.pdf";
+            t.BAmain.enabled =3D true;
+            if (!fromLink)
+                    upMenu(1);
+}
+
+function ACH_UG(fromLink) {
+		BAtop.WindowRemote(BAtop.citiPath+ "/ACH.pdf", "CitiBusiness", 800, 500 ,=
+ 0);=20
+        if ( !fromLink )
+        {=20
+         upMenu(1);=20
+        }
+        return; =20
+}
+
+function ACH_PPY_UG(fromLink) {
+	 //BApost.location.href =3D "/cbusol/do/htmlserver/ACH_PositivePay_Filter_=
+User_GuidePDF.pdf";
+	BAtop.WindowRemote(BAtop.citiPath+ "/ACH_PositivePay_Filter_User_Guide.pdf=
+", "CitiBusiness", 800, 500 , 0);=20
+    if ( !fromLink )
+    {=20
+     upMenu(1);=20
+    }
+    return; =20
+}
+
+function ACH_MSG(fromLink) {
+        BAtop.WindowRemote(t.BAtopmenu.thisPath + "ACHmsg.html", "CitiBusin=
+ess", 800, 500 , 1);
+        if ( !fromLink )
+        {
+         upMenu(1);
+        }
+        return;
+}
+
+function DLacPost(type) {
+	var f =3D BAtopmenu.document.forms[1];
+	f.target =3D "BApost";
+	f.PROCESS.value =3D "DLacPost";
+	f.MACPART.value =3D "INPUT";
+	f.Arg0.value =3D type;
+	f.Arg2.value =3D f.Arg4.value =3D "";
+	if (t.sf(f, window)) f.submit();
+}
+
+function IRtodisk(type) {
+	t.downloadInfoAlert =3D true;
+
+	BAtop.RO =3D type;
+	var thisPath =3D BAtopmenu.thisPath || this.FULL_HTML_PATH;
+	t.BApost.location.href =3D thisPath + "IRtodisk.html" + t.vID;
+}
+
+function IRtodiskDownloadAlert(type) {=09
+	t.downloadInfoAlert =3D true;
+=09
+	BAtop.RO =3D type;
+	var thisPath =3D BAtopmenu.thisPath || this.FULL_HTML_PATH;
+	t.BApost.location.href =3D thisPath + "IRtodisk.html" + t.vID;
+}
+
+var HTML_PATH =3D "live/";
+var TEMPLATES_PATH =3D "templates/";
+
+function writeFooter (d, mainDirectory, bool) {
+	var footerYear=3Dnew Date().getFullYear();
+	if (!bool) return;
+	if (BAtop.DA) return;
+=09
+	// if (BAtop.currentPO.parent) return; =20
+	var images=3D"";
+	if(mainDirectory=3D=3D2){
+	   images=3D"../../images/";
+	 }
+	else{
+		images =3D mainDirectory ? "images/" : "../images/";
+	}
+	d.writeln ('<br><br><br>');
+	d.writeln ('');
+	d.writeln ('<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0"><tbody><tr><td height=3D"1" background=3D"file:///C:/Users/user/Do=
+wnloads/'%20+%20images%20+%20'line_hrz.gif">' +
+		'<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+%20'blank.=
+gif" width=3D"1" height=3D"1" border=3D"0">&lt;\/td&gt;&lt;\/tr&gt;');
+	d.writeln ('</td></tr><tr><td valign=3D"top">');
+
+	d.writeln ('');
+	d.writeln ('<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0"><tbody><tr><td height=3D"6">' +
+		'<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+%20'blank.=
+gif" width=3D"1" height=3D"6" border=3D"0">&lt;\/td&gt;&lt;\/tr&gt;');
+    d.writeln ('</td></tr><tr><td valign=3D"top"><span class=3D"pfooter">Ci=
+tibank, N.A. Member FDIC. Terms and conditions of accounts, products and se=
+rvices are subject to change.');
+    if(t.fullFooter)
+    	d.writeln ('<br>CitiDirect<sup>=AE</sup> is a registered service mark =
+of Citigroup Inc.');
+	d.writeln ('<br><img src=3D"file:///C:/Users/user/Downloads/'%20+%20images=
+%20+%20'citilog2.gif" alt=3D"Citibank" '=3D"" +=3D"" width=3D"21" height=3D=
+"18" border=3D"0">');
+	d.writeln ('<br><a class=3D"vOff">Citi.com&lt;\/a&gt;<span>&lt;\/td&gt;');
+	d.writeln ('</span></a></span></td><td align=3D"right" valign=3D"top"><spa=
+n class=3D"pfooter">');
+	d.writeln ('<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+=
+%20'eqhouse.gif" alt=3D"Equal Housing Lender" width=3D"29" '=3D"" +=3D"" he=
+ight=3D"38" hspace=3D"3" vspace=3D"0" border=3D"0"><br>');
+	d.writeln ('<a class=3D"vOff">Terms, conditions, caveats and small print&l=
+t;\/a&gt;');
+	d.writeln ('<br>Copyright =A9 '+footerYear+' Citigroup Inc.');
+	d.writeln ('<br>&lt;\/span&gt;&lt;\/td&gt;&lt;\/tr&gt;');
+	d.writeln ('&lt;\/table&gt;');
+	d.writeln ('&lt;\/td&gt;&lt;\/tr&gt;&lt;\/table&gt;');
+}
+
+function writeMenuFooter (d, mainDirectory, bool) {
+	var footerYear=3Dnew Date().getFullYear();
+	if (!bool) return;
+	if (BAtop.DA) return;
+=09
+	// if (BAtop.currentPO.parent) return;    =20
+	var images =3D mainDirectory ? "images/" : "../images/";
+	d.writeln ('<br><br><br>');
+	d.writeln ('');
+	d.writeln ('<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0"><tbody><tr><td height=3D"1" background=3D"file:///C:/Users/user/Do=
+wnloads/'%20+%20images%20+%20'line_hrz.gif">' +
+		'<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+%20'blank.=
+gif" width=3D"1" height=3D"1" border=3D"0">&lt;\/td&gt;&lt;\/tr&gt;');
+	d.writeln ('</td></tr><tr><td valign=3D"top">');
+
+	d.writeln ('');
+	d.writeln ('<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0"><tbody><tr><td height=3D"6">' +
+		'<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+%20'blank.=
+gif" width=3D"1" height=3D"6" border=3D"0">&lt;\/td&gt;&lt;\/tr&gt;');
+    d.writeln ('</td></tr><tr><td valign=3D"top"><span class=3D"footer">Cit=
+ibank, N.A. Member FDIC. Terms and conditions of accounts, products and ser=
+vices are subject to change.');
+	d.writeln ('<br><img src=3D"file:///C:/Users/user/Downloads/'%20+%20images=
+%20+%20'citilog2.gif" alt=3D"Citibank" '=3D"" +=3D"" width=3D"21" height=3D=
+"18" border=3D"0">');
+	d.writeln ('<br><a class=3D"vOff">Citi.com&lt;\/a&gt;<span>&lt;\/td&gt;');
+	d.writeln ('</span></a></span></td><td align=3D"right" valign=3D"top"><spa=
+n class=3D"footer">');
+	d.writeln ('<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+=
+%20'eqhouse.gif" alt=3D"Equal Housing Lender" width=3D"29" '=3D"" +=3D"" he=
+ight=3D"38" hspace=3D"3" vspace=3D"0" border=3D"0"><br>');
+	d.writeln ('<a class=3D"vOff">Terms, conditions, caveats and small print&l=
+t;\/a&gt;');
+	d.writeln ('<br>Copyright =A9 '+footerYear+' Citigroup Inc.');
+	d.writeln ('<br>&lt;\/span&gt;&lt;\/td&gt;&lt;\/tr&gt;');
+	d.writeln ('&lt;\/table&gt;');
+	d.writeln ('&lt;\/td&gt;&lt;\/tr&gt;&lt;\/table&gt;');
+}
+
+function FIMP_state (FIMP) {
+	switch (parseInt(FIMP,10)) {
+		case  0:
+		case  3: return "New York";
+		case 40: return "OCallaghan";
+		case 16: return "Florida";
+		case 13: return "California";
+		case  8: return "Washington D.C.";
+		case 14: return "Illinois";
+		case 30: return "New Jersey";
+		case  7: return "Maryland";
+		case 11: return "Nevada";
+		case  2: return "Connecticut";
+		case  6: return "Puerto Rico";
+		case 41: return "Texas";
+	}
+}
+
+function FIMP_name (FIMP) {
+	return "Citibank, NA";
+}
+
+function BAbswo() {
+	var v1 =3D top.frames[0];
+	v1.document.cookie =3D "BAbswo=3DF;PATH=3D/" + ((location.protocol=3D=3D"h=
+ttps:") ? ";SECURE" : "");
+}
+
+function openerOpen () {
+	var dc =3D top.frames[0].document.cookie;
+	var offset =3D dc.indexOf("BAbswo=3D");
+	if (offset=3D=3D"-1") return false;
+	offset +=3D 7;
+	end =3D dc.indexOf(";", offset);
+	if (end &lt; 0) end =3D dc.length;
+	var v1 =3D unescape(dc.substring(offset, end))=3D=3D "T";
+	return v1 ? true : false;
+}
+
+var openerIsOpen;
+var referDoc1, referDoc2;
+
+function toHelp() {
+	var v1 =3D t.BAtopmenu.thisPath;
+	var v2 =3D v1.substring(0,(v1.lastIndexOf("d"))) + "help/helpDesk.htm" + t=
+.vID;
+	t.BAtopmenu.enabled =3D true;
+	t.BAmain.location.href =3D v2;
+}
+
+function toFAQ() {
+	t.BAtopmenu.enabled =3D true;
+	var win =3D window.open("../help/FAQ_files/FAQ.jsp", "_blank", "location=
+=3Dyes,height=3D675,width=3D950,scrollbars=3Dyes,status=3Dyes,resizable=3Dy=
+es");
+}
+
+function toFirstPage () {
+
+	var cm =3D t.topMenu;
+
+	if (cm.children[0].text!=3D"Main Menu") {
+		cm.select(0);
+	}
+
+	var v1 =3D t.user.custom.FP.split (".");
+
+	for (var y=3D0; y &lt; v1.length; y++) {
+		var v1y =3D Number(v1[y]);
+		var cmc =3D cm.children || cm.PO_array;
+		if (!cmc.length) {
+			cmc =3D cm;
+			t.atMenuDisplay =3D toFirstPage;
+			cmc.setup();
+			return;
+		}
+
+		var foundIt =3D false;
+		for (var x=3D0; x &lt; cmc.length; x++) {
+			if (cmc[x].ID =3D=3D v1y) {
+				cm =3D cmc[x];
+				foundIt =3D true;
+				break;
+			}
+		}
+
+		if (!foundIt) {
+			if (y &lt; (v1.length - 1))
+				continue;
+
+			while (cm.PO_array)
+				cm =3D cm.parent;
+			if (cm.text)
+				break;
+			else if (!cm.parent) {
+				cm =3D cm.children[0];
+			}
+			break;
+		}
+	}
+	cm.select();
+}
+
+function toMenu (menuStr) {
+
+	t.session.initMenu =3D (menuStr || t.session.initMenu);
+
+	if (!t.session.initMenu)
+		return;
+
+	var v1 =3D t.session.initMenu.split (".");
+	var cm =3D t.topMenu;
+
+	for (var y=3D0; y &lt; v1.length; y++) {
+		var v1y =3D Number(v1[y]);
+		var cmc =3D cm.children || cm.PO_array;
+		if (!cmc.length) {
+			cmc =3D cm;
+			t.atMenuDisplay =3D toMenu;
+			cmc.setup();
+			return;
+		}
+
+		var foundIt =3D false;
+		for (var x=3D0; x &lt; cmc.length; x++) {
+			if (cmc[x].ID =3D=3D v1y) {
+				cm =3D cmc[x];
+				foundIt =3D true;
+				break;
+			}
+		}
+	}
+
+	cm.select();
+	return;
+}
+
+function getMenuString() {
+	var cm =3D currentPO;
+	var R =3D "";
+	while (cm) {
+		R =3D "." + cm.ID.toString() + R;
+		cm =3D cm.subParent || cm.parent;
+	}
+	return R.substr(1);
+}
+
+function validatePW (s) {
+	var v1 =3D trim(s).toUpperCase();
+
+	if (!/^[A-Z0-9]{6,8}$/.test (v1)) return true;
+
+	if (!/[A-Z]/.test (v1)) return true;
+
+	if (!/\d/.test (v1)) return true;
+
+	for (var x=3D0; x &lt;  v1.length - 2; x++) {
+		var v3 =3D v1.charAt(x);
+		if (v3=3D=3Dv1.charAt(x+1))
+			if (v3=3D=3Dv1.charAt(x+2)) return true;
+	}
+	return v1;
+}
+
+function getPW (pw, uid) {
+	var pw1 =3D trim(pw).substr(0,8).toUpperCase();
+	var u =3D uid || "";
+	var v1 =3D "________" +
+		(rtrim(u) || user.UID1) + pw1.replace (/[^A-Z0-9]/g,"_");
+	v1 =3D /\w{8}$/.exec (v1);
+	return v1[0];
+}
+
+function gotoAS () {=09
+	if (t.acctStmtsAlertMsgStatus) {
+		t.acctStmtsAlertMsgStatus =3D true;
+		if(!confirm(t.acctStmtsConfirmMessage)) {
+			upMenu(1);	=09
+			return true;	=09
+		}		=09
+	}
+
+	BAmain.location.href =3D FULL_HTML_PATH + "ASoptions.html";
+}
+
+function gotoAB () {
+	t.downloadInfoAlert =3D true;
+
+	BAmain.location.href =3D FULL_HTML_PATH + "ABoptions.html";
+}
+
+function toBusUserInfo() {
+	if (BApost.toBusUserInfo) {
+		BApost.toBusUserInfo();
+		return;
+	}
+	BApost.location.href =3D FULL_HTML_PATH + "BA_busUser.html" + t.vID;
+}
+
+function toSetMaxTimeout() {
+
+	var f =3D t.BAtopmenu.document.forms.post;
+	f.Arg0.value =3D "3";
+	f.Arg2.value =3D "ENT";
+	f.Arg3.value =3D "16";
+	f.MACPART.value =3D "OUTPUT";
+	f.PROCESS.value =3D "UAmaxTO";
+	f.target =3D "BAmain";
+	if (t.sf(f)) f.submit();
+}
+
+function batchTransfer (a) {
+	RO =3D a;
+	if (BApost.BTpost) {
+		BApost.BTpost();
+		return;
+	}
+	BApost.location.href =3D FULL_HTML_PATH + "BTpost.html" + t.vID;
+}
+
+function buildIRMenu () {
+
+	t.BApost.resetQ =3D "1";
+		if (this !=3D BAtop.currentPO) {
+			if (t.atMenuDisplay) {
+				t.atMenuDisplay();
+				t.atMenuDisplay =3D true;
+			}
+			return;
+		}
+		var a =3D t.FULL_HTML_PATH + "PO_menu.html" + t.vID;
+		t.BAmain.location.href =3D a;
+}
+
+/* function toUserGuide(fromLink) {
+	var fromLink=3Dtrue;
+	var NewWindow =3D window.open('../ARP.pdf','', 'Toolbar=3D0,scrollbars=3D1=
+,resizable=3D1,width=3D800,height=3D600,screenX=3D10,screenY=3D10,left=3D10=
+,top=3D10');
+	if(fromLink){
+	   t.upMenu(1);
+		return;
+	}
+
+}*/
+
+function toUserGuide() {
+       //BApost.location.href =3D t.citiPath + "/html/ARP.pdf";
+       BApost.location.href =3D "../ARP.pdf";
+       upMenu(1);
+}
+
+function toClientGuide(fromLink){
+    var fromLink=3Dtrue;
+	var NewWindow =3D window.open('../client.pdf','', 'Toolbar=3D0,scrollbars=
+=3D1,resizable=3D1,width=3D800,height=3D600,screenX=3D10,screenY=3D10,left=
+=3D10,top=3D10');
+	if(fromLink){
+	   t.upMenu(1);
+		return;
+	}
+}
+
+function toClientAddGuide(fromLink){
+    var fromLink=3Dtrue;
+	var NewWindow =3D window.open('../clientadd.pdf','', 'Toolbar=3D0,scrollba=
+rs=3D1,resizable=3D1,width=3D800,height=3D600,screenX=3D10,screenY=3D10,lef=
+t=3D10,top=3D10');
+	if(fromLink){
+	   t.upMenu(1);
+		return;
+	}
+}
+
+
+/*function toUpcomingARP() {
+       BApost.location.href =3D t.citiPath + "/upcomingARP.pdf";
+       upMenu(1);
+}
+function toClientGuide() {
+	BApost.location.href =3D "<cbusol:env key=3D"citiiwt_path">client.pdf";
+	upMenu(1);
+}
+
+function toBAI() {
+       BApost.location.href =3D t.citiPath + "/bai.pdf";
+       upMenu(1);
+}
+
+function loadTopMenu() {
+	BAtopmenu.location.href =3D "/cbusol/topMenu.do";
+}
+
+function toARPmenu () {
+
+	if (this !=3D t.currentPO) {
+		if (t.atMenuDisplay) {
+			t.atMenuDisplay();
+			t.atMenuDisplay =3D true;
+		}
+		return;
+	}
+	t.BAmain.location.href =3D "/cbusol/do/matchPay/arpDisplayMenuAction";
+}*/
+
+function expandCellWidth (d, cname) {
+	var v1 =3D d.getElementById(cname).clientWidth;
+	v1 =3D Math.round (1.2 * v1);
+	d.getElementById(cname).width =3D v1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var isNetscape =3D (navigator.appName.indexOf('Netscape') &gt;=3D 0) ? true=
+ : false;
+var DA =3D true;
+
+function loadOptions() {
+
+	if (BusGroups &amp;&amp; !BusGroups.groups.length &amp;&amp; session.BusCo=
+de!=3D"7000000000000070") {
+		t.BAmain.location.href =3D  t.BAtopmenu.thisPath + "nogroups.html" + t.vI=
+D;
+		return;
+	}
+
+	if (t.session.RegMenu =3D=3D null)
+		t.BAget.location.href =3D t.BAtopmenu.thisPath + "PO_TopMenu.html" + t.vI=
+D;
+	else {
+		var f =3D BAtopmenu.document.forms["menuBuild"];
+		f.regMenu.value =3D t.session.RegMenu ? "Y" : "N";
+		f.broadcast.value =3D t.session.BC ? "Y" : "N";
+		if (t.sf (f, window))
+			f.submit();
+	}
+}
+
+function mouseOver(el, x) {=09
+	el.onmouseout =3D mouseOut;
+	el.restoreClass =3D el.className;
+	el.className =3D x;
+	lastEl =3D el;
+}
+
+function mouseOut() {
+	lastEl.className =3D lastEl.restoreClass;
+}
+
+function showEntitlements () {
+	BAmain.location.href =3D FULL_HTML_PATH + "showEntitlements.html";
+}
+
+function custServPhoneNumbers () {
+	var f =3D BAtopmenu.document.forms["generic"];
+	f.action =3D "/cbusol/csPhoneNumbers.do";
+	f.target=3D"BAmain";
+	if (t.sf(f))
+		f.submit();	=09
+}
+
+function toNaming(txt) {
+	if (!t.BusGroups.groups.length) {
+		t.upMenu(1);
+		alert ("You have no accounts.\n" +
+			"Please call customer service at " + t.session.telephone + ".");
+		return;
+	}
+	t.BAmain.location.href =3D t.BAtopmenu.thisPath + txt + ".html" + t.vID;
+}
+
+function toGrouping (F) {
+	if (!t.BusGroups.groups.length) {
+		t.upMenu(1);
+		alert ("You have no accounts.\n" +
+			"Please call customer service at " + t.session.telephone + ".");
+		return;
+	}
+	t.RO =3D F;
+	toBApost ("NGutil");
+}
+
+function activateUsersForAlerts() {
+	t.sortOdr =3D false;
+	for (var count =3D 0; count &lt; t.finalUserAlerts.length; count++) {
+		t.tempUserAlerts[count].userId =3D t.finalUserAlerts[count].userId;
+		t.tempUserAlerts[count].firstName =3D t.finalUserAlerts[count].firstName;
+		t.tempUserAlerts[count].lastName =3D t.finalUserAlerts[count].lastName;
+		t.tempUserAlerts[count].alerts =3D t.finalUserAlerts[count].alerts;
+		t.tempUserAlerts[count].edit =3D true;
+	}
+=09
+	var userAlerts =3D t.tempUserAlerts;
+	for (var count =3D 0; count &lt; (userAlerts.length - 1); count++) {
+		for (var innerCount =3D count + 1; innerCount &lt; userAlerts.length; inn=
+erCount++) {
+			if (userAlerts[count].userId &gt; userAlerts[innerCount].userId) {
+				var temp =3D userAlerts[count];
+				userAlerts[count] =3D userAlerts[innerCount];
+				userAlerts[innerCount] =3D temp;
+			}
+		}
+	}
+	t.tempUserAlerts =3D userAlerts;
+=09
+	t.BAmain.location.href =3D t.BAtopmenu.thisPath + "activateUserAlerts.html=
+" + t.vID;
+}
+
+/*function toBApost (docname) {
+	var thisPath =3D t.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+    t.BApost.location.href =3D thisPath + docname + ".html" + t.vID;
+}*/
+
+function toStopPay(opt) {
+	t.RO =3D opt;
+	if (BApost.showAcctsForStops) {
+		BApost.showAcctsForStops();
+	} else {
+		toBApost("SPutil");
+	}
+}
+
+function toTransfers (code) {
+	t.RO =3D {tfrtype: code};
+	toBApost ("TButils");
+}
+
+function toMatchPay () {
+	/*if (BApost.MatchPay &amp;&amp; BApost.ACCT) {
+		BApost.ACCT.showAccts();
+	} else */
+		toPosPay ("A");
+}
+
+function toPosPay (code) {
+	if ((typeof t.RO) =3D=3D "object") {
+		t.RO.PPtype =3D code;
+	} else {
+		t.RO =3D {PPtype: code}
+	}
+
+		toBApost ("PosPayCDp");
+}
+
+
+function toHistory () {
+	/*if (BApost.MatchPay &amp;&amp; BApost.ACCT) {
+		BApost.ACCT.showAccts();
+	} else*/
+		toPosPay3 ("A");
+}
+
+function toManualIV (issVal,PEVal) {
+	toPos ("A",issVal,PEVal);
+}
+
+function toPos(code,issVal,PEVal) {
+=09
+	if ((typeof t.RO) =3D=3D "object") {
+		t.RO.PPtype =3D code;
+	} else {
+		t.RO =3D {PPtype: code}
+	}
+
+	toBApost ("HistoryCDk.html?"+issVal+PEVal);
+=09
+}
+
+function toBApost (docname) {
+	var thisPath =3D t.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+    t.BApost.location.href =3D thisPath + docname +".html"+ t.vID;
+}
+
+function toPosPay3 (code) {
+   =20
+   if ((typeof t.RO) =3D=3D "object") {
+		t.RO.PPtype =3D code;
+	} else {
+		t.RO =3D {PPtype: code}
+	}
+	toBApost("HistoryCDp");
+}
+
+
+
+function toCD_rates (code) {
+	t.RO =3D code;
+	toBApost ("IrateCDp");
+}
+
+function toContDisb () {
+	var f =3D BAtopmenu.document.forms["generic"];
+	f.action =3D "/cbusol/wires/ContDisAccounts.do";
+	f.target =3D "BAmain";
+	if (t.sf(f, window))
+		f.submit();
+}
+
+function Payments (doc) {
+	if (BAtop.timedOut()) return;
+	t.submenu1 =3D '';
+
+	switch (doc) {
+		case "PBpyinfo":
+		case "PBreview":
+		case "PBpaPrb1":
+			t.BApost.RO =3D true;
+
+	}
+
+	if ((t.RO) &amp;&amp; (t.RO.payeeList))
+		t.RO.paymentDoc =3D doc;
+	else
+		t.RO =3D {paymentDoc:doc}
+
+	var thisPath =3D t.BAtopmenu.thisPath || t.FULL_HTML_PATH;
+	var v1 =3D thisPath + "PBpayeeJ.html" + t.vID;
+	t.BAmain.location.href =3D v1 + "PBpayeeJ.html" + t.vID;
+}
+
+function Customize () {
+	if (BApost.showCustomizeMenu)
+		BApost.showCustomizeMenu();
+	else
+		BApost.location.href =3D FULL_HTML_PATH + "CUSpd.html" + t.vID;
+}
+
+var currentPO, topMenu;
+
+function PO_addSubmenu (text, ID) {
+	if (!this.children) {
+		this.children =3D new Array();
+	}
+	var v1 =3D this.children[this.children.length] =3D {
+		caption : text,
+		PO_array : new Array(),
+		parent : this,
+		ID : ID,
+		addChild : PO_addChild
+	}
+	return v1;
+}
+
+function PO_setup (i, i2) {
+
+	var currentPO;
+
+	switch (arguments.length) {
+		case 0:
+			currentPO =3D this;
+			break;
+		case 2:
+			currentPO =3D this.children[i].PO_array[i2];
+			break;
+		default:
+			currentPO =3D this.children[i];
+	}
+	PO_select2 (currentPO);
+}
+
+function PO_select (i, i2) {
+
+	t.BAmain.enabled =3D true;
+
+	switch (arguments.length) {
+		case 0:
+			currentPO =3D this;
+			break;
+		case 2:
+			currentPO =3D this.children[i].PO_array[i2];
+			break;
+		default:
+			currentPO =3D this.children[i];
+	}
+
+	PO_select2 (currentPO,  true);
+}
+=20
+function goToWireDemo (ld) {
+=20
+	if (t.session.SessID !=3D "Live")
+		return true;
+=20
+	var i =3D ld.lastIndexOf("/");
+=20
+	switch (ld.substring(i+1)) {
+		case "XFF": doWire('X'); break;
+		case "NFF":
+		case "FFF": doWire('D'); break;
+		case "NFT":
+		case "FFT": doWire('DM'); break;
+		case "NTF":
+		case "FTF": doWire('F'); break;
+		case "NTT":
+		case "FTT": doWire('FM'); break;
+		case "M"  : modelMaintenance();
+	}
+	return true;
+}
+
+
+
+
+function PO_select2 (currentPO, Display) {
+
+	t.workPO =3D currentPO;
+
+	if (!currentPO.notReusable &amp;&amp; currentPO.display) {
+		if (Display) {
+			currentPO.display();
+		}
+		return;
+	}
+
+	if (currentPO.func) {
+		currentPO.func();
+		return;
+	}
+
+	var lw =3D currentPO.loadWindow || BAtop.BAget;
+	var ld =3D currentPO.loadDoc;
+
+	if (ld) {
+		if (ld.indexOf(")") &lt; 0) {
+			if(currentPO.loadDoc.substr(currentPO.loadDoc.lastIndexOf(".")+1) =3D=3D=
+ "jsp"){
+				lw.location.href =3D t.FULL_HTML_PATH + currentPO.loadDoc + t.vID;
+			}else{
+				lw.location.href =3D t.FULL_HTML_PATH + currentPO.loadDoc + ".html" + t=
+.vID;			=09
+			}
+			BAtopmenu.enabled =3D true;
+		} else {
+			eval (ld);
+		}
+		return;
+	}
+
+	var f =3D t.BAtopmenu.document.forms.post;
+	var sendArray =3D currentPO.sendArray;
+	f.MACPART.value =3D (sendArray[0]) ? "OUTPUT" : "INPUT";
+	f.PROCESS.value =3D sendArray[1];
+	for (var x=3D2 ;x &lt; sendArray.length; x++) {
+		f.elements[x+8].value =3D sendArray[x]
+	}
+	f.Arg0.value =3D (sendArray.length - 1).toString();
+	f.target =3D (currentPO.loadWindow) ? currentPO.loadWindow.name : "BAget";
+	if (t.sf (f)){
+		f.submit();=09
+	}
+}
+
+function PO_getHREF (i1, i2) {
+	var aa =3D this.children[i1];
+	var sel =3D i1;
+
+	if (arguments.length=3D=3D2) {
+		aa =3D aa.PO_array[i2];
+		sel +=3D "," + i2;
+	}
+	aa =3D aa.text;
+
+	BAtopmenu.enabled =3D true;
+	return "<a" +=3D"" getovertext(aa)=3D"" "=3D"" href=3D"\&quot;javascript:i=
+f" (enabled)=3D"" {enabled=3D"false;BAtop.currentPO.select(&quot;" sel=3D""=
+ ")}\"=3D"">" +
+			aa + "&lt;\/a&gt;";
+=09
+}
+
+function PO_Display() {
+
+	if (this !=3D BAtop.currentPO) {
+		if (t.atMenuDisplay) {
+			t.atMenuDisplay();
+			t.atMenuDisplay =3D true;
+		}
+		return;
+	}
+	var a =3D t.FULL_HTML_PATH + "PO_menu.html" + t.vID;
+	t.BAmain.location.href =3D a;=09
+}
+
+function PO_addChild (text, ID, action, loadWindowObj, RO) {
+
+	v1 =3D new Object();
+
+	if (this.PO_array) {
+		this.PO_array[this.PO_array.length] =3D v1;
+		v1.subParent =3D this;
+		v1.parent =3D this.parent;
+	} else {
+		this.children[this.children.length] =3D v1;
+		v1.parent =3D (this=3D=3Dt.topMenu) ? 0 : this;
+	}
+
+	v1.text =3D text;
+
+	var  s1 =3D typeof action;
+	if (s1 =3D=3D "string"){
+		v1.loadDoc =3D action;
+	}
+	else if (s1  =3D=3D "function"){
+		v1.func =3D action;
+	}
+	else{
+		v1.sendArray =3D action;
+	}
+
+	if (loadWindowObj) {
+		v1.loadWindow =3D loadWindowObj;
+	}
+	if (RO) {
+		v1.RO =3D RO;
+	}
+	v1.children =3D new Array();
+
+	v1.display =3D false;
+	v1.ID =3D ID;
+	v1.select =3D PO_select;
+	v1.setup  =3D PO_setup;
+	v1.getHREF =3D PO_getHREF;
+	v1.addChild =3D PO_addChild;
+	v1.addSubmenu =3D PO_addSubmenu;=09
+
+}
+
+function PO_create () {
+
+	this.display =3D true;
+	this.select =3D PO_select;
+	this.parent =3D 0;
+	this.children =3D new Array();
+	this.addChild =3D PO_addChild;
+	this.addSubmenu =3D PO_addSubmenu;
+}
+
+function endOfLine() {
+	BAmain.location.href =3D t.BAtopmenu.thisPath + "PO_generic.html" + t.vID;
+}
+
+function upMenu(i) {
+	var cm =3D currentPO;
+	while (i) {
+		cm =3D cm.parent;
+		i--;
+	}
+	cm.select();
+}
+
+function showHeader(w) {
+	var i =3D 0;
+	var d =3D w.document;
+	var vs =3D "";
+	var cm2 =3D currentPO;
+	d.writeln ('');
+
+	while (cm2.parent) {
+		cm2 =3D cm2.parent;
+		var cm2t =3D cm2.text;
+		vs =3D "<a" +=3D"" getovertext(cm2t)=3D"" "href=3D"\&quot;javascript:BAto=
+p.upMenu(&quot;" ++i=3D"" ")\"=3D"">" + cm2t +"&lt;\/a&gt; <b>&gt;&lt;\/b&g=
+t; "+ vs;
+	}
+	if (!vs) vs =3D "&nbsp;";
+	d.writeln ("</b></a"><table width=3D"100%"><tbody><tr><td class=3D"p9">" +=
+ vs + "&lt;\/td&gt;&lt;\/tr&gt;");
+	d.writeln ("</td></tr><tr><td class=3D"tabhead">" + currentPO.text + "&lt;=
+\/td&gt;&lt;\/tr&gt;&lt;\/table&gt;");
+}
+
+function backButton(w) {
+	var d =3D w.document;
+	d.writeln ("<p><a "=3D"" +=3D"" batop.getovertext=3D"" ('back')=3D"" 'href=
+=3D"javascript:cm.parent.select()"><img '=3D"" +=3D"" 'src=3D"' + BAtop.cit=
+iPath + " images=3D"" "=3D"" 'left.gif"=3D"" width=3D"18" height=3D"12" bor=
+der=3D"0" alt=3D"Back"><b>Back&lt;\/b&gt;&lt;\/a&gt;&lt;\/p&gt;');
+}
+
+function irbackButton(w) {
+	var d =3D w.document;
+
+	if (t.menuName =3D=3D "Information Reporting") {
+		if (t.BAmain.Function =3D=3D "ABDL") {
+			d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.ci=
+tiPath + '/acctbal.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.c=
+itiPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&=
+lt;\/a&gt;</a></td></tr></tbody></table>');
+		} else if (t.BAmain.Function =3D=3D "AS") {
+			d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.ci=
+tiPath + '/acctstat.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.=
+citiPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">=
+&lt;\/a&gt;</a></td></tr></tbody></table>');
+		} else {
+			d.writeln ("<table><tbody><tr><td><a href=3D"file:///C:/Users/user/Downl=
+oads/%22+BAtop.citiPath%20+%20%22/infoReportOptions.html" "=3D"" +=3D"" t.v=
+id=3D"" +"=3D""><img "=3D"" +=3D"" "src=3D"../images/bback.gif" border=3D"0=
+" alt=3D"Back"></a></td></tr></tbody></table>");
+			=09
+		}
+
+	} else if (t.menuName =3D=3D "Balance Summary") {
+			d.writeln("<table><tbody><tr><td><input type=3D"button" value=3D"< Back"=
+ name=3D"Back">&lt;\/form&gt;</td></tr></tbody></table>");
+	} else if (t.menuName =3D=3D "Checking") {
+	=09
+		d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.cit=
+iPath + '/ChkgDN.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.cit=
+iPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&lt=
+;\/a&gt;</a></td></tr></tbody></table>');
+	} else if (t.menuName =3D=3D "IMMA") {
+		d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.cit=
+iPath + '/ImmaDN.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.cit=
+iPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&lt=
+;\/a&gt;</a></td></tr></tbody></table>');
+	} else if (t.menuName =3D=3D "Savings") {
+		d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.cit=
+iPath + '/SavDN.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.citi=
+Path + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&lt;=
+\/a&gt;</a></td></tr></tbody></table>');
+	} else if (t.menuName =3D=3D "Credit") {
+		d.writeln ("<table><tbody><tr><td><a "=3D"" +=3D"" 'href=3D"' + BAtop.cit=
+iPath + '/CreditDN.html' + t.vID +'"><img '=3D"" +=3D"" 'src=3D"' + BAtop.c=
+itiPath + " images=3D"" "=3D"" 'bback.gif"=3D"" border=3D"0" alt=3D"Back">&=
+lt;\/a&gt;</a></td></tr></tbody></table>');
+	}
+}
+
+
+function toMainMenu () {
+	var mmf =3D BAtopmenu.document.forms["mainmenu"];
+	mmf.regAccounts.value =3D session.RegMenu ? "Y" : "N";
+	if (sf (mmf, window))
+		mmf.submit();
+}
+
+function toCustServMenu () {
+	var f =3D BAtopmenu.document.forms["generic"];
+	f.action =3D "/cbusol/custServ.do";
+	f.target=3D"BAmain";
+	if (t.sf(f))
+		f.submit();	=09
+}
+
+function ACH() {
+	var f =3D BAtopmenu.document.forms[0];
+	f.action =3D "/cbusol/BA_ACHm.action";
+	f.target=3D"BAmain";
+	f.submit();
+}
+
+function ACHPPY() {
+	var f =3D BAtopmenu.document.forms[0];
+	f.action =3D "/cbusol/ACHPositivePay.action";
+	f.target=3D"BAmain";
+	f.submit();
+}
+
+function AchReportsStart() {
+	toBApost("AchReportsStart");=09
+}
+
+function ACHRuleUpdate2(fromLink) { =20
+    var loc =3D "/cbusol/nacha.action" ;
+    BAtop.WindowRemote(loc, "_self", "dependent,toolbar=3Dno,resizable=3Dye=
+s,menubar=3Dno,height=3D420,width=3D600");
+    t.BAmain.enabled =3D true;
+    if (!fromLink)
+            upMenu(1);
+}
+
+function ACHProcessGuide2(fromLink) {
+       BApost.location.href =3D "/cbusol/do/htmlserver/achprocess.pdf";
+            t.BAmain.enabled =3D true;
+            if (!fromLink)
+                    upMenu(1);
+}
+
+function ACH_UG(fromLink) {
+		BAtop.WindowRemote(BAtop.citiPath+ "/ACH.pdf", "CitiBusiness", 800, 500 ,=
+ 0);=20
+        if ( !fromLink )
+        {=20
+         upMenu(1);=20
+        }
+        return; =20
+}
+
+function ACH_PPY_UG(fromLink) {
+	 //BApost.location.href =3D "/cbusol/do/htmlserver/ACH_PositivePay_Filter_=
+User_GuidePDF.pdf";
+	BAtop.WindowRemote(BAtop.citiPath+ "/ACH_PositivePay_Filter_User_Guide.pdf=
+", "CitiBusiness", 800, 500 , 0);=20
+    if ( !fromLink )
+    {=20
+     upMenu(1);=20
+    }
+    return; =20
+}
+
+function ACH_MSG(fromLink) {
+        BAtop.WindowRemote(t.BAtopmenu.thisPath + "ACHmsg.html", "CitiBusin=
+ess", 800, 500 , 1);
+        if ( !fromLink )
+        {
+         upMenu(1);
+        }
+        return;
+}
+
+function DLacPost(type) {
+	var f =3D BAtopmenu.document.forms[1];
+	f.target =3D "BApost";
+	f.PROCESS.value =3D "DLacPost";
+	f.MACPART.value =3D "INPUT";
+	f.Arg0.value =3D type;
+	f.Arg2.value =3D f.Arg4.value =3D "";
+	if (t.sf(f, window)) f.submit();
+}
+
+function IRtodisk(type) {
+	t.downloadInfoAlert =3D true;
+
+	BAtop.RO =3D type;
+	var thisPath =3D BAtopmenu.thisPath || this.FULL_HTML_PATH;
+	t.BApost.location.href =3D thisPath + "IRtodisk.html" + t.vID;
+}
+
+function IRtodiskDownloadAlert(type) {=09
+	t.downloadInfoAlert =3D true;
+=09
+	BAtop.RO =3D type;
+	var thisPath =3D BAtopmenu.thisPath || this.FULL_HTML_PATH;
+	t.BApost.location.href =3D thisPath + "IRtodisk.html" + t.vID;
+}
+
+var HTML_PATH =3D "live/";
+var TEMPLATES_PATH =3D "templates/";
+
+function writeFooter (d, mainDirectory, bool) {
+	var footerYear=3Dnew Date().getFullYear();
+	if (!bool) return;
+	if (BAtop.DA) return;
+=09
+	// if (BAtop.currentPO.parent) return; =20
+	var images=3D"";
+	if(mainDirectory=3D=3D2){
+	   images=3D"../../images/";
+	 }
+	else{
+		images =3D mainDirectory ? "images/" : "../images/";
+	}
+	d.writeln ('<br><br><br>');
+	d.writeln ('');
+	d.writeln ('<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0"><tbody><tr><td height=3D"1" background=3D"file:///C:/Users/user/Do=
+wnloads/'%20+%20images%20+%20'line_hrz.gif">' +
+		'<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+%20'blank.=
+gif" width=3D"1" height=3D"1" border=3D"0">&lt;\/td&gt;&lt;\/tr&gt;');
+	d.writeln ('</td></tr><tr><td valign=3D"top">');
+
+	d.writeln ('');
+	d.writeln ('<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0"><tbody><tr><td height=3D"6">' +
+		'<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+%20'blank.=
+gif" width=3D"1" height=3D"6" border=3D"0">&lt;\/td&gt;&lt;\/tr&gt;');
+    d.writeln ('</td></tr><tr><td valign=3D"top"><span class=3D"pfooter">Ci=
+tibank, N.A. Member FDIC. Terms and conditions of accounts, products and se=
+rvices are subject to change.');
+    if(t.fullFooter)
+    	d.writeln ('<br>CitiDirect<sup>=AE</sup> is a registered service mark =
+of Citigroup Inc.');
+	d.writeln ('<br><img src=3D"file:///C:/Users/user/Downloads/'%20+%20images=
+%20+%20'citilog2.gif" alt=3D"Citibank" '=3D"" +=3D"" width=3D"21" height=3D=
+"18" border=3D"0">');
+	d.writeln ('<br><a class=3D"vOff">Citi.com&lt;\/a&gt;<span>&lt;\/td&gt;');
+	d.writeln ('</span></a></span></td><td align=3D"right" valign=3D"top"><spa=
+n class=3D"pfooter">');
+	d.writeln ('<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+=
+%20'eqhouse.gif" alt=3D"Equal Housing Lender" width=3D"29" '=3D"" +=3D"" he=
+ight=3D"38" hspace=3D"3" vspace=3D"0" border=3D"0"><br>');
+	d.writeln ('<a class=3D"vOff">Terms, conditions, caveats and small print&l=
+t;\/a&gt;');
+	d.writeln ('<br>Copyright =A9 '+footerYear+' Citigroup Inc.');
+	d.writeln ('<br>&lt;\/span&gt;&lt;\/td&gt;&lt;\/tr&gt;');
+	d.writeln ('&lt;\/table&gt;');
+	d.writeln ('&lt;\/td&gt;&lt;\/tr&gt;&lt;\/table&gt;');
+}
+
+function writeMenuFooter (d, mainDirectory, bool) {
+	var footerYear=3Dnew Date().getFullYear();
+	if (!bool) return;
+	if (BAtop.DA) return;
+=09
+	// if (BAtop.currentPO.parent) return;    =20
+	var images =3D mainDirectory ? "images/" : "../images/";
+	d.writeln ('<br><br><br>');
+	d.writeln ('');
+	d.writeln ('<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0"><tbody><tr><td height=3D"1" background=3D"file:///C:/Users/user/Do=
+wnloads/'%20+%20images%20+%20'line_hrz.gif">' +
+		'<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+%20'blank.=
+gif" width=3D"1" height=3D"1" border=3D"0">&lt;\/td&gt;&lt;\/tr&gt;');
+	d.writeln ('</td></tr><tr><td valign=3D"top">');
+
+	d.writeln ('');
+	d.writeln ('<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0"><tbody><tr><td height=3D"6">' +
+		'<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+%20'blank.=
+gif" width=3D"1" height=3D"6" border=3D"0">&lt;\/td&gt;&lt;\/tr&gt;');
+    d.writeln ('</td></tr><tr><td valign=3D"top"><span class=3D"footer">Cit=
+ibank, N.A. Member FDIC. Terms and conditions of accounts, products and ser=
+vices are subject to change.');
+	d.writeln ('<br><img src=3D"file:///C:/Users/user/Downloads/'%20+%20images=
+%20+%20'citilog2.gif" alt=3D"Citibank" '=3D"" +=3D"" width=3D"21" height=3D=
+"18" border=3D"0">');
+	d.writeln ('<br><a class=3D"vOff">Citi.com&lt;\/a&gt;<span>&lt;\/td&gt;');
+	d.writeln ('</span></a></span></td><td align=3D"right" valign=3D"top"><spa=
+n class=3D"footer">');
+	d.writeln ('<img src=3D"file:///C:/Users/user/Downloads/'%20+%20images%20+=
+%20'eqhouse.gif" alt=3D"Equal Housing Lender" width=3D"29" '=3D"" +=3D"" he=
+ight=3D"38" hspace=3D"3" vspace=3D"0" border=3D"0"><br>');
+	d.writeln ('<a class=3D"vOff">Terms, conditions, caveats and small print&l=
+t;\/a&gt;');
+	d.writeln ('<br>Copyright =A9 '+footerYear+' Citigroup Inc.');
+	d.writeln ('<br>&lt;\/span&gt;&lt;\/td&gt;&lt;\/tr&gt;');
+	d.writeln ('&lt;\/table&gt;');
+	d.writeln ('&lt;\/td&gt;&lt;\/tr&gt;&lt;\/table&gt;');
+}
+
+function FIMP_state (FIMP) {
+	switch (parseInt(FIMP,10)) {
+		case  0: return "Kingdom of Heaven";
+		case  3: return "New York";
+		case 40: return "OCallaghan";
+		case 16: return "Florida";
+		case 13: return "California";
+		case  8: return "Washington D.C.";
+		case 14: return "Illinois";
+		case 30: return "New Jersey";
+		case  7: return "Maryland";
+		case 11: return "Nevada";
+		case  2: return "Connecticut";
+		case  6: return "Puerto Rico";
+		case 41: return "Texas";
+	}
+}
+
+function FIMP_name (FIMP) {
+	return "Citibank, NA";
+}
+
+function BAbswo() {
+	var v1 =3D top.frames[0];
+	v1.document.cookie =3D "BAbswo=3DF;PATH=3D/" + ((location.protocol=3D=3D"h=
+ttps:") ? ";SECURE" : "");
+}
+
+function openerOpen () {
+	var dc =3D top.frames[0].document.cookie;
+	var offset =3D dc.indexOf("BAbswo=3D");
+	if (offset=3D=3D"-1") return false;
+	offset +=3D 7;
+	end =3D dc.indexOf(";", offset);
+	if (end &lt; 0) end =3D dc.length;
+	var v1 =3D unescape(dc.substring(offset, end))=3D=3D "T";
+	return v1 ? true : false;
+}
+
+var openerIsOpen;
+var referDoc1, referDoc2;
+
+function toHelp() {
+	var v1 =3D t.BAtopmenu.thisPath;
+	var v2 =3D v1.substring(0,(v1.lastIndexOf("d"))) + "help/helpDesk.htm" + t=
+.vID;
+	t.BAtopmenu.enabled =3D true;
+	t.BAmain.location.href =3D v2;
+}
+
+function toFAQ() {
+	t.BAtopmenu.enabled =3D true;
+	var win =3D window.open("../help/FAQ_files/FAQ.jsp", "_blank", "location=
+=3Dyes,height=3D675,width=3D950,scrollbars=3Dyes,status=3Dyes,resizable=3Dy=
+es");
+}
+
+function toFirstPage () {
+
+	var cm =3D t.topMenu;
+
+	if (cm.children[0].text!=3D"Main Menu") {
+		cm.select(0);
+	}
+
+	var v1 =3D t.user.custom.FP.split (".");
+
+	for (var y=3D0; y &lt; v1.length; y++) {
+		var v1y =3D Number(v1[y]);
+		var cmc =3D cm.children || cm.PO_array;
+		if (!cmc.length) {
+			cmc =3D cm;
+			t.atMenuDisplay =3D toFirstPage;
+			cmc.setup();
+			return;
+		}
+
+		var foundIt =3D false;
+		for (var x=3D0; x &lt; cmc.length; x++) {
+			if (cmc[x].ID =3D=3D v1y) {
+				cm =3D cmc[x];
+				foundIt =3D true;
+				break;
+			}
+		}
+
+		if (!foundIt) {
+			if (y &lt; (v1.length - 1))
+				continue;
+
+			while (cm.PO_array)
+				cm =3D cm.parent;
+			if (cm.text)
+				break;
+			else if (!cm.parent) {
+				cm =3D cm.children[0];
+			}
+			break;
+		}
+	}
+	cm.select();
+}
+
+function toMenu (menuStr) {
+
+	t.session.initMenu =3D (menuStr || t.session.initMenu);
+
+	if (!t.session.initMenu)
+		return;
+
+	var v1 =3D t.session.initMenu.split (".");
+	var cm =3D t.topMenu;
+
+	for (var y=3D0; y &lt; v1.length; y++) {
+		var v1y =3D Number(v1[y]);
+		var cmc =3D cm.children || cm.PO_array;
+		if (!cmc.length) {
+			cmc =3D cm;
+			t.atMenuDisplay =3D toMenu;
+			cmc.setup();
+			return;
+		}
+
+		var foundIt =3D false;
+		for (var x=3D0; x &lt; cmc.length; x++) {
+			if (cmc[x].ID =3D=3D v1y) {
+				cm =3D cmc[x];
+				foundIt =3D true;
+				break;
+			}
+		}
+	}
+
+	cm.select();
+	return;
+}
+
+function getMenuString() {
+	var cm =3D currentPO;
+	var R =3D "";
+	while (cm) {
+		R =3D "." + cm.ID.toString() + R;
+		cm =3D cm.subParent || cm.parent;
+	}
+	return R.substr(1);
+}
+
+function validatePW (s) {
+	var v1 =3D trim(s).toUpperCase();
+
+	if (!/^[A-Z0-9]{6,8}$/.test (v1)) return true;
+
+	if (!/[A-Z]/.test (v1)) return true;
+
+	if (!/\d/.test (v1)) return true;
+
+	for (var x=3D0; x &lt;  v1.length - 2; x++) {
+		var v3 =3D v1.charAt(x);
+		if (v3=3D=3Dv1.charAt(x+1))
+			if (v3=3D=3Dv1.charAt(x+2)) return true;
+	}
+	return v1;
+}
+
+function getPW (pw, uid) {
+	var pw1 =3D trim(pw).substr(0,8).toUpperCase();
+	var u =3D uid || "";
+	var v1 =3D "________" +
+		(rtrim(u) || user.UID1) + pw1.replace (/[^A-Z0-9]/g,"_");
+	v1 =3D /\w{8}$/.exec (v1);
+	return v1[0];
+}
+
+function gotoAS () {=09
+	if (t.acctStmtsAlertMsgStatus) {
+		t.acctStmtsAlertMsgStatus =3D treu;
+		if(!confirm(t.acctStmtsConfirmMessage)) {
+			upMenu(1);	=09
+			return true;	=09
+		}		=09
+	}
+
+	BAmain.location.href =3D FULL_HTML_PATH + "ASoptions.html";
+}
+
+function gotoAB () {
+	t.downloadInfoAlert =3D true;
+
+	BAmain.location.href =3D FULL_HTML_PATH + "ABoptions.html";
+}
+
+function toBusUserInfo() {
+	if (BApost.toBusUserInfo) {
+		BApost.toBusUserInfo();
+		return;
+	}
+	BApost.location.href =3D FULL_HTML_PATH + "BA_busUser.html" + t.vID;
+}
+
+function toSetMaxTimeout() {
+
+	var f =3D t.BAtopmenu.document.forms.post;
+	f.Arg0.value =3D "3";
+	f.Arg2.value =3D "ENT";
+	f.Arg3.value =3D "16";
+	f.MACPART.value =3D "OUTPUT";
+	f.PROCESS.value =3D "UAmaxTO";
+	f.target =3D "BAmain";
+	if (t.sf(f)) f.submit();
+}
+
+function batchTransfer (a) {
+	RO =3D a;
+	if (BApost.BTpost) {
+		BApost.BTpost();
+		return;
+	}
+	BApost.location.href =3D FULL_HTML_PATH + "BTpost.html" + t.vID;
+}
+
+function buildIRMenu () {
+
+	t.BApost.resetQ =3D "1";
+		if (this !=3D BAtop.currentPO) {
+			if (t.atMenuDisplay) {
+				t.atMenuDisplay();
+				t.atMenuDisplay =3D true;
+			}
+			return;
+		}
+		var a =3D t.FULL_HTML_PATH + "PO_menu.html" + t.vID;
+		t.BAmain.location.href =3D a;
+}
+
+/* function toUserGuide(fromLink) {
+	var fromLink=3Dtrue;
+	var NewWindow =3D window.open('../ARP.pdf','', 'Toolbar=3D0,scrollbars=3D1=
+,resizable=3D1,width=3D800,height=3D600,screenX=3D10,screenY=3D10,left=3D10=
+,top=3D10');
+	if(fromLink){
+	   t.upMenu(1);
+		return;
+	}
+
+}*/
+
+function toUserGuide() {
+       //BApost.location.href =3D t.citiPath + "/html/ARP.pdf";
+       BApost.location.href =3D "../ARP.pdf";
+       upMenu(1);
+}
+
+function toClientGuide(fromLink){
+    var fromLink=3Dtrue;
+	var NewWindow =3D window.open('../client.pdf','', 'Toolbar=3D0,scrollbars=
+=3D1,resizable=3D1,width=3D800,height=3D600,screenX=3D10,screenY=3D10,left=
+=3D10,top=3D10');
+	if(fromLink){
+	   t.upMenu(1);
+		return;
+	}
+}
+
+function toClientAddGuide(fromLink){
+    var fromLink=3Dtrue;
+	var NewWindow =3D window.open('../clientadd.pdf','', 'Toolbar=3D0,scrollba=
+rs=3D1,resizable=3D1,width=3D800,height=3D600,screenX=3D10,screenY=3D10,lef=
+t=3D10,top=3D10');
+	if(fromLink){
+	   t.upMenu(1);
+		return;
+	}
+}
+
+
+/*function toUpcomingARP() {
+       BApost.location.href =3D t.citiPath + "/upcomingARP.pdf";
+       upMenu(1);
+}
+function toClientGuide() {
+	BApost.location.href =3D "<cbusol:env key=3D"citiiwt_path">client.pdf";
+	upMenu(1);
+}
+
+function toBAI() {
+       BApost.location.href =3D t.citiPath + "/bai.pdf";
+       upMenu(1);
+}
+
+function loadTopMenu() {
+	BAtopmenu.location.href =3D "/cbusol/topMenu.do";
+}
+
+function toARPmenu () {
+
+	if (this !=3D t.currentPO) {
+		if (t.atMenuDisplay) {
+			t.atMenuDisplay();
+			t.atMenuDisplay =3D true;
+		}
+		return;
+	}
+	t.BAmain.location.href =3D "/cbusol/do/matchPay/arpDisplayMenuAction";
+}*/
+
+function expandCellWidth (d, cname) {
+	var v1 =3D d.getElementById(cname).clientWidth;
+	v1 =3D Math.round (1.2 * v1);
+	d.getElementById(cname).width =3D v1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+var acctIdx;
+var groupIdx;
+var startA=3D0;
+var startGr=3D0;
+var ixG;
+var Max;
+var didF;
+var opt6_42;
+var thisGroup;
+var thisAccount;
+
+function CSI(){
+	account =3D  new Account();
+	var creditAccount  =3D  new CreditAccount();
+	this.makeCSI =3D  makeCSI;
+	this.makeKey =3D makeKey;
+    this.commonHeader =3D commonHeader;
+    this.CSI_1h =3D CSI_1h;
+    this.CSI_13h =3D CSI_13h;
+    this.CSI_17h =3D CSI_17h;
+    this.CSI_20h =3D CSI_20h;
+    this.CSI_24h =3D CSI_24h;
+    this.CSI_26h =3D CSI_26h;
+	this.CSI_34h =3D CSI_34h;
+	this.CSI_52h =3D CSI_52h;
+    this.assignG1 =3D assignG1;
+	this.assignGn =3D assignGn;
+	this.CSI_1d =3D CSI_1d;
+	this.CSI_4d =3D CSI_4d;
+	this.CSI_10d =3D CSI_10d;
+	this.CSI_13d =3D CSI_13d;
+	this.CSI_15d =3D CSI_15d;
+	this.CSI_17d =3D CSI_17d;
+	this.CSI_20d =3D CSI_20d;
+	this.CSI_22d =3D CSI_22d;
+    this.CSI_24d =3D CSI_24d;
+	this.CSI_26d =3D CSI_26d;
+	this.CSI_28d =3D CSI_28d;
+	this.CSI_34d =3D CSI_34d;
+	this.CSI_52d =3D CSI_52d;
+	this.CSI_59d =3D CSI_59d;
+	this.CSI_61d =3D CSI_61d;
+	this.CSI_64d =3D CSI_64d;
+	this.CSI_65d =3D CSI_65d;
+	this.getKey =3D getKey;
+	this.setStarts =3D setStarts;
+    this.addAccount =3D addAccount;
+	this.doCSI =3D doCSI;
+	this.findChkAccount =3D findChkAccount;
+	this.findCreditAccount =3D findCreditAccount;
+	this.findAccount =3D findAccount;
+	this.CSI_1_2 =3D CSI_1_2;
+    this.CSI_3 =3D CSI_3;
+	this.CSI_4_5 =3D CSI_4_5;
+	this.CSI_190 =3D CSI_190;
+    this.CSI_6_7 =3D  CSI_6_7;
+    this.CSI_8_9 =3D CSI_8_9;
+	this.CSI_10_11 =3D CSI_10_11;
+	this.CSI_13_14 =3D CSI_13_14;
+	this.CSI_15_16 =3D CSI_15_16;
+    this.CSI_17_18 =3D CSI_17_18;
+	this.CSI_20_21 =3D CSI_20_21;
+    this.CSI_22_23 =3D CSI_22_23;
+	this.CSI_24_25 =3D CSI_24_25 ;
+	this.CSI_26_27 =3D CSI_26_27;
+    this.CSI_28_29=3DCSI_28_29;
+    this.CSI_34_35 =3D CSI_34_35;
+    this.CSI_36_37=3DCSI_36_37;
+    this.CSI_52_53 =3D CSI_52_53;
+    this.CSI_59_60=3DCSI_59_60;
+    this.CSI_61_62 =3D CSI_61_62;
+    this.CSI_63=3DCSI_63;
+    this.CSI_65 =3D CSI_65;
+    this.CSI_64=3DCSI_64;
+	this.CSI_66 =3D CSI_66;
+	this.CSI_67=3DCSI_67;
+    this.CSI_68 =3D CSI_68;
+	var cd_Account =3D new CD_Account();
+
+	this.doCSI1 =3D doCSI1;=20
+
+
+    function  makeKey() {
+		return groupIdx + "_" + acctIdx;
+	}
+
+	function  commonHeader () {
+		G[1][1] =3D "H";
+		G[2][1] =3D "000000";
+	}
+
+
+	function  CSI_1h () {
+		commonHeader();
+	=09
+		G[3][1] =3D account.grLedgBal(1);
+		G[4][1] =3D account.grAvailBal(1);
+		G[5][1] =3D "Not computed";
+		G[6][1] =3D asOfDate;
+		G[7][1] =3D account.grAvailBcrBal(1);
+	}
+
+	function  CSI_13h () {
+		commonHeader();
+		G[3][1] =3D asOfDate;
+		G[4][1] =3D account.grAvailBcrBal(1);
+	}
+=09
+
+	function  CSI_17h () {
+		commonHeader();
+		G[3][1] =3D account.grLedgBal(1);
+		G[4][1] =3D asOfDate;
+	}
+
+	function  CSI_20h () {
+		commonHeader();
+		G[3][1] =3D asOfDate;
+		G[4][1] =3D account.grAvailBal(2);
+	}
+
+	function  CSI_24h () {
+		commonHeader();	=09
+		G[3][1] =3D asOfDate;
+	}
+
+	 function  CSI_26h () {
+		commonHeader();
+		G[3][1] =3D asOfDate;
+		G[4][1] =3D cd_Account.grTotBal();
+	}
+=09
+	function  CSI_34h () {
+		commonHeader();	=09
+		G[3][1] =3D creditAccount.totCreditAvail();
+		G[4][1] =3D asOfDate;
+	}
+
+	function  CSI_52h () {
+		commonHeader();
+		G[3][1] =3D  asOfDate;
+	}
+
+	function  assignG1 (locG) {	=09
+
+		if (didF) {
+			G[1][ixG] =3D "D";
+		}
+		else {
+			G[1][ixG] =3D "F";
+			G[locG][ixG] =3D thisGroup.name;
+			didF =3D true;
+		}
+	}
+
+	function  assignGn (Start,  Vals,GroupLoc) {
+		var strt =3D Start;
+		ixG++;
+		for (var x=3D0; x &lt; Vals.length; x++){ G[strt++][ixG] =3D Vals[x];}
+
+		if (GroupLoc=3D=3D0){ G[1][ixG] =3D "D";
+	=09
+		}
+		else{ assignG1 (GroupLoc);}
+		G[2][ixG] =3D makeKey();
+		G[3][ixG] =3D thisAccount.nickname;
+		G[4][ixG] =3D thisAccount.nbr;
+	=09
+	}
+
+=09
+
+	function  CSI_1d () {
+		var a =3D new CheckingAccount();
+		a =3D thisAccount;
+		var args=3Dnew Array();
+        args =3D [ a.ledgBal, a.availBal,
+			a.totDb,a.totCr, a.bcrAvailBal,
+			"", "500"];
+		assignGn (5, args, 10);
+	}
+	function  CSI_4d () {
+		var args =3D [thisAccount.typeName(), "",thisAccount.acctType(),stpPaymtF=
+ee,stpPaymtLimit];
+		assignGn (5, args,6);
+	}
+
+	function  CSI_10d () {
+
+		ixG++;
+		assignG1 (4);
+
+		G[2][ixG] =3D makeKey();
+		G[3][ixG] =3D thisAccount.nbr;
+	}
+
+	function  CSI_13d () {
+
+		var args=3Dnew Array();
+		args =3D [ledgBal,bcrAvailBal,thisAccount.intYTD()];
+		assignGn (5, args, 8);
+	}
+
+function  CSI_15d () {
+
+        var args=3Dnew Array();
+		 args =3D [thisAccount.availBal,thisAccount.acctType(), "", thisAccount.i=
+mra()];
+		assignGn (5, args, 7);
+	}
+
+	function  CSI_17d () {
+
+		 var la =3Dnew live CreditAccount();
+         var args=3Dnew Array();	=09
+		 args =3D [la.crLine(), la.amtOwed(),	thisAccount.availBal];
+		assignGn (5, args, 9);
+	}
+
+
+function  CSI_20d () {
+	    var args=3Dnew Array();=09
+		 args =3D [thisAccount.ledgBal,thisAccount.bcrAvailBal,thisAccount.intYTD=
+()];
+		assignGn (5, args, 8);
+	}
+
+	function  CSI_22d () {
+		var args=3Dnew Array();=09
+		 args =3D [thisAccount.availBal,thisAccount.acctType(), "", thisAccount.i=
+mra(),
+			thisAccount.ckPlus1(), thisAccount.PET, thisAccount.FIMP];
+		assignGn (5, args, 7);
+	}
+
+	function  CSI_24d () {
+		var la=3Dnew live CreditAccount();
+		 var args=3Dnew Array();=09
+		 args =3D [la.amtOwed(), la.minPaymt(),la.dateDue(), la.pastDueAmt(),	thi=
+sAccount.availBal, thisAccount.acctType(), "", thisAccount.FIMP];
+		assignGn (5, args, 11);
+	}
+
+	function  CSI_26d () {
+        var a =3Dnew CD_Account();
+		 a =3D  thisAccount;
+		var args=3Dnew Array();=09
+		args =3D [CDamt, CDterm,CDmatDate,
+			CDrate, CDyield,
+			CDcurVal,CD7dayCd, CD7dayAmt,
+			CDmatCd,CDtoAcct,CD7dayMinBal,
+			a.privacy1(), CDrollover, CDmaturity, a.PET, CDmatPET];
+		assignGn (5, args, 0);
+	}
+
+	function  CSI_28d () {
+		var args=3Dnew Array();=09
+	    args =3D [thisAccount.availBal,
+			thisAccount.acctType(), "", thisAccount.imra()];
+		assignGn (5, args, 7);
+	}
+
+	function  CSI_34d () {
+		var la =3D new  live CreditAccount();
+		var args=3Dnew Array();
+		 args =3D [la.crLine(), la.amtOwed(),
+			thisAccount.availBal, thisAccount.acctType(), "", "",  thisAccount.FIMP]=
+;
+		assignGn (5, args, 9);
+
+	}
+
+	function  CSI_52d () {
+		var args=3Dnew Array();
+		 args =3D [thisAccount.availBal, "",
+			thisAccount.acctType(), thisAccount.ledgBal,
+			thisAccount.intYTD(), asOfDate ];
+		assignGn (5, args, 6);
+	}
+
+	function  CSI_59d () {
+        var args=3Dnew Array();
+		args =3D [thisAccount.availBal, "",
+			thisAccount.acctType(), stpPaymtFee,
+			stpPaymtLimit];
+		assignGn (5, args, 6);
+	}
+
+	function  CSI_61d () {
+		var args=3Dnew Array();
+		 args =3D [thisAccount.availBal, "",
+			thisAccount.acctType(),
+			stpPaymtFee,
+			stpPaymtLimit ];
+		assignGn (5, args, 6);
+	}
+
+	function  CSI_64d () {
+		var la =3D new CreditAccount();
+        var args=3Dnew Array();
+		 args =3D [la.crLine(),
+			la.amtOwed(),thisAccount.availBal(),
+			asOfDate, la.principal(),
+			la.interest(),la.insurance,
+			la.dateDue(), la.amtDue(),
+			la.lateCharge(), la.delinquent(),
+			la.pastDueAmt() ];
+		assignGn (5, args, 0);
+	}
+
+	function  CSI_65d () {
+		var args=3Dnew Array();
+       args =3D [thisAccount.ledgBal,
+			   thisAccount.bcrAvailBal,
+               thisAccount.bcrLedgBal,
+			   thisAccount.intYTD(), asOfDate];
+		assignGn (5, args, 0);
+	}
+     function  getKey() {
+		=20
+		return (new CSI_Key(liveJ.getArgString("Arg4")));
+	}
+
+
+function setStarts( G_length, getFirst, header) {
+ 		Max =3D liveJ.getArgInt("Arg5");
+		V0 =3D Max;
+		lastRsp =3D 0;
+        G=3Dnew Array(G_length);
+		for (var i=3D0;i<g_length ;=3D"" i++)=3D"" {=3D"" g[i]=3D"new" array(max+=
+1);=3D"" }=3D"" if=3D"" (getfirst)=3D"" ixg=3D"header" ?=3D"" 1=3D"" :=3D""=
+ 0;=3D"" startgr=3D"LiveGroups.length" -=3D"" 1;=3D"" starta=3D"0;" return=
+=3D"" true;=3D"" else=3D"" var=3D"" key=3D"new" csi_key();=3D"" key.csi_key=
+1(livej.getargstring("arg4"));=3D"" +=3D"" function=3D"" setstarts1(g_lengt=
+h,=3D"" header)=3D"" setstarts=3D"" (g_length,=3D"" key.keyvalue=3D"=3D" "0=
+00000",=3D"" header);=3D"" addaccount(=3D"" opt,=3D"" showall)=3D"" la=3D"t=
+hisactiveAccount;" switch=3D"" (opt)=3D"" case=3D"" 1:=3D"" (la.type=3D"=3D=
+1)" csi_1d();=3D"" break;=3D"" 4:=3D"" csi_4d();=3D"" 10:=3D"" (showall)=3D=
+"" csi_10d=3D"" ();=3D"" 13:=3D"" csi_13d();=3D"" 15:=3D"" (la.type!=3D"5)"=
+ csi_15d();=3D"" 17:=3D"" csi_17d();=3D"" 20:=3D"" csi_20d();=3D"" 22:=3D""=
+ ((la.type<=3D"2)" ||=3D"" csi_22d();=3D"" 24:=3D"" csi_24d();=3D"" 26:=3D"=
+" csi_26d();=3D"" 28:=3D"" privateonly=3D"showAll;" ((!la.privacy=3D"" !pri=
+vateonly)=3D"" &&=3D"" csi_28d();=3D"" 34:=3D"" csi_34d();=3D"" 36:=3D"" 52=
+:=3D"" (la.type<=3D"4)" csi_52d();=3D"" 59:=3D"" ((la.type=3D"=3D1)" csi_59=
+d();=3D"" 61:=3D"" csi_61d();=3D"" 64:=3D"" csi_64d();=3D"" 65:=3D"" csi_65=
+d=3D"" 66:=3D"" 0=3D"" 190:=3D"" <=3D"" 4)=3D"" (ixg=3D"">=3D Max);
+	}
+
+function doCSI1 ( opt, showAll) {
+	=09
+		for (groupIdx=3DstartGr; groupIdx &gt;=3D 0 ; groupIdx--) {
+			thisGroup =3D LiveGroups[groupIdx];
+			didF =3D (startA!=3D0);
+			for (acctIdx=3DstartA ; acctIdx &lt; thisGroup.accounts; acctIdx++) {
+				thisAccount =3D thisGroup.LiveAccounts[acctIdx];
+				if (addAccount (opt, showAll)) return;
+			}
+			startA =3D 0;
+		}
+		lastRsp =3D 9;
+		V0 =3D ixG;
+	}
+
+
+function  doCSI (opt)
+	{=20
+	doCSI1 (opt, true);=20
+	}
+
+
+	function findChkAccount(inKey) {
+		var foundAcct=3Dnew CheckingAccount();
+		 foundAcct =3D findAccount(inKey);
+		if (foundAcct!=3Dtrue)
+			if (foundAcct.type!=3D1) return true;
+		return foundAcct;
+	}
+
+	function   findCreditAccount(inKey) {
+		var foundAcct=3D new Account();
+		 foundAcct =3D findAccount (inKey);
+		if (foundAcct!=3Dtrue)
+			if ((foundAcct.type!=3D2) &amp;&amp; (foundAcct.type!=3D4)) return tue;
+		return  foundAcct;
+	}
+
+	function  findAccount(inKey) {
+		var key =3D inKey.trim();
+		var  KeyU =3D key.toUpperCase();
+		var found =3D true;
+		var x;
+
+		if (key.toLowerCase()=3D=3D KeyU) {
+			var actNumb =3D key.valueOf();
+			for (x=3D0 ; x &lt; LiveAccounts.length; x++)
+				if (actNumb=3D=3D (LiveAccounts[x].nbr.valueOf()))
+					return LiveAccounts[x];
+		} else {
+			for (x=3D0 ; x &lt; LiveAccounts.length; x++) {
+				if (KeyU =3D=3D(LiveAccounts[x].nickname.toUpperCase())) {
+					return LiveAccounts[x];
+				}
+			}
+		=09
+		}
+		return true;
+	}
+
+function CSI_1_2 (getFirst) {
+		if (setStarts (12, getFirst, true)) CSI_1h(); doCSI (1);
+	}
+
+	function  CSI_3 () {
+
+		var key =3D liveJ.getArgString("Arg4");
+		key =3D trim(key);
+		lastRsp =3D 7;
+		V0 =3D 0;
+		var KeyU =3D key.toUpperCase();
+		var  x;
+
+		if (key.toLowerCase()=3D=3DKeyU) {
+			var actNumb =3D key.valueOf();
+			for (x=3D0 ; x &lt; LiveAccounts.length; x++)
+				if (actNumb=3D=3D(LiveAccounts[x].nbr.valueOf())) {
+					lastRsp =3D 0; break;
+				}
+		} else {
+			for (x=3D0 ; x &lt; LiveAccounts.length; x++)
+				if (KeyU=3D=3D(LiveAccounts[x].nickname.toUpperCase())) {
+					lastRsp =3D 0; break;
+				}
+		}
+
+		if (lastRsp=3D=3D0) {
+			V0 =3D 1;
+			var G=3Dnew Array(3);
+			for (var i=3D0;i&lt;3 ;i++ )
+			{
+				G[i]=3Dnew Array(2);
+			}
+			var la=3Dlive new Account();
+			la =3D liveAccounts[x];
+			G[1][1] =3D la.nickname;
+			G[2][1] =3D la.nbr;
+		}
+	}
+
+function  CSI_4_5 (getFirst) {
+		setStarts(10, getFirst, true);
+		doCSI (4);
+	}
+ function CSI_190 (getFirst) {
+		setStarts(10, getFirst, true);
+		doCSI (190);
+	}
+=09
+function CSI_6_7 (getFirst, getAll) {
+		var ixG =3D 0, startGr;
+		var Max =3D liveJ.getArgInt("Arg5");
+		V0 =3D Max;
+		lastRsp =3D 0;
+		G =3D new Array(3);
+		for (var a=3D0;a<max+1;a++) {=3D"" g[a]=3D"new" array(max+1);=3D"" }=3D""=
+ if=3D"" (getfirst)=3D"" opt6_42=3D"getAll;" startgr=3D"LiveGroups.length;"=
+ else=3D"" var=3D"" stopat=3D"(opt6_42)" ?=3D"" 0=3D"" :=3D"" 1;=3D"" for=
+=3D"" (var=3D"" x=3D"startGr" -=3D"">=3D stopAt ; x--) {
+			G[1][++ixG] =3D LiveGroups[x].name;
+			G[2][ixG] =3Dx;
+			if (ixG &gt;=3D Max) return;
+		}
+		lastRsp =3D 9;
+		V0 =3D ixG;
+	}
+
+
+
+=09
+function  CSI_8_9 (getFirst) {
+
+		var ixG =3D 0, startG, startA;
+		var  Max =3D liveJ.getArgInt("Arg5");
+
+		V0 =3D Max;
+		lastRsp =3D 0;
+	=09
+		G=3Dnew Array(3);
+		for (var i=3D0;i&lt;3 ;i++ )
+		{
+           G[i]=3Dnew Array(Max+1);
+		}
+	=09
+		if (getFirst) {
+			var groupName =3D liveJ.getArgString("Arg6");
+			groupName =3D trim(groupName).toLowerCase();
+			var foundGroup =3D true;
+			for (startG=3DLiveGroups.length - 1; startG &gt;=3D 0; startG--)
+				if (groupName=3D=3D(LiveGroups[startG].name.toLowerCase())) {
+					foundGroup =3D true; break;
+				}
+			startA =3D foundGroup ? 0 : 999;
+		} else {
+			var key =3D new CSI_Key();
+			key.CSI_Key1(LiveJ.getArgString("Arg4"));
+			startG =3D key.key1;
+			startA  =3D key.key2 + 1;
+		}
+
+		var dg=3Dnew Group();
+		dg =3D LiveGroups[startG];
+		groupIdx =3D startG;
+		for (acctIdx=3DstartA ; acctIdx &lt; dg.accounts; acctIdx++) {
+			G[1][++ixG] =3D dg.LiveAccounts[acctIdx].acctName();
+			G[2][ixG] =3D makeKey();
+			if (ixG &gt;=3D Max) return;
+		}
+
+		lastRsp =3D 9;
+		V0 =3D ixG;
+	}
+
+
+
+function  CSI_10_11 (showAll) {
+		setStarts1(5, true); doCSI1 (10, showAll);
+	}
+
+
+
+function  CSI_13_14 ( getFirst) {
+		if (setStarts(10, getFirst, true)) CSI_13h(); doCSI (13);
+	}
+
+=09
+
+	function  CSI_15_16 (getFirst) {
+		setStarts (9, getFirst, true); doCSI1 (15, true);
+	}
+
+	function  CSI_17_18 (getFirst) {
+		if (setStarts (10, getFirst, true)) CSI_17h(); doCSI (17);
+	}
+
+=09
+	function  CSI_20_21 (getFirst) {
+		if (setStarts (10, getFirst, true)) CSI_20h(); doCSI (20);
+	}
+=09
+=09
+
+
+	function  CSI_22_23 (getFirst) {
+		setStarts(12, getFirst, true); doCSI (22);
+	}
+
+	function  CSI_24_25 (getFirst) {
+		if (setStarts(13, getFirst, true)) CSI_24h(); doCSI (24);
+			}
+
+=09
+
+
+	function  CSI_26_27 (getFirst) {
+		if (setStarts(21, getFirst, true)) CSI_26h();
+		doCSI (26);
+	}
+
+    function CSI_28_29 (getFirst,  PrivateOnly) {
+		setStarts (9, getFirst, true); doCSI1 (28, PrivateOnly);
+	}
+ =20
+   function  CSI_34_35 (getFirst,PrivateOnly) {
+		if (setStarts (12, getFirst, true)) CSI_34h(); doCSI (34);
+	}
+   =20
+	function  CSI_36_37 ( getFirst) {
+		setStarts(12, getFirst,true); doCSI (36);
+	}
+
+    function  CSI_52_53 (getFirst) {
+		setStarts (11, getFirst, true); doCSI (52);
+	}
+
+	function  CSI_59_60 (getFirst) {
+		setStarts(10, getFirst, true); doCSI (59);
+	}
+
+	function  CSI_61_62 (getFirst) {
+		setStarts(10, getFirst, true); doCSI (61);
+	}
+=09
+
+=09
+
+	function  CSI_63 () {
+
+        var la=3D new CheckingAccount();
+		 la =3D findChkAccount(liveJ.getArgString("Arg4") + liveJ.getArgString("A=
+rg5"));
+		if (la=3Dtrue) {
+			lastRsp =3D 7;
+			V0 =3D 0;
+			G=3Dnew Array(1);
+			G[1]=3Dnew Array(1);
+		}
+		else {
+			lastRsp =3D 0;
+			V0 =3D 1;
+			G =3D new Array(8);
+			for (var a=3D 0;a&lt;8 ;a++ )
+			{
+				G[a] =3D new Array(2);
+			}
+			G[1][1] =3D da.nickname;
+			G[2][1] =3D da.nbr;
+			G[3][1] =3D da.ledgBal;
+			G[4][1] =3D da.bcrAvailBal;
+			G[5][1] =3D da.availBal;
+			G[6][1] =3D "0.00";
+			G[7][1] =3D "00366";
+		}
+	}
+
+	function CSI_65 () {
+        var la=3D new CreditAccount();
+		 la =3D findCreditAccount(liveJ.getArgString("Arg4") + liveJ.getArgString=
+("Arg5"));
+		if (la=3D=3Dtrue) {
+			lastRsp =3D 7;
+			V0 =3D 0;
+			G=3Dnew Array(1);
+			G[1]=3Dnew Array(1);
+		}
+		else {
+			lastRsp =3D 0;
+			V0 =3D 1;
+			G =3D new Array(8);
+			for (var a=3D 0;a&lt;8 ;a++ )
+			{
+				G[a] =3D new Array(2);
+			}
+			G[1][1] =3D da.nickname;
+			G[2][1] =3D da.nbr;
+			G[3][1] =3D da.ledgBal;
+			G[4][1] =3D da.bcrAvailBal;
+			G[5][1] =3D da.availBal;
+			G[6][1] =3D "0.00";
+			G[7][1] =3D "00366";
+		}
+	}
+
+	function CSI_64 () {
+		setStarts(17, true); doCSI (64);
+	}
+
+	function  CSI_66 () {
+        var la=3D new CreditAccount();
+		 la =3D findCreditAccount(liveJ.getArgString("Arg4") + liveJ.getArgString=
+("Arg5"));
+		if (la=3D=3Dtrue) {
+			lastRsp =3D 7;
+			V0 =3D 0;
+			G=3Dnew Array(1);
+			G[1]=3Dnew Array(1);
+		}
+		else {
+			lastRsp =3D 0;
+			V0 =3D 1;
+		=09
+			G =3D new Array(8);
+			for (var a=3D 0;a&lt;8 ;a++ )
+		=09
+
+
+
+
+
+
+
+
+{
+				G[a] =3D new Array(2);
+			}
+			G[1][1] =3D da.nickname;
+			G[2][1] =3D da.nbr;
+			G[3][1] =3D da.ledgBal;
+			G[4][1] =3D da.availBal;
+			G[5][1] =3D da.bcrAvailBal;
+			G[6][1] =3D da.interest;
+			G[7][1] =3D "00366";
+		}
+	}
+
+	function  CSI_67 () {
+        var da =3D new Account();
+		 da =3D findAccount(J.getArgString("Arg4") + demoJ.getArgString("Arg5"));
+		if (da=3D=3Dnull) {
+			lastRsp =3D 7;
+			V0 =3D 0;
+			G=3Dnew Array(1);
+			G[1]=3Dnew Array(1);
+		}
+		else {
+			lastRsp =3D 0;
+			V0 =3D 1;
+			G=3Dnew Array(9);
+		for (var i=3D0;i&lt;9 ;i++ )
+		{
+           G[i]=3Dnew Array(2);
+		}
+			G[1][1] =3D da.nickname;
+			G[2][1] =3D da.nbr;
+			G[3][1] =3D da.ledgBal;
+			G[4][1] =3D da.availBal;
+			G[5][1] =3D da.bcrAvailBal;
+			G[6][1] =3D da.interest;
+			G[7][1] =3D "00366";
+			G[8][1] =3D da.acctType();
+		}
+	}
+	function CSI_68 () {
+		var g=3D new Group();
+		g =3D DemoGroups[3];
+		var tot =3D 0;
+		var i =3D 0;
+		var a =3D new Array();
+		a =3D g.DemoAccounts;
+		G=3Dnew Array(3);
+		for (var i=3D0;i&lt;3 ;i++ )
+		{
+           G[i]=3Dnew Array(g.accounts + 1);
+		}
+		for (var x=3D0; x &lt; g.accounts; x++)
+			if (a[x].type &lt;=3D 4) {
+				G[1][++i] =3D a[x].nbr;
+				G[2][i] =3D a[x].acctType();
+			}
+		lastRsp =3D 9;
+		V0 =3D i;
+	}
+
+
+=09
+
+	function makeCSI (opt) {
+		switch (opt) {
+			case "1": CSI_1_2(true) ; break;
+			case "2": CSI_1_2(false); break;
+			case "3": CSI_3()       ; break;
+			case "4": CSI_4_5(true) ; break;
+			case "5": CSI_4_5(false); break;
+			case "6": CSI_6_7(true, false) ; break;
+			case "7": CSI_6_7(false, false); break;
+			case "8": CSI_8_9(true) ; break;
+			case "9": CSI_8_9(false); break;
+			case "10": CSI_10_11(true) ; break;
+			case "11": CSI_10_11(false); break;
+			case "13": CSI_13_14(true) ; break;
+			case "14": CSI_13_14(false); break;
+			case "115":
+			case "15": CSI_15_16(true) ; break;
+			case "116":
+			case "16": CSI_15_16(false); break;
+			case "17": CSI_17_18(true) ; break;
+			case "18": CSI_17_18(false); break;
+			case "20": CSI_20_21(true) ; break;
+			case "21": CSI_20_21(false); break;
+			case "122":
+			case "180":
+			case "22": CSI_22_23(true) ; break;
+			case "123":
+			case "181":
+			case "23": CSI_22_23(false); break;
+			case "24": CSI_24_25(true) ; break;
+			case "25": CSI_24_25(false); break;
+			case "26": CSI_26_27(true) ; break;
+			case "27": CSI_26_27(false); break;
+			case "81":
+			case "28": CSI_28_29(true, true) ; break;
+			case "82":
+			case "29": CSI_28_29(false, true); break;
+			case "134":
+			case "34": CSI_34_35(true, true) ; break;
+			case "135":
+			case "35": CSI_34_35(false, true); break;
+			case "36": CSI_36_37(true)  ; break;
+			case "37": CSI_36_37(false) ; break;
+			case "42":
+				CSI_6_7  (true, true);
+				break;
+			case "40":=20
+			case "83":=20
+			case "48": CSI_28_29(true, false) ; break;
+			case "49": CSI_28_29(false, false); break;
+			case "150":
+			case "160":
+			case "50": CSI_36_37(true)  ; break;
+			case "151":
+			case "161":
+			case "51": CSI_36_37(false) ; break;
+			case "52": CSI_52_53(true)  ; break;
+			case "53": CSI_52_53(false) ; break;
+			case "72":
+			case "74":
+			case "56": CSI_4_5(true) ; break;
+			case "73":
+			case "75":
+			case "57": CSI_4_5(false); break;
+			case "59": CSI_59_60(true) ; break;
+			case "60": CSI_59_60(false); break;
+			case "61": CSI_61_62(true) ; break;
+			case "62": CSI_61_62(false); break;
+			case "63": CSI_63(); break;
+			case "64": CSI_64(); break;
+			case "65": CSI_65(); break;
+			case "66": CSI_66(); break;
+			case "67": CSI_67(); break;
+			case "68": CSI_68(); break;
+			case "190" : CSI_190 (true); break;
+			case "191" : CSI_190 (false); break;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+function ESC(){
+
+	this.makeESC =3D makeESC;
+	this.ESC_4 =3D ESC_4;
+	this.ESC_3=3DESC_3;
+	this.ESC_1=3DESC_1;
+	this.createEscrowGroups =3D createEscrowGroups;
+=09
+	function createEscrowGroups (CA) {
+		if (CA.nbr =3D=3D '76789895') {
+			var esc_re =3D new ESC_RE();
+			esc_re.createEscrowGroups (CA);
+			return;
+		} else if (CA.nbr=3D=3D'72673294') {
+			var esc_set =3D new ESC_SET();
+			esc_set.createEscrowGroups (CA);
+			return;
+		} else if (CA.nbr=3D=3D'79679565') {
+			var esc_te =3D new ESC_TE();
+			esc_te.createEscrowGroups (CA);
+			return;
+		} else if (CA.nbr=3D=3D'74578674') {
+			var esc_tax =3D new ESC_TAX();
+			esc_tax.createEscrowGroups (CA);
+			return;
+		} else if (CA.nbr=3D=3D'45756566') {
+			var esc_cont =3D new ESC_CONT();
+			esc_cont.createEscrowGroups (CA);
+			return;
+		} else  if (CA.nbr=3D=3D'73677666') {
+			var esc_ng =3D new ESC_NG();
+			esc_ng.createEscrowGroups (CA);
+			return;
+		} else  if (CA.nbr=3D=3D'45736459') {
+			var esc_la =3D new ESC_LA();
+			esc_la.createEscrowGroups (CA);
+			return;
+		} else  if (CA.nbr=3D=3D'75745665') {
+			var esc_dc =3D new ESC_DC();
+			esc_dc.createEscrowGroups (CA);
+			return;
+		} else  if (CA.nbr=3D=3D'73454545') {
+			var rsc_ny =3D new ESC_NY();
+			rsc_ny.createEscrowGroups (CA);
+			return;
+		} else  {
+			var esc_atty =3D new ESC_ATTY();
+			esc_atty.createEscrowGroups (CA);
+			return;
+		}
+	}
+
+	function ESC_1 () {
+		var makecontorles =3D new makeControlAccts();
+		var CA =3D new Array();
+
+		CA =3D makecontorles.listControls();
+		G =3D new Array(6);
+		for(var i=3D0;i&lt;6;i++){
+			G[i]=3Dnew Array(CA.length + 1);
+		}
+		lastRsp =3D 9;
+		var y =3D 1;
+
+		for (var x =3D 0; x &lt; CA.length; x++) {
+			var ECA =3D new Account();
+				ECA =3D CA[x];			=09
+			G[3][y] =3D ECA.nickname;
+			G[4][y] =3D ECA.nbr;
+			G[5][y++] =3D ECA.acctType();
+		=09
+		}
+		V0 =3D y - 1;
+	=09
+	}
+
+	function ESC_3 () {
+	=09
+		var makecontorles =3D new makeControlAccts();
+		var CA =3D new Array();
+		CA =3D makecontorles.listControls();
+		var SCA =3D CA[0];
+		var Arg4 =3D demoJ.getArgString("Arg4");
+=09
+		if (Arg4.length =3D=3D 0)
+			Arg4 =3D SCA.nbr;
+		var i =3D 0;
+		for (i =3D 0; i &lt; CA.length; i++) {
+			SCA =3D CA[i];
+
+			if (SCA.nbr =3D=3D (Arg4)) {
+				createEscrowGroups (SCA);
+				lastRsp =3D 0;
+				V0 =3D 1;
+				G =3D new Array(5);
+				for(var i=3D0;i&lt;5;i++){
+					G[i]=3Dnew Array(2);
+				}
+				G[1][1] =3D SCA.nbr;
+				G[2][1] =3D SCA.acctType();
+				G[3][1] =3D SCA.nickname;
+				G[4][1] =3D SCA.FIMP;
+				return;
+			}
+		}
+		lastRsp =3D 156;
+		V0 =3D 0;
+	}
+
+	function ESC_4 () {
+	=09
+		var makeregAccts =3D new makeRegAccts();
+		makeregAccts.createAcctArray ();
+		lastRsp =3D 0;
+		V0 =3D 0;
+		G =3D 0;
+	=09
+	}
+
+	function makeESC (opt) {
+		switch (opt) {
+			case "1": ESC_1(); break;
+			case "3": ESC_3(); break;
+			case "4": ESC_4(); break;
+		}
+	=09
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+function ESC(){
+
+	this.makeESC =3D makeESC;
+	this.ESC_4 =3D ESC_4;
+	this.ESC_3=3DESC_3;
+	this.ESC_1=3DESC_1;
+	this.createEscrowGroups =3D createEscrowGroups;
+=09
+	function createEscrowGroups (CA) {
+		if (CA.nbr =3D=3D '76789895') {
+			var esc_re =3D new ESC_RE();
+			esc_re.createEscrowGroups (CA);
+			return;
+		} else if (CA.nbr=3D=3D'72673294') {
+			var esc_set =3D new ESC_SET();
+			esc_set.createEscrowGroups (CA);
+			return;
+		} else if (CA.nbr=3D=3D'79679565') {
+			var esc_te =3D new ESC_TE();
+			esc_te.createEscrowGroups (CA);
+			return;
+		} else if (CA.nbr=3D=3D'74578674') {
+			var esc_tax =3D new ESC_TAX();
+			esc_tax.createEscrowGroups (CA);
+			return;
+		} else if (CA.nbr=3D=3D'45756566') {
+			var esc_cont =3D new ESC_CONT();
+			esc_cont.createEscrowGroups (CA);
+			return;
+		} else  if (CA.nbr=3D=3D'73677666') {
+			var esc_ng =3D new ESC_NG();
+			esc_ng.createEscrowGroups (CA);
+			return;
+		} else  if (CA.nbr=3D=3D'45736459') {
+			var esc_la =3D new ESC_LA();
+			esc_la.createEscrowGroups (CA);
+			return;
+		} else  if (CA.nbr=3D=3D'75745665') {
+			var esc_dc =3D new ESC_DC();
+			esc_dc.createEscrowGroups (CA);
+			return;
+		} else  if (CA.nbr=3D=3D'73454545') {
+			var rsc_ny =3D new ESC_NY();
+			rsc_ny.createEscrowGroups (CA);
+			return;
+		} else  {
+			var esc_atty =3D new ESC_ATTY();
+			esc_atty.createEscrowGroups (CA);
+			return;
+		}
+	}
+
+	function ESC_1 () {
+		var makecontorles =3D new makeControlAccts();
+		var CA =3D new Array();
+
+		CA =3D makecontorles.listControls();
+		G =3D new Array(6);
+		for(var i=3D0;i&lt;6;i++){
+			G[i]=3Dnew Array(CA.length + 1);
+		}
+		lastRsp =3D 9;
+		var y =3D 1;
+
+		for (var x =3D 0; x &lt; CA.length; x++) {
+			var ECA =3D new Account();
+				ECA =3D CA[x];			=09
+			G[3][y] =3D ECA.nickname;
+			G[4][y] =3D ECA.nbr;
+			G[5][y++] =3D ECA.acctType();
+		=09
+		}
+		V0 =3D y - 1;
+	=09
+	}
+
+	function ESC_3 () {
+	=09
+		var makecontorles =3D new makeControlAccts();
+		var CA =3D new Array();
+		CA =3D makecontorles.listControls();
+		var SCA =3D CA[0];
+		var Arg4 =3D demoJ.getArgString("Arg4");
+=09
+		if (Arg4.length =3D=3D 0)
+			Arg4 =3D SCA.nbr;
+		var i =3D 0;
+		for (i =3D 0; i &lt; CA.length; i++) {
+			SCA =3D CA[i];
+
+			if (SCA.nbr =3D=3D (Arg4)) {
+				createEscrowGroups (SCA);
+				lastRsp =3D 0;
+				V0 =3D 1;
+				G =3D new Array(5);
+				for(var i=3D0;i&lt;5;i++){
+					G[i]=3Dnew Array(2);
+				}
+				G[1][1] =3D SCA.nbr;
+				G[2][1] =3D SCA.acctType();
+				G[3][1] =3D SCA.nickname;
+				G[4][1] =3D SCA.FIMP;
+				return;
+			}
+		}
+		lastRsp =3D 156;
+		V0 =3D 0;
+	}
+
+	function ESC_4 () {
+	=09
+		var makeregAccts =3D new makeRegAccts();
+		makeregAccts.createAcctArray ();
+		lastRsp =3D 0;
+		V0 =3D 0;
+		G =3D 0;
+	=09
+	}
+
+	function makeESC (opt) {
+		switch (opt) {
+			case "1": ESC_1(); break;
+			case "3": ESC_3(); break;
+			case "4": ESC_4(); break;
+		}
+	=09
+	}
+
+}
+
+
+
+
+
+function makeControlAccts(){
+
+this.listControls =3D listControls;
+this.makeList =3D makeList;
+this.addControls=3D addControls;
+var A =3D new Array();
+
+function listControls () {
+	var i =3D makeList(1);
+	var AA =3D new Array();
+	=09
+		for (var x=3D0; x &lt; i; x++) {
+			AA[x]=3Dnew Account();
+
+			AA[x] =3D A[x];
+		=09
+		}
+
+		return AA;
+	=09
+	}
+
+	function makeList(groupi) {
+
+		for(var a=3D0;a&lt;10;a++){
+			A[a]=3Dnew Account();
+		}
+		var i =3D 0;
+		var checkingAccount =3D new CheckingAccount();
+
+		A[i++] =3D checkingAccount.CheckingAccount1(1,groupi,"76789895", "Real Es=
+tate", 14949, 838388, 838388, " ", false, false);
+
+		if (ESC_Count!=3D'2') {
+			return 1;
+		}
+
+		A[i++] =3D checkingAccount.CheckingAccount1(1,groupi,"45756566", "Contrac=
+ts", 0,0,0, " ", false, false);
+		if (FIMP !=3D'008') {
+			A[i++] =3D checkingAccount.CheckingAccount2(1,groupi,"75745665", "DC Off=
+ice", 6000,2000,0, " ", false, false, "008");
+		}
+		if (FIMP!=3D'013') {
+			A[i++] =3D checkingAccount.CheckingAccount2(1,groupi,"45736459", "LA Off=
+ice", 0,0,6400, " ", false, false, "013");
+		}
+		if (FIMP!=3D'000') {
+			A[i++] =3D checkingAccount.CheckingAccount2(1,groupi,"73454545", "NY Off=
+ice", 0,0,6400, " ", false, false, "000");
+		}
+		A[i++] =3D checkingAccount.CheckingAccount1(1,groupi,"72673294", "Settlem=
+ents",  0,0,0, " ", false, false);
+		A[i++] =3D checkingAccount.CheckingAccount1(1,groupi,"79679565", "Trust-E=
+state", 0,0,500000, " ", false, false);
+		A[i++] =3D checkingAccount.CheckingAccount1(1,groupi,"74578674", "Tax Pla=
+nning", 0,0,30000, " ", false, false);
+		A[i++] =3D checkingAccount.CheckingAccount1(1,groupi,"73677666", "", 6000=
+,2000,0, " ", false, false);
+		A[i++] =3D checkingAccount.CheckingAccount1(1,groupi,"76586877", "", 2390=
+0,23900,23900, " ", false, false);
+
+		return i;
+	}
+
+	function addControls (AA, groupi, ai) {
+
+		A =3D new Array();
+
+		var i =3D makeList(groupi);
+		var i2 =3D ai;
+
+		for (var x=3D0; x &lt; i; x++) {
+			AA[i2++] =3D A[x];
+		}
+		return i2;
+	}
+
+=09
+}
+=09
+
+
+
+
+
+
+
+
+	var bat =3D "Business Access ";
+	var batIn =3D "Transfer In";
+	var batOut =3D "Transfer Out";
+	var curDate =3D new Date();
+
+function TJ()
+{
+    this.TJentry =3D new Array();
+	this.dayAct =3D new Array();
+	this.TJ1=3D  TJ1;
+	this.setBalances =3D setBalances;
+	this.setPrevBusDate =3D setPrevBusDate;
+	this.setError =3D  setError;
+	this.setActivities  =3D setActivities;
+	this.TJI1 =3D  TJI1;
+	this.TJI2 =3D  TJI2;
+	this.TJI3 =3D  TJI3;
+	this.TJI1D =3D  TJI1D;
+	this.TJI1_Response  =3D  TJI1_Response;
+	this.TJI2_Response  =3D  TJI2_Response;
+	this.TJI3_Response  =3D  TJI3_Response;
+	this.TJI4_Response   =3D  TJI4_Response;
+
+	function setBalances(availBal, ledgBal) {
+		var difference;
+		var availBal1 =3D availBal;
+		var ledgBal1 =3D ledgBal;
+
+		for (var x=3D0; x &lt; this.dayAct.length; x++) {
+			this.dayAct[x].availBal =3D availBal1;
+			this.dayAct[x].ledgBal  =3D ledgBal1;
+			difference =3D this.dayAct[x].credits + this.dayAct[x].debits;
+			availBal1 +=3D difference;
+			ledgBal1  +=3D difference;
+		}
+	}
+
+	function setPrevBusDate () {
+	=09
+		var weekDay =3D curDate.getUTCDay();
+
+		if (weekDay =3D=3D 1) weekDay =3D -2;
+		else {
+			if (weekDay =3D=3D 2) weekDay =3D -3;
+			else weekDay =3D -1;
+		}
+	=09
+	}
+
+=09
+	function setError (error) {
+		V0 =3D 0;
+		lastRsp =3D error;
+		G =3D new Array();
+	}
+
+	function setActivities(dayCount) {
+
+		var startIdx =3D 0;
+		var activeDays =3D 0;
+		var y =3D 0;
+
+		curDate =3D new Date();
+
+		for (var x =3D 0; x &lt; dayCount.length; x++)
+			if (dayCount[x] &gt; 0) activeDays++;
+
+		this.dayAct =3D new Array(activeDays);
+		for(var x=3D0; x &lt; activeDays; x++)
+		{
+			this.dayAct[0] =3D new DayActivity();
+		}
+
+		var dayActivity =3D new DayActivity();
+		for (var x =3D 0; x &lt; dayCount.length; x++) {
+			setPrevBusDate();
+			var thisDayCount =3D dayCount[x];
+			if (thisDayCount &gt; 0) {
+				this.dayAct[y++] =3D dayActivity.DayActivity1(this.TJentry, curDate, th=
+isDayCount, startIdx);
+				startIdx +=3D thisDayCount;
+			}
+		}
+	}
+
+	function TJI1() {
+		var acctnumber =3D demoJ.getArgString("Arg4");
+		var queue =3D demoJ.getArgInt("Arg8");
+		var responses =3D demoJ.getArgInt("Arg7");
+		var acct =3D demoJ.getAcctByNumber (acctnumber);
+		if (acct =3D=3D undefined) {
+			setError (-1);
+			return;
+		}
+		TJI1_Response (queue, responses, acct.availBal, acct.ledgBal);
+	}
+
+
+	function TJI2() {
+		var queue  =3D demoJ.getArgInt("Arg8");
+		TJI2_Response (queue);
+	}
+
+	function TJI3() {
+		var acctnumber =3D demoJ.getArgString("Arg4");	=09
+		var acct =3D demoJ.getAcctByNumber (acctnumber);
+		if (acct=3D=3Dundefined) {
+			setError (-1);
+			return;
+		}
+		TJI3_Response (demoJ.getArgInt("Arg8"));
+	}
+
+	function TJI1D (gIx, JulDate, Desc, amount, queueName) {
+		G[1][gIx] =3D "D";
+		G[2][gIx] =3D JulDate;
+		G[3][gIx] =3D Desc;
+		G[4][gIx] =3D amount;
+		G[5][gIx] =3D "00000";
+		G[6][gIx] =3D queueName;
+	}
+
+	function TJI1_Response (queue, responses, availBal, ledgBal) {
+		var earliest =3D new Date(0);
+		var latest =3D new Date();
+		TJI4_Response (queue, availBal, ledgBal, earliest, latest, false);
+	}
+
+	function TJI2_Response (queue) {
+
+		var responses =3D 12;
+		var startPos =3D (queue - 1) * responses;
+		var counter =3D -1;
+		var gIx =3D 0;
+	=09
+		G =3D new Array(7);
+		for(var x=3D0; x&lt;7; x++)
+		{
+			G[x] =3D new Array(responses+1);
+		}
+		var queueName =3D queue;
+
+		V0 =3D responses;
+		lastRsp =3D 3;
+
+		for (var x =3D 0; x &lt; dayAct.length; x++) {
+
+			if (dayAct[x].debits !=3D 0) {
+				if (++counter &gt;=3D startPos) {
+					G[1][++gIx] =3D (x=3D=3D3) ? "L" : "H";
+					G[2][gIx] =3D JulDate;
+					G[3][gIx] =3D dayAct[x].debits * -1;
+					G[4][gIx] =3D "00000";
+					G[6][gIx] =3D queueName;
+					if (gIx &gt;=3D responses) return;
+				}
+
+				for (var y =3D 0; y &lt; TJs.length; y++) {
+					if (++counter &gt;=3D startPos) {
+							if (gIx &gt;=3D responses) return;
+						}
+				}
+			}
+		}
+		lastRsp =3D 9;
+		V0 =3D gIx;
+	}
+
+	function TJI3_Response(queue) {
+
+		var responses =3D 12;
+		var startPos =3D (queue - 1) * responses;
+		var counter =3D -1;
+		var gIx =3D 0;
+
+		G =3D new Array(7);
+		for(var x=3D0; x&lt;7; x++)
+		{
+			G[x] =3D new Array(responses+1);
+		}
+	=09
+		lastRsp =3D 3;
+		V0 =3D responses;
+		var queueName =3D queue;
+
+		for (var x =3D 0; x &lt; dayAct.length; x++) {
+
+			if (dayAct[x].credits!=3D0) {
+				if (++counter &gt;=3D startPos) {
+					G[1][++gIx] =3D "H";
+					G[2][gIx] =3D JulDate;
+					G[3][gIx] =3D dayAct[x].credits;
+					G[5][gIx] =3D "00000";
+					G[6][gIx] =3D queueName;
+					if (gIx &gt;=3D responses) return;
+				}
+
+				for (var y =3D 0; y &lt; TJs.length; y++) {
+					if (TJ.amount &gt; 0)
+						if (++counter &gt;=3D startPos) {
+							if (gIx &gt;=3D responses) return;
+						}
+				}
+			}
+		}
+		lastRsp =3D 9;
+		V0 =3D gIx;
+	}
+
+	function TJI4_Response (queue, availBal, ledgBal, startDay, endDay, header=
+Always) {
+
+		var responses =3D 14;
+		var startPos =3D (queue - 1) * responses;
+		var counter =3D -1;
+		var gIx =3D 0;
+
+		setBalances (availBal, ledgBal);
+		G =3D new Array(7);
+		for(var x=3D0; x&lt;7; x++)
+		{
+			G[x] =3D new Array(responses+1);
+		}
+		lastRsp =3D 3;
+		V0 =3D responses;
+	=09
+		var s1 =3D startDay.getTime();
+		var s2 =3D endDay.getTime();
+
+		var queueName =3D queue;
+
+		for (var x =3D 0; x &lt; dayAct.length; x++) {
+			var headerWritten =3D false;
+			var tDate =3D TJdate.getTime();
+
+			if ((tDate &gt; s1) &amp;&amp; (tDate &lt; s2)) {
+				if ((TJs.length &gt; 0) || headerAlways) {
+					if (++counter &gt;=3D startPos) {
+						G[1][++gIx] =3D (x=3D=3D3) ? "L" : "H";
+						G[2][gIx] =3D dayAct[x].ledgBal;
+						G[3][gIx] =3D dayAct[x].availBal;
+						G[4][gIx] =3D JulDate;
+						G[5][gIx] =3D "00000";
+						G[6][gIx] =3D queueName;
+						if (gIx &gt;=3D responses) return;
+					}
+				}
+
+				for (var y =3D 0; y &lt; TJs.length; y++) {
+					if (++counter &gt;=3D startPos) {
+						if (gIx &gt;=3D responses) return;
+					}
+				}
+			}
+		}
+		lastRsp =3D (gIx=3D=3D0 ? 6 : 9);
+		V0 =3D gIx;
+	}
+
+	function TJ1() {
+		return curDate;
+	=09
+	}
+}
+
+
+
+
+
+
+
+
+
+var DemoGroups=3D new Array();
+var FIMP=3D"546";
+var ESC_Count;
+var V0;
+var lastRsp;
+var G =3D new Array();
+var DemoAccounts =3D new Array();
+var calOtherDay ;
+var calendar;
+var calOtherDay;
+var dtToday=3Dnew Date();
+var asOfDate;
+var nextDateG;
+var TJIo =3D new TJ();
+TJIo.TJ1();
+
+function DemoJ(){
+		this.callArgs;
+		this.getArgString =3DgetArgString;
+		this.getArgInt =3D getArgInt;
+		this.makeQ =3DmakeQ;
+		this.getGXlength =3D getGXlength;
+		this.getGYlength =3D getGYlength;
+		this.getV0 =3D getV0;
+		this.getLastRsp =3D getLastRsp;
+		this.getG =3D getG;
+		this.setFIMP1 =3D setFIMP1;
+		this.prevBusDate =3D prevBusDate;
+		this.dateToJulString =3D dateToJulString;
+		this.dateGPlus10 =3D dateGPlus10;
+		var currentYear =3D new Date().getFullYear();
+		var currentDate =3D new Date().getDate();
+		var currentMonth =3D new Date().getMonth();
+
+var JSO =3D true;
+
+
+function getArgString (arg) {
+		if (!JSO) {
+			var s1n =3D arg.substring(3);
+			if (s1n &gt;=3D callArgs.length)
+				return "";
+			return callArgs[s1n];
+		}
+		var Arglist =3D new Array(1);
+		Arglist[0] =3D arg;
+	=09
+		return top.getArg(Arglist);
+	}
+
+	function getArgInt (argname) {
+		var argv =3D getArgString(argname);
+		return argv;
+	}
+
+
+
+
+function makeQ () {
+		V0 =3D 0;
+		lastRsp =3D 0;
+		var escobj =3D new ESC();
+		var csiobj =3D new CSI();
+		var mraobj =3D new makeRegAccts();
+		var ccaobj =3D new CCA();
+		dateGPlus10();
+		prevBusDate();
+
+		var transaction =3D getArgString("Arg2");
+		var opt =3D getArgInt("Arg3");
+		if (transaction=3D=3D'FMP'){
+			setFIMP1();
+		}else if (transaction=3D=3D'ESC'){
+			escobj.makeESC (opt);
+		}
+		if (DemoGroups =3D=3D'' || DemoGroups =3D=3Dundefined) {
+			mraobj.createAcctArray();
+		}
+
+		if (transaction=3D=3D'CSI') {=09
+			csiobj.makeCSI(opt);
+		}else if (transaction=3D=3D'TJI'){
+				tjiobj.makeTJI (opt);
+		}else if (transaction=3D=3D'CCA'){
+				ccaobj.makeCCA (opt);
+		}else if (transaction=3D=3D'OLR'){
+				olraobj.makeOLR (opt);
+		}else if (transaction=3D=3D'BAS'){
+					basobj.makeBAS (opt);
+		}
+	=09
+		if (!JSO) {
+			splitResponse (makeResponseString.constructResponse());
+			sendNextResp();
+
+		}
+		=09
+	}
+
+function datePlusX (inc) {
+		calOtherDay.setTime (new Date());
+		return dateToJulString(calOtherDay);
+	}
+
+	function dateToJulString(myDate) {
+		return myDate.substring(2);
+	}
+
+	function getGXlength () {=20
+		return G.length;=20
+	}
+=09
+	function getGYlength () {
+		if (G.length &lt; 1) return 0;
+		return G[0].length;
+	}
+
+	function getV0() {=20
+		return V0;
+	}
+
+
+	function getLastRsp() {
+		return lastRsp;
+	}
+
+	function getG(i1, i2) {
+		this.G =3D new Array(i1);
+			for(var i=3D0;i<i1;i++){ this.g[i]=3D"new" array(i2);=3D"" }=3D"" return=
+=3D"" g[i1][i2];=3D"" function=3D"" setfimp1=3D"" ()=3D"" {=3D"" var=3D"" v=
+0=3D"0;" lastrsp=3D"0;" g=3D"new" array();=3D"" fimp=3D"getArgString(&quot;=
+Arg3&quot;);" esc_count=3D"getArgString(&quot;Arg4&quot;);" prevbusdate()=
+=3D"" yearstartdate=3D"new" date(currentyear,0,1);=3D"" asofdate=3D"days_be=
+tween(YearStartDate," new=3D"" date());=3D"" days_between(date1,=3D"" date2=
+)=3D"" *=3D"" 60=3D"" 24=3D"" tilldate;=3D"" date1_ms=3D"date1.getTime()" d=
+ate2_ms=3D"date2.getTime()" difference_ms=3D"Math.abs(date1_ms" -=3D"" date=
+2_ms)=3D"" noofdays=3D"Math.round(difference_ms/ONE_DAY)" 1;=3D"" tilldate=
+=3D"currentYear.toString().substring(2,4)+noOfDays.toString();" dategplus10=
+=3D"" nextdateg1=3D"new" date(currentyear,currentmonth,currentdate+10);=3D"=
+" date10;=3D"" month;=3D"" if(nextdateg1.getmonth().tostring().length=3D"" =
+<=3D"1){" month=3D"0" +nextdateg1.getmonth().tostring();=3D"" }else{=3D"" i=
+f(nextdateg1.getdate().tostring().length=3D"" date10=3D"0" +nextdateg1.getd=
+ate().tostring();=3D"" nextdateg=3D"month+&quot;/&quot;+date10+&quot;/&quot=
+;+nextDateG1.getFullYear().toString().substring(2,4);" checkingaccount()=3D=
+"" totcr;=3D"" totdb;=3D"" this.checkingaccount1=3D"CheckingAccount1;" this=
+.checkingaccount2=3D"CheckingAccount2;" this.checkingaccount3=3D"CheckingAc=
+count3;" checkingaccount1=3D"" (type,=3D"" groupindex,=3D"" nbr,=3D"" nickn=
+ame,=3D"" ledgbal,=3D"" availbal,=3D"" bcravailbal,=3D"" pet,=3D"" privacy,=
+=3D"" ckplus)=3D"" account=3D"new" account();=3D"" account.account1=3D"" nb=
+r,nickname,ledgbal,=3D"" bcravailbal,pet,=3D"" ckplus,=3D"" fimp);=3D"" dif=
+f=3D"Math.abs(account.ledgBal" account.availbal)=3D"" +=3D"" 133.35;=3D"" t=
+his.totcr=3D"diff" 2.1;=3D"" this.totdb=3D"diff" 1.9;=3D"" account;=3D"" ch=
+eckingaccount2=3D"" fimp)=3D"" account.account1(type,=3D"" checkingaccount3=
+=3D"" fimp){=3D"" cdamt;=3D"" cd7dayamt;=3D"" cdcurval;=3D"" cd7dayminbal;=
+=3D"" cdrate;=3D"" cdyield;=3D"" cdrollover;=3D"" cdterm;=3D"" cdmatdate;=
+=3D"" cd7daycd;=3D"" cdmatcd;=3D"" cdtoacct;=3D"" cdmatpet;=3D"" cdmaturity=
+;=3D"" cd_account(){=3D"" terms=3D"new" array("1=3D"" year",=3D"" "2=3D"" "=
+5=3D"" "3=3D"" month",=3D"" "6=3D"" month")=3D"" ;=3D"" daysinterm=3D"new" =
+array(365,=3D"" 730,=3D"" 1825,=3D"" 90,=3D"" 181)=3D"" this.cd_account1=3D=
+"CD_Account1;" grtotbal=3D"" tot=3D"0;" da=3D"new" for=3D"" (var=3D"" x=3D"=
+0;" da.length;=3D"" x++)=3D"" if=3D"" (da[x].type=3D"=3D5)" tot;=3D"" cd_ac=
+count1=3D"" nickname,ledgbal,=3D"" privacy)=3D"" false,=3D"" v2=3D"Math.flo=
+or" (math.random()=3D"" 5);=3D"" v1=3D"(Math.round" (((math.random()=3D"" 3=
+)=3D"" 100))=3D"" 100;=3D"" this.cdamt=3D"ledgBal;" this.cdcurval=3D"(Math.=
+round(ledgBal" 117.43))=3D"" this.cdterm=3D"Terms[v2];" *daysinterm[v2]);=
+=3D"" this.cdrate=3D"v1;" this.cdyield=3D"v1;" this.cd7daycd=3D"7 Day CD Te=
+xt" this.cd7dayamt=3D"43.29;" this.cdmatcd=3D"E" this.cdtoacct=3D"George's =
+Acct" this.cdrollover=3D"1" this.cdmaturity=3D"2" this.cdmatpet=3D"P" this.=
+cd7dayminbal=3D"500;" makeregaccts(){=3D"" this.createacctarray=3D"createAc=
+ctArray;" a=3D"new" mcaccts=3D"new" makecontrolaccts();=3D"" for(var=3D"" a=
+[a]=3D"new" createacctarray=3D"" grpobj=3D"new" group();=3D"" foreignfimp=
+=3D"(FIMP=3D=3D'000'" ||=3D"" ?=3D"" '014'=3D"" :=3D"" '000';=3D"" newyork=
+=3D"(FIMP=3D=3D'000'" groupnames=3D"[&quot;Not" grouped","operations","head=
+quarters","control","citicards",(newyork=3D"" "citi=3D"" (fsb)"=3D"" (na)")=
+,"ace=3D"" realty","ace=3D"" agencies"];=3D"" i=3D"0;" checkingaccount=3D"n=
+ew" checkingaccount();=3D"" cd_account=3D"new" cd_account();=3D"" creditacc=
+ount=3D"new" creditaccount();=3D"" a[i++]=3D"checkingAccount.CheckingAccoun=
+t1(1,0,&quot;034646738222&quot;," "escrow",=3D"" 836.18,=3D"" "=3D"" ",=3D"=
+" false);=3D"" "",=3D"" 45100,300,300,=3D"" "dpayment",=3D"" 15500,300,300,=
+=3D"" "finance=3D"" acct",=3D"" 99000,=3D"" 519.20,=3D"" 11150.5,=3D"" "ove=
+rdraft",=3D"" 80000,=3D"" 72940.36,=3D"" 30000,=3D"" "savings2",=3D"" 5000.=
+73,=3D"" 90.5,=3D"" "cd2",=3D"" 20000,300,300,=3D"" "cd1",=3D"" 10000,300,3=
+00,=3D"" 90000,=3D"" 33095.02,=3D"" 11205.55,=3D"" "remote",=3D"" 34600,=3D=
+"" 18301.66,=3D"" foreignfimp);=3D"" "expense",=3D"" 1500,=3D"" 4575,=3D"" =
+3500,"=3D"" "travel",=3D"" 750125,=3D"" 1092005.98,=3D"" "savings3",=3D"" 2=
+0394.12,=3D"" 10923.56,=3D"" 80.17,=3D"" "ready=3D"" credit=3D"" 2000",=3D"=
+" "imma5",=3D"" 4010.75,=3D"" 15000,300,300,=3D"" "payroll",=3D"" 3576.43,=
+=3D"" 4090.98,=3D"" 3075.93,=3D"" "commissions",=3D"" 25000,=3D"" "petty=3D=
+"" cash",=3D"" 575.25,=3D"" 475.82,=3D"" 403.95,=3D"" 575034.8,=3D"" 551278=
+.23,=3D"" 310078.65,=3D"" "forecasting",=3D"" 10000,=3D"" 12500,=3D"" 9825.=
+75,=3D"" "receivables",=3D"" 9010.5,=3D"" "retainers",=3D"" 21980.19,=3D"" =
+18001.96,=3D"" "savings1",=3D"" 40.98,=3D"" "credit=3D"" line=3D"" 1",=3D""=
+ 55000,=3D"" 25033.33,=3D"" 30888.99,=3D"" "imma1",=3D"" 12009.93,=3D"" "im=
+ma2",=3D"" 23409.22,=3D"" "imma3",=3D"" 54011.54,=3D"" 1009.93,=3D"" "imma4=
+",=3D"" 925.75,=3D"" "mpbl",=3D"" 0,=3D"" 50100,=3D"" 20000,=3D"" (esc_coun=
+t!=3D"0" )=3D"" (a,=3D"" 3,=3D"" i);=3D"" grpobj.creategroups=3D"" (groupna=
+mes,=3D"" a,=3D"" group(){=3D"" this.name;=3D"" this.accounts;=3D"" this.de=
+moaccounts=3D"new" this.creategroups=3D"createGroups;" group(=3D"" name,=3D=
+"" size)=3D"" this.name=3D"name;" this.accounts=3D"0;" array(size);=3D"" th=
+is.demoaccounts[x]=3D"new" creategroups=3D"" asize)=3D"" i;=3D"" demoaccoun=
+ts=3D"new" array(asize);=3D"" demoaccounts[x]=3D"new" i<asize;=3D"" i++)=3D=
+"" demoaccounts[i]=3D"A[i];" groupindex=3D"0;" grouplength=3D"GroupNames.le=
+ngth;" groupindexes=3D"new" array(grouplength);=3D"" groupsizes=3D"new" gro=
+uplength;=3D"" groupsizes[i]=3D"0;" groupindexes[i]=3D"-1;" asize;=3D"" gro=
+upsizes[a[i].groupindex]++;=3D"" (groupsizes[i]=3D""> 0) {
+				GroupIndexes[i] =3D GroupIndex++;
+			}
+		}
+
+		for(var y=3D0;y<groupindex;y++){ demogroups=3D"new" array();=3D"" demogro=
+ups[y]=3D"new" group();=3D"" }=3D"" var=3D"" gi=3D"0;" for=3D"" (var=3D"" i=
+=3D"0;" <=3D"" groupsizes.length;=3D"" i++)=3D"" {=3D"" v1=3D"GroupSizes[i]=
+;" if=3D"" (v1=3D"" 1)=3D"" continue;=3D"" demogroups[gi++]=3D"new" group(g=
+roupnames[i],=3D"" v1);=3D"" asize;=3D"" a1=3D"new" =3D=3D"" groupindexes[a=
+1.groupindex];=3D"" dg=3D"new" dg.demoaccounts[dg.accounts++]=3D"A1;" stppa=
+ymtlimit=3D"10;" stppaymtfee=3D"5;" function=3D"" account(){=3D"" this.acco=
+unt1=3D"Account1;" this.accttype=3D"acctType;" this.intytd=3D"intYTD;" this=
+.typename=3D"typeName;" this.acctname=3D"acctName;" this.imra=3D"imra;" thi=
+s.ckplus1=3D"ckPlus1;" this.privacy1=3D"privacy1;" this.gravailbcrbal=3D"gr=
+AvailBcrBal;" this.gravailbal=3D"grAvailBal;" this.grledgbal=3D"grLedgBal;"=
+ this.grbal=3D"grBal;" this.getavailbal=3D"getavailBal;" this.type;=3D"" th=
+is.groupindex;=3D"" nickname;=3D"" nbr;=3D"" pet;=3D"" ledgbal;=3D"" availb=
+al;=3D"" bcravailbal;=3D"" bcrledgbal=3D"98.76;" privacy;=3D"" ckplus;=3D""=
+ fimp;=3D"" open=3D"true;" this.account;=3D"" this.typenames=3D"[&quot;Chec=
+king&quot;," "savings",=3D"" "credit",=3D"" "imma",=3D"" "cd",=3D"" "loan",=
+=3D"" "cards"];=3D"" account1=3D"" (type,=3D"" groupindex,=3D"" nbr,nicknam=
+e,ledgbal,=3D"" availbal,=3D"" bcravailbal,=3D"" pet,=3D"" privacy,=3D"" ck=
+plus,=3D"" fimp)=3D"" this.type=3D"type;" this.groupindex=3D"groupIndex;" t=
+his.nickname=3D"nickname;" this.nbr=3D"nbr;" this.pet=3D"PET;" this.ledgbal=
+=3D"ledgBal;" this.availbal=3D"availBal;" this.bcravailbal=3D"bcrAvailBal;"=
+ this.bcrledgbal=3D"98.76;" this.privacy=3D"privacy;" this.ckplus=3D"ckPlus=
+;" this.fimp=3D"FIMP;" this.open=3D"true;" getavailbal(){=3D"" return=3D"" =
+this.availbal;=3D"" accttype()=3D"" grbal=3D"" (=3D"" da,=3D"" acctlength,=
+=3D"" type,=3D"" func)=3D"" tot=3D"0;" x=3D"0;" acctlength;=3D"" x++)=3D"" =
+(da[x].type=3D"=3Dtype)" switch=3D"" (func)=3D"" case=3D"" 1:=3D"" +=3D"DA[=
+x].ledgBal;" break;=3D"" 2:=3D"" tot;=3D"" grledgbal=3D"" (type)=3D"" da=3D=
+"new" for(var=3D"" a=3D"0;" a<=3D"" demoaccounts.length;a++){=3D"" da[a]=3D=
+"new" account();=3D"" (da,=3D"" da.length,=3D"" 1);=3D"" gravailbal=3D"" da=
+.length;=3D"" gravailbcrbal=3D"" privacy1()=3D"" ?=3D"" "y"=3D"" :=3D"" "n"=
+;=3D"" ckplus1()=3D"" imra()=3D"" (this.type=3D"=3D4)" "imma"=3D"" "----";=
+=3D"" acctname()=3D"" (this.nickname!=3D"" )=3D"" this.nbr;=3D"" typename()=
+=3D"" this.typenames[this.type=3D"" -=3D"" 1];=3D"" intytd()=3D"" (interest=
+=3D"" *=3D"" this.ledgbal);=3D"" creditaccount(){=3D"" this.totcreditavail=
+=3D"totCreditAvail;" this.grtotbal=3D"grTotBal;" this.delinquent=3D"delinqu=
+ent;" this.latecharge=3D"lateCharge;" this.minpaymt=3D"minPaymt;" this.crli=
+ne=3D"crLine;" this.cravail=3D"crAvail;" this.principal=3D"principal;" this=
+.interest=3D"interest;" this.amtdue=3D"amtDue;" this.pastdueamt=3D"pastDueA=
+mt;" this.amtowed=3D"amtOwed;" this.datedue=3D"dateDue;" this.creditaccount=
+1=3D"CreditAccount1;" this.creditaccount2=3D"CreditAccount2;" totcreditavai=
+l()=3D"" la=3D"LiveAccounts;" la.length;=3D"" x++){=3D"" (la[x].type=3D"=3D=
+" 3)=3D"" grtotbal=3D"" ()=3D"" 5)=3D"" insurance=3D"100;" delinquent()=3D"=
+" "1";=3D"" latecharge()=3D"" (math.ceil(this.interest()=3D"" 5000)=3D"" 10=
+);=3D"" minpaymt()=3D"" (math.ceil(this.amtdue()=3D"" 100)=3D"" 100);=3D"" =
+crline()=3D"" 999,999.99;=3D"" cravail(avilbal)=3D"" avilbal;=3D"" principa=
+l()=3D"" 43167.88;=3D"" interest()=3D"" 10024.87;=3D"" amtdue()=3D"" 1539.4=
+5;=3D"" pastdueamt()=3D"" 59.69;=3D"" amtowed()=3D"" 48302.25;=3D"" datedue=
+()=3D"" nextdateg;=3D"" creditaccount1=3D"" nbr,=3D"" nickname,=3D"" ledgba=
+l,=3D"" ckplus)=3D"" account=3D"new" account.account1(type,=3D"" livej.fimp=
+);=3D"" account;=3D"" creditaccount2=3D"" fimp);=3D"" esc_re(){=3D"" ca=3D"=
+new" this.createescrowgroups=3D"createEscrowGroups;" createescrowgroups=3D"=
+" (ca)=3D"" groupnames=3D"[" "james=3D"" illuminati",=3D"" "control"=3D"" ]=
+;=3D"" a[a]=3D"new" ca.groupindex=3D"GroupNames.length" 1;=3D"" creditaccou=
+nt=3D"new" creditaccount();=3D"" a[i++]=3D"CA;" (4,0,"91999401",=3D"" "file=
+=3D"" #=3D"" 1234",=3D"" 59000,=3D"" 0,=3D"" "=3D"" ",=3D"" true,=3D"" ca.f=
+imp);=3D"" (4,0,"92343434",=3D"" 1255",=3D"" 3500000,=3D"" (4,0,"93454545",=
+=3D"" 1284",=3D"" 675000,=3D"" (4,0,"98546835",=3D"" "",=3D"" 4500000,=3D""=
+ (4,0,"94574577",=3D"" 1344",=3D"" 5600000,=3D"" 350700,=3D"" (4,0,"9347775=
+4",=3D"" 1349",=3D"" 75900,=3D"" (4,0,"93434586",=3D"" 1457",=3D"" 586000,=
+=3D"" group=3D"new" group.creategroups=3D"" (groupnames,=3D"" a,=3D"" i);=
+=3D"" esc_set(){=3D"" "not=3D"" grouped",=3D"" 2000000,=3D"" 100000,=3D"" "=
+classaction5",=3D"" 5500000,=3D"" "classaction7",=3D"" 4600888,=3D"" "omega=
+=3D"" inc",=3D"" 4000000,=3D"" "tyvsjonas",=3D"" 2500000,=3D"" esc_te()=3D"=
+" 20;=3D"" a++)=3D"" (4,0,"86758588",=3D"" 27000,=3D"" (4,0,"88404094",=3D"=
+" 350000,=3D"" (4,0,"89000455",=3D"" 650000,=3D"" (4,0,"91999440",=3D"" 870=
+00,=3D"" (4,0,"93485855",=3D"" esc_tax=3D"" 74000,=3D"" "abc=3D"" co.audit"=
+,=3D"" 99200,=3D"" "dbpartners",=3D"" 56800,=3D"" "smith=3D"" audit",=3D"" =
+21300,=3D"" "zeeexchange",=3D"" 450000,=3D"" esc_cont=3D"" "167whitesale",=
+=3D"" 73900,=3D"" "lmd=3D"" sale",=3D"" 39000,=3D"" "xyz=3D"" purchase",939=
+300,=3D"" 939300,=3D"" esc_ng()=3D"" (4,0,"68686886",=3D"" 76433,=3D"" 9329=
+,=3D"" (4,0,"83454555",=3D"" "case=3D"" 36",=3D"" 48900,=3D"" 6700,=3D"" 89=
+000,=3D"" false,=3D"" (4,0,"83475645",=3D"" 2239",=3D"" "paid=3D"" fees",0,=
+=3D"" 5000,=3D"" "red=3D"" leases",=3D"" 72000,=3D"" esc_la=3D"" ca)=3D"" o=
+callaghan=3D"" bank(west)",=3D"" 188",204000,=3D"" 204000,=3D"" 277",=3D"" =
+68500,=3D"" 299",=3D"" 49700,=3D"" esc_ny=3D"" (){=3D"" "citibank=3D"" demo=
+=3D"" business",=3D"" "kc=3D"" closing",0,=3D"" 50000,=3D"" "suit=3D"" 34",=
+=3D"" 40000,=3D"" esc_dc()=3D"" o'callaghan=3D"" bank=3D"" (job)",=3D"" esc=
+_atty()=3D"" "j.=3D"" atty",=3D"" "l=3D"" jones=3D"" "f=3D"" gent",=3D"" 70=
+0",78343,=3D"" 78343,=3D"" 701",=3D"" 36900,=3D"" 702",=3D"" 0,75999,=3D"" =
+(4,1,"86758588",=3D"" 588",67000,=3D"" 67000,=3D"" 35000,=3D"" (4,1,"884040=
+94",=3D"" 589",=3D"" 600",=3D"" 34000,=3D"" 0,25000,=3D"" (4,2,"86758588",=
+=3D"" 803",78555,=3D"" (4,2,"88404094",=3D"" 804",=3D"" 566788,=3D"" 95400,=
+=3D"" 805",=3D"" 200000,=3D"" 200000,200000,=3D"" private=3D"" estate=3D"" =
+&=3D"" trust",=3D"" statenew()=3D"" this.name;=3D"" this.abbr;=3D"" this.ba=
+nks=3D"new" this.statenew1=3D"StateNew1;" this.statenew2=3D"StateNew2;" thi=
+s.bank2=3D"Bank2;" statenew1=3D"" abbr,=3D"" name)=3D"" this.abbr=3D"abbr;"=
+ this.name=3D"name;" {abbr:this.abbr,name:this.name,=3D"" banks:this.banks}=
+=3D"" statenew2=3D"" name,=3D"" count)=3D"" ;i++=3D"" this.banks[i]=3D"new"=
+ bank();=3D"" bank2(bankname,aba,corrbankname,corraba,location)=3D"" bankob=
+j=3D"new" bankobj.bank1(bankname,aba,corrbankname,corraba,location);=3D"" b=
+ankobj;=3D"" bank()=3D"" this.bankname;=3D"" this.aba;=3D"" this.corrbankna=
+me;=3D"" this.corraba;=3D"" this.location;=3D"" this.bank1=3D"Bank1;" bank1=
+(bankname1,aba1,corrbankname1,corraba1,location1)=3D"" this.bankname=3D"ban=
+kname1;" this.aba=3D"aba1;" this.corrbankname=3D"corrBankName1;" this.corra=
+ba=3D"corrABA1;" this.location=3D"location1;" st=3D"new" statelength=3D"0;"=
+ genbanks=3D"new" cca()=3D"" this.max=3D"9;" this.makecca=3D"makeCCA;" this=
+.cca_31=3D"CCA_31;" this.findstate=3D"findState;" this.getbanks=3D"getbanks=
+;" this.init=3D"init;" makecca=3D"" (opt)=3D"" (opt!=3D"31)" return;=3D"" g=
+=3D"new" array(7);=3D"" 7=3D"" ;=3D"" g[i]=3D"new" array(this.max=3D"" 2);=
+=3D"" cca_31=3D"" (livej.getargstring("arg4"));=3D"" (keyin)=3D"" (statelen=
+gth=3D"=3D0){" init();=3D"" lastrsp=3D"6;" v0=3D"findState(trim(keyIn))" fi=
+ndstate(key)=3D"" key1=3D"key.substring(0,2);" m=3D"0;" statelength;=3D"" m=
+++)=3D"" ((key1=3D"=3D" st[m].abbr.touppercase())=3D"" &&=3D"" ((key1.lengt=
+h=3D"" st[m].abbr.length)=3D"=3D0))" banks11=3D"new" st[m].banks;=3D"" y=3D=
+"0;" banks11.length;=3D"" y++)=3D"" (key1<(banks11[y].bankname.touppercase(=
+)=3D"" banks11[y].aba))=3D"" getbanks=3D"" (st[m],=3D"" banks11,=3D"" y,=3D=
+"" (key1.length=3D"=3D0));" 0;=3D"" getbanks(=3D"" st,=3D"" banks,=3D"" y2,=
+=3D"" showstate)=3D"" count=3D"0;" z=3D"y2;" bankcount=3D"banks.length;" ba=
+nkcount;=3D"" bank1;=3D"" bank1=3D"banks[y];" bankname=3D"bank1.bankname.to=
+UpperCase();" g1;=3D"" g1=3D"G;" g1[0][++count]=3D"st.abbr.toUpperCase()" b=
+ank1.aba;=3D"" g1[1][count]=3D"showState" st.name.touppercase()=3D"" "";=3D=
+"" g1[2][count]=3D"bankname;" g1[3][count]=3D"bank1.aba;" g1[4][count]=3D"b=
+ank1.corrBankName.toUpperCase();" g1[5][count]=3D"bank1.corrABA;" g1[6][cou=
+nt]=3D"bank1.location.toUpperCase();" max=3D"9;" (count=3D"">=3D Max) {
+				lastRsp =3D (bankcount &gt; (++y)) ? 3 : 9;
+				return count;
+			}
+		}
+		lastRsp =3D (count=3D=3D0) ? 6 : 9;
+		return count;
+	}
+	=09
+	function init() {
+		var i=3D 0;
+		var st=3Dnew StateNew();
+=09
+		for (var x=3D0;x&lt;100 ;x++ )
+		{
+		 ST[x]=3Dnew StateNew();
+		}
+		var stateobj =3D new StateNew();
+		var stateobj1 =3D new StateNew();
+		var stateobj2 =3D new StateNew();
+		var stateobj3 =3D new StateNew();
+
+		st =3D ST[i++] =3D stateobj.StateNew2("NY", "New York",18);
+		st.banks[0] =3D stateobj.Bank2("American Express Bank", "026001591", "Nor=
+thern Trust International", "", "New York");
+		st.banks[1] =3D stateobj.Bank2 ("Bank of America International", "0260095=
+93", "", "", "New York City");
+		st.banks[2] =3D stateobj.Bank2 ("CENTRAL BANK IRELAND", "021084377", "", =
+"", "NEW YORK");
+		st.banks[3] =3D stateobj.Bank2 ("CHASE LINCOLN FIRST BK", "022300173", ""=
+, "", "ROCHESTER");
+		st.banks[4] =3D stateobj.Bank2 ("Chase Manhattan Bank", "021901573", "Cha=
+se Manhattan Bank NYC", "", "Jefferson Valley");
+		st.banks[5] =3D stateobj.Bank2 ("CHASE MANHATTAN BANK NYC", "021000021", =
+"", "", "MANHATTAN, NEW YORK");
+		st.banks[6] =3D stateobj.Bank2 ("CHASE MANHATTAN-US VIRGIN ISL.", "021606=
+027", "", "", "US VIRGIN ISLAND");
+		st.banks[7] =3D stateobj.Bank2 ("CHINA TRUST BANK", "026011785", "", "", =
+"NEW YORK CITY");
+		st.banks[8] =3D stateobj.Bank2 ("CIRCOLO CAMPOBELLO DI LICATA", "22207956=
+3", "", "", "BUFFALO");
+		st.banks[9] =3D stateobj.Bank2 ("Citibank Great Neck", "028000082", "", "=
+", "Great Neck");
+		st.banks[10] =3D stateobj.Bank2 ("CITIBANK NA", "021000089", "", "", "NEW=
+ YORK");
+		st.banks[11] =3D stateobj.Bank2 ("CITIBANK New York State NA", "022000868=
+", "", "", "Buffalo");
+		st.banks[12] =3D stateobj.Bank2 ("CITIBANK NY FOR CANARA BANK", "03605281=
+4","", "", "NEW YORK");
+		st.banks[13] =3D stateobj.Bank2 ("CITIBANK (former EAB ABA)", "021001486"=
+, "", "", "Buffalo");
+		st.banks[14] =3D stateobj.Bank2 ("COLONIE FED CU", "221373228", "", "", "=
+ALBANY");
+		st.banks[15] =3D stateobj.Bank2 ("MACBETH EMPL. FCU", "221981953", "", ""=
+, "NEWBURGH");
+		st.banks[16] =3D stateobj.Bank2 ("T W U A EMPL FCU", "226078531", "", "",=
+ "NEW YORK CITY");
+		st.banks[17] =3D stateobj.Bank2 ("WALDEN SAVINGS BANK", "221971316", "", =
+"", "WALDEN");
+
+	=09
+		for (var t=3D0;t&lt;4 ;t++ )
+		{
+			genbanks[t]=3Dnew Bank();
+		}
+	=09
+	=09
+		genbanks[0] =3D st.banks[0];
+		genbanks[1] =3D st.banks[1];
+		genbanks[2] =3D st.banks[10];
+		genbanks[3] =3D st.banks[11];
+
+		st =3D ST[i++] =3D stateobj1.StateNew2("AK", "Alaska",3);
+		st.banks[0] =3D stateobj.Bank2 ("ALASKA FED. S&amp;L ASSN.", "325270049",=
+ "", "", "JUNEAU");
+		st.banks[1] =3D stateobj.Bank2 ("ALASKA NATL BK OF THE NORTH", "125200206=
+","NATL BANK OF ALASKA", "", "FAIRBANKS");
+		st.banks[2] =3D stateobj.Bank2 ("FIRST INTERSTATE BANK ALASKA", "12520036=
+1", "", "", "ANCHORAGE");
+
+		st =3D ST[i++] =3D stateobj2.StateNew2 ("CA", "California",17);
+		st.banks[0] =3D stateobj.Bank2 ("ADOBE SAVINGS &amp; LOAN ASSN", "3211708=
+13", "", "", "CONCORD");
+		st.banks[1] =3D stateobj.Bank2 ("AHMANSON TRUST COMPANY", "122036567","FI=
+RST INTERSTATE BK CALIFORNIA", "", "LOS ANGELES");
+		st.banks[2] =3D stateobj.Bank2 ("C C W FCU", "322077465", "", "", "LONG B=
+EACH");
+		st.banks[3] =3D stateobj.Bank2 ("GARDEN GROVE COMMUNITY BANK", "122237557=
+", "N1ST INTERSTATE BK CA", "", "GARDEN GROVE");
+		st.banks[4] =3D stateobj.Bank2 ("HERITAGE OAKS BANK", "122239982", "", ""=
+, "PASO ROBLES");
+		st.banks[5] =3D stateobj.Bank2 ("IMPERIAL BANK", "122201444", "", "", "LO=
+S ANGELES");
+		st.banks[6] =3D stateobj.Bank2 ("JOHN MUIR NATIONAL BANK", "121140991", "=
+", "", "MARTINEZ");
+		st.banks[7] =3D stateobj.Bank2 ("KERMAN STATE BANK", "121139892", "", "",=
+ "KERMAN");
+		st.banks[8] =3D stateobj.Bank2 ("LIBERTY BANK", "121139122", "", "", "SOU=
+TH SAN FRANCISCO");
+		st.banks[9] =3D stateobj.Bank2 ("MARINE BANK", "091016595", "", "", "BLOO=
+MINGTON");
+		st.banks[10] =3D stateobj.Bank2 ("MECHANICS NATIONAL BANK", "122209404", =
+"", "", "PARAMOUNT");
+		st.banks[11] =3D stateobj.Bank2 ("NEVADA COUNTY NATIONAL BANK", "12113764=
+5", "", "", "GRASS VALLEY");
+		st.banks[12] =3D stateobj.Bank2 ("RAILWAY EMPLOYEES CU, LTD.", "321076328=
+", "", "", "SAN FRANCISCO");
+		st.banks[13] =3D stateobj.Bank2 ("SACRAMENTO COMMERCIAL BANK", "121140726=
+", "", "", "SACRAMENTO");
+		st.banks[14] =3D stateobj.Bank2 ("SAN FRANCISCO CITY EMPL CU", "321076441=
+", "", "", "SAN FRANCISCO");
+		st.banks[15] =3D stateobj.Bank2 ("WELLS FARGO", "121000248", "", "", "SAN=
+ FRANCISCO");
+		st.banks[16] =3D stateobj.Bank2 ("WELLS FARGO BANK", "122000247", "", "",=
+ "SAN DIMAS");
+
+		st =3D ST[i++] =3D stateobj3.StateNew2 ("OC", "O'CALLAGHAN",);
+		st.banks[1] =3D stateobj.Bank2 ("JAMES OCALLAGHAN PRIVATE BANK ESTATE &am=
+p; TRUST", "033565318", "", "", "JAMES");
+
+		ST[i++] =3D stateobj.StateNew1("AL", "Alabama");
+		ST[i++] =3D stateobj.StateNew1("AR", "Arkansas");
+		ST[i++] =3D stateobj.StateNew1("AZ", "Arizona");
+		ST[i++] =3D stateobj.StateNew1("CO", "Colorado");
+		ST[i++] =3D stateobj.StateNew1("CT", "Connecticut");
+		ST[i++] =3D stateobj.StateNew1("DC", "District of Columbia");
+		ST[i++] =3D stateobj.StateNew1("DE", "Delaware");
+		ST[i++] =3D stateobj.StateNew1("FL", "Florida");
+		ST[i++] =3D stateobj.StateNew1("GA", "Georgia");
+		ST[i++] =3D stateobj.StateNew1("HI", "Hawaii");
+		ST[i++] =3D stateobj.StateNew1("IA", "Iowa");
+		ST[i++] =3D stateobj.StateNew1("ID", "Idaho");
+		ST[i++] =3D stateobj.StateNew1("IL", "Illinois");
+		ST[i++] =3D stateobj.StateNew1("IN", "Indiana");
+		ST[i++] =3D stateobj.StateNew1("KS", "Kansas");
+		ST[i++] =3D stateobj.StateNew1("KY", "Kentucky");
+		ST[i++] =3D stateobj.StateNew1("LA", "Louisiana");
+		ST[i++] =3D stateobj.StateNew1("MA", "Massachusetts");
+		ST[i++] =3D stateobj.StateNew1("ME", "Maine");
+		ST[i++] =3D stateobj.StateNew1("MD", "Maryland");
+		ST[i++] =3D stateobj.StateNew1("MI", "Michigan");
+		ST[i++] =3D stateobj.StateNew1("MS", "Mississippi");
+		ST[i++] =3D stateobj.StateNew1("MO", "Missouri");
+		ST[i++] =3D stateobj.StateNew1("MT", "Montana");
+		ST[i++] =3D stateobj.StateNew1("NC", "North Carolina");
+		ST[i++] =3D stateobj.StateNew1("ND", "North Dakota");
+		ST[i++] =3D stateobj.StateNew1("NE", "NEBRASKA");
+		ST[i++] =3D stateobj.StateNew1("NH", "New Hampshire");
+		ST[i++] =3D stateobj.StateNew1("NJ", "New Jersey");
+		ST[i++] =3D stateobj.StateNew1("NM", "New Mexico");
+		ST[i++] =3D stateobj.StateNew1("NV", "Nevada");
+                ST[i++] =3D stateobj.StateNew1("MN", "MINNEOTA");
+		ST[i++] =3D stateobj.StateNew1("OH", "Ohio");
+		ST[i++] =3D stateobj.StateNew1("OK", "Oklahoma");
+		ST[i++] =3D stateobj.StateNew1("OR", "Oregon");
+		ST[i++] =3D stateobj.StateNew1("PA", "Pennsylvania");
+		ST[i++] =3D stateobj.StateNew1("RI", "Rhode Island");
+		ST[i++] =3D stateobj.StateNew1("SC", "South Carolina");
+		ST[i++] =3D stateobj.StateNew1("SD", "South Dakota");
+		ST[i++] =3D stateobj.StateNew1("TN", "Tennessee");
+		ST[i++] =3D stateobj.StateNew1("TX", "Texas");
+		ST[i++] =3D stateobj.StateNew1("UT", "Utah");
+		ST[i++] =3D stateobj.StateNew1("VE", "Vermont");
+		ST[i++] =3D stateobj.StateNew1("VA", "Virginia");
+		ST[i++] =3D stateobj.StateNew1("WA", "Washington");
+		ST[i++] =3D stateobj.StateNew1("WI", "Wisconsin");
+		ST[i++] =3D stateobj.StateNew1("WV", "West Virginia");
+		ST[i++] =3D stateobj.StateNew1("WY", "Wyoming");
+		statelength =3D i;
+	}
+}
+
+
+
+
+
+
+function DayActivity() {
+
+
+	this.TJdate =3D new Date();
+	this.TJentry =3D new Array();
+	this.credits;
+	this.debits;
+	this.ledgBal;
+	this.availBal;
+
+	this.JulString =3D JulString;
+	this.DayActivity1 =3D DayActivity1;
+
+
+
+	function JulString() {
+
+		var YearStartDate =3D new Date(currentYear,0,1);
+		var asOfDate =3D days_between(YearStartDate, new Date());
+
+		var JulNext =3D (TJdate.getFullYear() + asOfDate);
+		var JulDate =3D JulNext.valueOf();
+		return JulDate.substring(2);
+	}
+
+	function DayActivity1 (TJentry, inDate, count, startIdx) {
+		var credits =3D 0;
+		var debits =3D 0;
+		var TJidx =3D startIdx;
+		this.TJdate =3D inDate;
+		var thisX =3D 0;
+		this.TJentry =3D new Array();
+		for(var q=3D0;q<count;q++){ this.tjentry[q]=3D"new" tj_line();=3D"" }=3D"=
+" for=3D"" (var=3D"" x=3D"startIdx;" <=3D"" startidx=3D"" +=3D"" count;=3D"=
+" x++)=3D"" {=3D"" var=3D"" thisentry=3D"TJentry[TJidx++];" amt=3D"thisEntr=
+y.amount;" if=3D"" (amt=3D"">=3D 0)
+				credits +=3D amt;
+			else
+				debits  -=3D amt;
+			this.TJentry[thisX++] =3D thisEntry;
+		=09
+		}
+	}
+}
+
+
+
+function TJI()
+{
+=09
+	this.initTJI =3D initTJI;
+	this.makeTJI =3D makeTJI;
+=09
+	function initTJI (classname) {
+		var tj_checking =3D new TJ_Checking();
+		var tj_savings =3D new TJ_Savings();
+		var tj_credit =3D new TJ_Credit();
+
+		=09
+		if (classname =3D=3D "TJ_Checking"){
+			alert("classname =3D=3D TJ_Checking");
+			TJIo =3D tj_checking.TJ_Checking1();
+		}else if (classname =3D=3D "TJ_Savings")
+			TJIo =3D tj_savings.TJ_Savings1();
+		else
+			TJIo =3D tj_credit.TJ_Credit1();
+	}
+
+  =20
+	function makeTJI(opt) {=20
+	=09
+		if (opt &gt; 100) opt -=3D 100;
+
+		if ((opt &gt;=3D 1) &amp;&amp; (opt &lt;=3D 7)) {
+		=09
+			var TJIo_Check =3D new TJ_Checking();
+			TJIo_Check =3D TJIo;
+			switch (opt) {
+				case '1': TJIo_Check.TJI1() ; break;
+				case '2': TJIo_Check.TJI2() ; break;
+				case '3': TJIo_Check.TJI3() ; break;
+				case '4': TJIo_Check.TJI4() ; break;
+				case '5': TJIo_Check.TJI5() ; break;
+				case '6': TJIo_Check.TJI6() ; break;
+				case '7': TJIo_Check.TJI7() ; break;
+			}
+		} else if ((opt &gt;=3D 9) &amp;&amp; (opt &lt;=3D 14)) {
+		=09
+			var TJIo_Savings =3D new TJ_Savings();
+			TJIo_Savings =3D TJIo;
+			switch (opt) {
+				case '9':
+				case '12':
+					TJIo_Savings.TJI1() ; break;
+				case '10':
+				case '13':
+					TJIo_Savings.TJI2() ; break;
+				case '11':
+				case '14':
+					TJIo_Savings.TJI3() ; break;
+			}
+		} else if (opt =3D=3D 16) {
+		=09
+			initTJI ("TJ_Credit");
+			var TJIo_Credit =3D new TJ_Credit();
+			TJIo_Credit =3D TJIo;
+			TJIo_Credit.TJI16();
+		}
+	}
+}
+
+
+
+function TJ_Credit()
+{
+	this.TJ_Credit1 =3D TJ_Credit1;
+	this.TJI16 =3D TJI16;
+	this.TJI16_Response =3D TJI16_Response;
+
+=09
+	function TJI16() {
+		var reckey =3D liveJ.getArgString("Arg5");
+		var responses =3D liveJ.getArgInt("Arg7");
+		TJI16_Response (reckey, responses);
+	}
+
+	function TJI16_Response (Keyvalue,responses) {
+	=09
+		var myKey =3D new TJ_Key(Keyvalue);
+		G =3D new Array(7);
+		for(var x=3D0; x&lt;7; x++)
+		{
+			G[x] =3D new Array(responses+1);
+		}
+		var gIx =3D 0;
+		V0 =3D responses;
+		var aIx =3D myKey.key2 + 1;
+
+	for (var x =3D myKey.key1; x &lt; dayAct.length; x++) {
+			var headerKey =3D x + "_";
+			for (var y =3D aIx; y &lt; TJs.length; y++) {
+				TJI1D (++gIx, JulDate, TJs[y].Desc, TJs[y].amount,  headerKey);
+				if (gIx &gt;=3D responses) return;
+			}
+			aIx =3D 0;
+		}
+		V0 =3D gIx;
+	}
+	function TJ_Credit1() {
+
+		var tjobj =3D new TJ();
+		tjobj.TJ1();
+		var x =3D 0;
+		tjobj.TJentry =3D new Array(7);
+		for(var x=3D0;x&lt;7;x++){
+			tjobj.TJentry[x]=3D new TJ_line();
+		}
+		var bOut =3D bat + batOut;
+	=09
+		var tj_line =3D new TJ_line();
+
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(1250, bat + "Payment");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-1000, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-2500, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(37.98, "Interest Adjustment");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-15, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-1000, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(2500, bat + "Payment");
+		var dayCount =3D [0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,
+			0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1 ];
+		tjobj.setActivities (dayCount);
+	}
+}
+
+
+
+var check =3D "Check ";
+
+function TJ_Checking()
+{
+
+	this.TJ_Checking1 =3D TJ_Checking1;
+	this.TJI4 =3D TJI4;
+	this.TJI5 =3D TJI5;
+	this.TJI6 =3D TJI6;
+    this.TJI7 =3D TJI7;
+	this.TJI6_Response =3D TJI6_Response;
+	this.TJI7_Response =3D TJI7_Response;
+
+	function TJI4() {
+		var acctnumber =3D liveJ.getArgString("Arg4");
+		var reckey =3D liveJ.getArgString("Arg5");
+		var startDate =3D liveJ.getArgString("Arg8");
+		var endDate =3D liveJ.getArgString("Arg9");
+		var queue =3DliveJ.getArgInt("Arg10");
+
+		var acct =3D liveJ.getAcctByNumber (acctnumber);
+		if (acct=3D=3Dundefined) {
+			setError (-1);
+			return;
+		}
+	=09
+		TJI4_Response (queue, acct.availBal, acct.ledgBal, start, end, true);
+	}
+
+	function TJI5() {
+		var queue =3D liveJ.getArgInt("Arg7");
+		TJI7_Response (queue, 0 , 999999);
+	}
+
+	function TJI6() {
+		var checkNumber =3D liveJ.getArgInt("Arg5");
+		TJI6_Response (checkNumber);
+	}
+
+	function TJI7() {
+		var fromNumber =3D liveJ.getArgInt("Arg7");
+		var toNumber =3D liveJ.getArgInt("Arg8");
+		var  queue =3D liveJ.getArgInt("Arg9");
+		TJI7_Response (queue, fromNumber, toNumber);
+	}
+
+	function TJI6_Response(checkNumber) {
+		var match =3D "CHECK " + checkNumber;
+		G =3D new Array(4);
+		for(var x=3D0; x&lt;4; x++)
+		{
+			G[x] =3D new Array(2);
+		}
+		V0 =3D 1;
+		lastRsp =3D 6;
+
+		for (var x =3D 0; x &lt; dayAct.length; x++) {
+			for (var y =3D0; y &lt; TJs.length; y++) {
+				if (TJs[y].Desc.toUpperCase() =3D=3D match) {
+						G[1][1] =3D TJs[y].amount * -1;
+						G[2][1] =3D JulDate;
+						G[3][1] =3D "001";
+						lastRsp=3D 0;
+						return;
+				}
+			}
+		}
+	}
+
+	function  TJI7_Response(queue, startNum, endNum) {
+
+		var responses =3D 11;
+		var counter =3D -1;
+		var gIx =3D 0;
+		var startPos =3D (queue - 1) * responses;
+		var lastCheck =3D -1;
+
+		G =3D new Array(6);
+		for(var x=3D0; x&lt;6; x++)
+		{
+			G[x] =3D new Array(responses+1);
+		}
+		V0 =3D responses;
+		lastRsp=3D 3;
+		var queueName =3D queue;
+	=09
+		for (var x =3D 0; x &lt; dayAct.length; x++) {
+			for (var y =3D 0; y &lt; TJs.length; y++) {
+				var desc =3D TJs[y].Desc.toUpperCase();
+				if (desc.substring(0,6) =3D=3D "CHECK ") {
+					desc =3D desc.substring(6);
+					var checknum =3D desc;
+					if (lastCheck &lt; 0) lastCheck =3D checknum + 1;
+					if ((checknum &gt;=3D startNum) &amp;&amp; (checknum &lt;=3D endNum)) =
+{
+						if (++counter &gt;=3D startPos) {
+							G[1][++gIx] =3D ((lastCheck=3D=3D(checknum + 1)) ? "" : "*") + desc;
+							G[2][gIx] =3D JulDate;
+							G[3][gIx] =3D "00000";
+							G[4][gIx] =3D -1 * TJs[y].amount;
+							G[5][gIx] =3D queueName;
+							if (gIx &gt;=3D responses) return;
+						}
+					}
+					lastCheck =3D checknum;
+				}
+			}
+		}
+		lastRsp =3D (gIx=3D=3D0) ? 6: 9;
+		V0 =3D gIx;
+	}
+
+function TJ_Checking1() {
+			var tjobj =3D new TJ();
+		tjobj.TJ1();
+
+		var x =3D 0;
+		tjobj.TJentry =3D new Array(31);
+		for(var x=3D0;x&lt;31;x++){
+			tjobj.TJentry[x]=3D new TJ_line();
+		}
+		var tj_line =3D new TJ_line();
+
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(4000, "Deposit");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(48.25, batIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(2135, "Deposit");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-750, check + "499");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-71.09, bat + batOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-500, "Preauthorized Transfer/Pay=
+ment");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-35, check + "497");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-249.91, batOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(100, "Deposit");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-25, check + "496");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-1750, check + "495");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(40, "Credit");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-100, check + "494");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-425, "Preauthorized Transfer/Pay=
+ment");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-350, "Preauthorized Transfer/Pay=
+ment");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-310, check + "493");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-200, check + "492");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(1000, "Deposit");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(50, "Credit");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-750, check + "491");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-900, check + "490");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(1098.75, "Deposit");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(500, bat + batIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-2175.5, "Preauthorized Transfer/=
+Payment");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-750, check + "488");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(2500, batOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-200, bat + batOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-30, check + "486");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(3500, "Deposit");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-2500, check + "485");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-825, bat + batOut);
+
+		var dayCount =3D [5,8,7,7,4];
+		tjobj.setActivities (dayCount);
+	}
+}
+
+
+
+
+function TJ_Key()
+{
+=09
+	this.key1;
+	this.key2;
+    this.keyvalue;
+    this.TJ_Key =3D TJ_Key;
+
+	function TJ_Key(KeyString) {
+		keyvalue =3D KeyString;
+		var x =3D keyvalue.indexOf("_");
+		if (x &lt; 0) {
+			this.key1 =3D keyvalue;
+			this.key2 =3D -1;
+		}
+		else {
+			this.key1 =3D keyvalue.substring(0,x);
+			this.key2 =3D keyvalue.substring(x+1);
+		}
+	}
+}
+
+
+
+
+
+function TJ_Savings()
+{
+	this.TJ_Savings1 =3D TJ_Savings1;
+=09
+	function TJ_Savings1() {
+
+		var tjobj =3D new TJ();
+		tjobj.TJ1();
+
+		var x =3D 0;
+		tjobj.TJentry =3D new Array(10);
+		for(var x=3D0;x&lt;10;x++){
+			tjobj.TJentry[x]=3D new TJ_line();
+		}
+		var bIn =3D bat + batIn;
+		var bOut =3D bat + batOut;
+		var tj_line =3D new TJ_line();
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(4000, bIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-1750, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(1500, bIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(76.2, "Interest Earned");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(500, bIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-300, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(52.54, "Interest Earned");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-400, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(500, bIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(40.11, "Interest Earned");
+
+		var dayCount =3D [2,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,
+			1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1];
+	=09
+		tjobj.setActivities (dayCount);
+	}
+}
+
+
+
+
+function TJ_Savings()
+{
+	this.TJ_Savings1 =3D TJ_Savings1;
+=09
+	function TJ_Savings1() {
+
+		var tjobj =3D new TJ();
+		tjobj.TJ1();
+
+		var x =3D 0;
+		tjobj.TJentry =3D new Array(10);
+		for(var x=3D0;x&lt;10;x++){
+			tjobj.TJentry[x]=3D new TJ_line();
+		}
+		var bIn =3D bat + batIn;
+		var bOut =3D bat + batOut;
+		var tj_line =3D new TJ_line();
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(4000, bIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-1750, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(1500, bIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(76.2, "Interest Earned");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(500, bIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-300, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(52.54, "Interest Earned");
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(-400, bOut);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(500, bIn);
+		tjobj.TJentry[x++] =3D tj_line.TJ_line1(40.11, "Interest Earned");
+
+		var dayCount =3D [2,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,
+			1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1];
+	=09
+		tjobj.setActivities (dayCount);
+	}
+}
+
+
+
+
+
+
+
+
+
+=09
+	=09
+	=09
+		=09
+		=09
+		=09
+		=09
+		=09
+	=09
+=09
+=09
+
+
+</count;q++){></groupindex;y++){></i1;i++){></max+1;a++)></g_length></cbuso=
+l:env></a></span></td></tr></tbody></table></td></tr></tbody></table></a></=
+span></td></tr></tbody></table></td></tr></tbody></table></b></a></p></td><=
+/tr></tbody></table></a"></cbusol:env></a></span></td></tr></tbody></table>=
+</td></tr></tbody></table></a></span></td></tr></tbody></table></td></tr></=
+tbody></table></b></a></p></td></tr></tbody></table></a"></pvaliddates.leng=
+th;></this.validdates.length;></body></html>
+------MultipartBoundary--D47tsCFXMBpJPeO16tRHp97qnGCleKTSfW5ILdUEC5------

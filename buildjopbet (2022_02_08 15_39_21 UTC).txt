@@ -1,0 +1,456 @@
+2022-01-02 15:35:03,841 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-02 15:35:03,888 [     47]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-02 15:35:34,293 [  30452]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 27580 ms
+2022-01-02 15:35:48,619 [  44778]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-02 15:35:56,056 [  52215]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-02 15:35:56,072 [  52231]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-02 15:35:56,072 [  52231]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-02 15:35:56,072 [  52231]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-02 15:35:56,759 [  52918]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 8149 ms
+2022-01-02 15:35:56,759 [  52918]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-02 15:35:57,916 [  54075]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-02 15:36:00,509 [  56668]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:true; isMake:false parallel compilation:false
+2022-01-02 15:36:00,509 [  56668]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-01-02 15:36:00,509 [  56668]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-01-02 15:36:00,603 [  56762]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-01-02 15:36:00,603 [  56762]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started df02e409
+2022-01-02 15:36:00,681 [  56840]   INFO - s.index.CompilerReferenceIndex - backward reference index version doesn't exist
+2022-01-02 15:36:03,148 [  59307]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 619 ms
+2022-01-02 15:36:34,104 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-02 15:36:34,119 [     15]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-02 15:36:37,276 [   3172]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 2928 ms
+2022-01-02 15:36:38,197 [   4093]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-01-02 15:36:38,588 [   4484]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-02 15:36:46,260 [  12156]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-02 15:36:46,260 [  12156]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-02 15:36:46,260 [  12156]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-02 15:36:46,260 [  12156]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-02 15:36:46,432 [  12328]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 7846 ms
+2022-01-02 15:36:46,432 [  12328]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-02 15:36:55,000 [  20896]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-02 15:37:01,542 [  27438]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 27448 ms
+2022-01-02 16:28:52,028 [3137924]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-01-02 17:00:20,548 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-02 17:00:20,614 [     66]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-02 17:00:31,844 [  11296]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 10103 ms
+2022-01-02 17:00:41,545 [  20997]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-02 17:00:52,364 [  31816]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-02 17:00:52,437 [  31889]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-02 17:00:52,437 [  31889]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-02 17:00:52,683 [  32135]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-02 17:00:53,404 [  32856]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 11859 ms
+2022-01-02 17:00:53,404 [  32856]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-02 17:00:57,222 [  36674]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-02 19:46:59,484 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-02 19:46:59,858 [    374]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-02 19:47:08,949 [   9465]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 8018 ms
+2022-01-02 19:47:16,404 [  16920]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-02 19:47:24,496 [  25012]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-02 19:47:24,587 [  25103]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-02 19:47:24,599 [  25115]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-02 19:47:24,796 [  25312]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-02 19:47:25,085 [  25601]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 8682 ms
+2022-01-02 19:47:25,122 [  25638]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-02 19:47:26,970 [  27486]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-02 21:07:45,848 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-02 21:07:45,886 [     38]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-02 21:07:52,467 [   6619]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 6354 ms
+2022-01-02 21:07:56,782 [  10934]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-02 21:08:07,529 [  21681]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-02 21:08:07,529 [  21681]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-02 21:08:07,529 [  21681]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-02 21:08:07,560 [  21712]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-02 21:08:07,795 [  21947]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 11015 ms
+2022-01-02 21:08:07,795 [  21947]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-02 21:08:11,461 [  25613]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-02 21:31:04,520 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-02 21:31:04,522 [      2]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-02 21:31:09,585 [   5065]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 4829 ms
+2022-01-02 21:31:21,276 [  16756]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-02 21:31:35,389 [  30869]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-02 21:31:35,514 [  30994]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-02 21:31:35,514 [  30994]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-02 21:31:35,530 [  31010]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-02 21:31:36,014 [  31494]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 14737 ms
+2022-01-02 21:31:36,014 [  31494]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-02 21:31:39,634 [  35114]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-04 04:02:09,541 [     16]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-04 04:02:09,556 [     31]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-04 04:02:17,677 [   8152]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 7804 ms
+2022-01-04 04:02:45,645 [  36120]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-04 04:02:51,328 [  41803]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-04 04:02:51,344 [  41819]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-04 04:02:51,359 [  41834]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-04 04:02:51,422 [  41897]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-04 04:02:53,312 [  43787]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 7669 ms
+2022-01-04 04:02:53,312 [  43787]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-04 04:02:58,625 [  49100]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-04 15:10:33,563 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-04 15:10:33,816 [    253]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-04 15:10:55,477 [  21914]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 20639 ms
+2022-01-04 15:11:01,286 [  27723]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-04 15:11:15,589 [  42026]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-04 15:11:15,593 [  42030]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-04 15:11:15,594 [  42031]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-04 15:11:15,728 [  42165]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-04 15:11:19,211 [  45648]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 17925 ms
+2022-01-04 15:11:19,212 [  45649]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-04 15:11:23,080 [  49517]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-07 18:27:59,713 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-07 18:28:01,194 [   1481]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-07 18:28:41,449 [  41736]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 39556 ms
+2022-01-07 18:28:50,286 [  50573]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-07 18:29:24,528 [  84815]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-07 18:29:24,535 [  84822]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-07 18:29:24,538 [  84825]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-07 18:29:24,542 [  84829]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-07 18:29:28,672 [  88959]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 38385 ms
+2022-01-07 18:29:28,672 [  88959]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-07 18:29:30,907 [  91194]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-08 15:09:02,808 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-08 15:09:02,843 [     35]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-08 15:09:12,232 [   9424]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 8962 ms
+2022-01-08 15:09:17,541 [  14733]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-08 15:09:28,708 [  25900]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-08 15:09:28,712 [  25904]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-08 15:09:28,713 [  25905]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-08 15:09:28,783 [  25975]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-08 15:09:29,950 [  27142]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 12408 ms
+2022-01-08 15:09:29,951 [  27143]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-08 15:09:40,961 [  38153]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-08 16:53:25,638 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-08 16:53:26,044 [    406]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-08 16:53:51,854 [  26216]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 24880 ms
+2022-01-08 16:54:00,558 [  34920]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-08 16:54:13,102 [  47464]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-08 16:54:13,102 [  47464]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-08 16:54:13,102 [  47464]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-08 16:54:13,102 [  47464]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-08 16:54:17,180 [  51542]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 16621 ms
+2022-01-08 16:54:17,180 [  51542]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-08 16:54:19,727 [  54089]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-09 01:07:39,828 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-09 01:07:40,073 [    245]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-09 01:08:27,973 [  48145]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 46359 ms
+2022-01-09 01:08:45,001 [  65173]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-09 01:09:07,221 [  87393]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-09 01:09:07,302 [  87474]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-09 01:09:07,303 [  87475]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-09 01:09:07,512 [  87684]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-09 01:09:10,068 [  90240]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 25066 ms
+2022-01-09 01:09:10,068 [  90240]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-09 01:09:13,182 [  93354]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-10 23:26:14,145 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-10 23:26:14,208 [     63]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-10 23:26:31,082 [  16937]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 16213 ms
+2022-01-10 23:26:54,175 [  40030]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-10 23:27:10,518 [  56373]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-10 23:27:10,550 [  56405]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-10 23:27:10,550 [  56405]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-10 23:27:10,581 [  56436]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-10 23:27:11,034 [  56889]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 16863 ms
+2022-01-10 23:27:11,034 [  56889]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-10 23:27:17,028 [  62883]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-11 00:22:38,658 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-11 00:22:38,689 [     31]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-11 00:22:46,861 [   8203]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 7681 ms
+2022-01-11 00:23:37,068 [  58410]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-11 00:23:55,631 [  76973]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-11 00:23:55,646 [  76988]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-11 00:23:55,646 [  76988]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-11 00:23:55,896 [  77238]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-11 00:23:56,287 [  77629]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 19219 ms
+2022-01-11 00:23:56,287 [  77629]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-11 00:24:03,802 [  85144]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-11 04:58:11,197 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-11 04:58:11,447 [    250]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-11 04:58:43,102 [  31905]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 28996 ms
+2022-01-11 04:58:52,086 [  40889]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-11 04:59:00,008 [  48811]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-11 04:59:00,008 [  48811]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-11 04:59:00,008 [  48811]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-11 04:59:00,008 [  48811]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-11 04:59:01,179 [  49982]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 9105 ms
+2022-01-11 04:59:01,179 [  49982]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-11 04:59:05,132 [  53935]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-11 16:33:58,712 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-11 16:33:58,774 [     62]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-11 16:34:16,758 [  18046]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 16417 ms
+2022-01-11 16:34:27,339 [  28627]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-11 16:34:37,073 [  38361]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-11 16:34:37,104 [  38392]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-11 16:34:37,104 [  38392]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-11 16:34:37,104 [  38392]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-11 16:34:38,401 [  39689]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 11066 ms
+2022-01-11 16:34:38,401 [  39689]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-11 16:34:42,047 [  43335]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-13 04:47:24,556 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-13 04:47:24,634 [     78]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-13 04:47:48,680 [  24124]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 23576 ms
+2022-01-13 04:47:54,985 [  30429]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-13 04:48:00,563 [  36007]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-13 04:48:00,563 [  36007]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-13 04:48:00,563 [  36007]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-13 04:48:00,578 [  36022]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-13 04:48:01,203 [  36647]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 6210 ms
+2022-01-13 04:48:01,203 [  36647]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-13 04:48:03,016 [  38460]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-13 05:11:41,694 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-13 05:11:41,757 [     63]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-13 05:11:53,881 [  12187]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 11795 ms
+2022-01-13 05:12:01,840 [  20146]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-13 05:12:41,995 [  60301]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-13 05:12:42,026 [  60332]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-13 05:12:42,026 [  60332]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-13 05:12:42,026 [  60332]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-13 05:12:42,854 [  61160]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 41020 ms
+2022-01-13 05:12:42,854 [  61160]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-13 05:12:49,917 [  68223]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-13 07:03:40,795 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-13 07:03:40,824 [     29]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-13 07:03:49,924 [   9129]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 8723 ms
+2022-01-13 07:03:56,397 [  15602]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-13 07:04:04,729 [  23934]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-13 07:04:04,753 [  23958]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-13 07:04:04,754 [  23959]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-13 07:04:04,907 [  24112]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-13 07:04:05,828 [  25033]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 9430 ms
+2022-01-13 07:04:05,829 [  25034]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-13 07:04:07,912 [  27117]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-13 07:12:25,923 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-13 07:12:25,986 [     63]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-13 07:12:50,594 [  24671]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 18217 ms
+2022-01-13 07:13:31,071 [  65148]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-13 07:14:18,913 [ 112990]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-13 07:14:18,913 [ 112990]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-13 07:14:18,913 [ 112990]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-13 07:14:26,398 [ 120475]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-13 07:14:34,460 [ 128537]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 63389 ms
+2022-01-13 07:14:34,460 [ 128537]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-13 07:14:55,428 [ 149505]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-13 07:15:41,411 [ 195488]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:true
+2022-01-13 07:15:44,723 [ 198800]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-01-13 07:15:44,723 [ 198800]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-01-13 07:15:45,348 [ 199425]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-01-13 07:15:45,348 [ 199425]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started d91747c1
+2022-01-13 07:16:03,254 [ 217331]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 41 ms
+2022-01-13 07:16:15,102 [ 229179]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Scala IDEA builder' took 2 s 547 ms; 0 sources processed
+2022-01-13 07:16:15,102 [ 229179]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Scala sbt builder' took 284 ms; 0 sources processed
+2022-01-13 07:16:55,035 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-13 07:16:55,035 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-13 07:16:57,847 [   2812]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 2628 ms
+2022-01-13 07:17:02,862 [   7827]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-01-13 07:17:03,300 [   8265]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-13 07:17:04,675 [   9640]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.database' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\com.intellij.database.iml doesn't exist
+2022-01-13 07:17:04,675 [   9640]   INFO - serialization.JpsProjectLoader - Module 'com.intellij.javaee.jpa' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\com.intellij.javaee.jpa.iml doesn't exist
+2022-01-13 07:17:04,675 [   9640]   INFO - serialization.JpsProjectLoader - Module 'data' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.javaee.jpa\data\data.iml doesn't exist
+2022-01-13 07:17:04,675 [   9640]   INFO - serialization.JpsProjectLoader - Module 'data1' is skipped: C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\extensions\com.intellij.database\data\data1.iml doesn't exist
+2022-01-13 07:17:05,012 [   9977]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1699 ms
+2022-01-13 07:17:05,012 [   9977]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 9 libraries
+2022-01-13 07:17:05,824 [  10789]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-13 07:17:07,152 [  12117]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 12119 ms
+2022-01-13 07:53:56,458 [2221423]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-01-13 21:35:49,711 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-13 21:35:49,852 [    141]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-13 21:36:06,882 [  17171]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 15756 ms
+2022-01-13 21:36:49,137 [  59426]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-13 21:36:55,211 [  65500]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 6075 ms
+2022-01-13 21:36:55,211 [  65500]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-13 21:36:56,899 [  67188]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-13 21:36:59,445 [  69734]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:true
+2022-01-13 21:36:59,617 [  69906]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-01-13 21:36:59,617 [  69906]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-01-13 21:36:59,664 [  69953]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-01-13 21:36:59,664 [  69953]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started ebb3d052
+2022-01-13 21:37:01,102 [  71391]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 6 ms
+2022-01-13 21:37:11,884 [  82173]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Backward references indexer' took 501 ms; 0 sources processed
+2022-01-13 21:37:11,900 [  82189]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Groovy stub generator' took 63 ms; 0 sources processed
+2022-01-13 21:37:11,900 [  82189]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 99 ms; 0 sources processed
+2022-01-13 21:37:11,900 [  82189]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Scala IDEA builder' took 1 s 132 ms; 0 sources processed
+2022-01-13 21:37:11,900 [  82189]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Scala sbt builder' took 166 ms; 0 sources processed
+2022-01-13 21:37:11,900 [  82189]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Form-bindings' took 64 ms; 0 sources processed
+2022-01-13 21:37:16,765 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-13 21:37:16,765 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-13 21:37:18,156 [   1391]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 1292 ms
+2022-01-13 21:37:23,577 [   6812]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-01-13 21:37:23,734 [   6969]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-13 21:37:25,015 [   8250]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1278 ms
+2022-01-13 21:37:25,015 [   8250]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-13 21:37:25,827 [   9062]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-13 21:37:27,015 [  10250]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 10244 ms
+2022-01-13 22:41:02,862 [3826097]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-01-13 22:55:30,581 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-13 22:55:30,675 [     94]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-13 22:55:50,744 [  20163]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 19690 ms
+2022-01-13 22:56:13,039 [  42458]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-13 22:56:48,996 [  78415]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 35967 ms
+2022-01-13 22:56:48,996 [  78415]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-13 22:56:51,195 [  80614]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-15 15:09:40,366 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-15 15:09:42,179 [   1813]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-15 15:09:56,256 [  15890]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 13132 ms
+2022-01-15 15:10:08,663 [  28297]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-15 15:10:28,992 [  48626]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 20340 ms
+2022-01-15 15:10:28,992 [  48626]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-15 15:10:34,992 [  54626]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-15 15:35:11,710 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-15 15:35:13,038 [   1328]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-15 15:36:10,317 [  58607]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 50547 ms
+2022-01-15 15:36:27,650 [  75940]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-15 15:37:09,680 [ 117970]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 42018 ms
+2022-01-15 15:37:09,680 [ 117970]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-15 15:37:18,633 [ 126923]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-15 16:45:46,057 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-15 16:45:46,119 [     62]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-15 16:46:09,197 [  23140]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 22355 ms
+2022-01-15 16:46:16,194 [  30137]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-15 16:46:53,452 [  67395]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 37264 ms
+2022-01-15 16:46:54,015 [  67958]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-15 16:46:55,765 [  69708]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-15 17:57:06,124 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-15 17:57:06,202 [     78]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-15 17:57:16,061 [   9937]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 9301 ms
+2022-01-15 17:57:18,587 [  12463]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-15 17:57:26,097 [  19973]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 7512 ms
+2022-01-15 17:57:26,097 [  19973]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-15 17:57:27,988 [  21864]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-15 20:22:11,006 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-15 20:22:11,069 [     63]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-15 20:22:25,324 [  14318]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 13889 ms
+2022-01-15 20:22:27,614 [  16608]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-15 20:22:31,232 [  20226]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 3623 ms
+2022-01-15 20:22:31,232 [  20226]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-15 20:22:33,466 [  22460]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-19 17:32:16,038 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-19 17:32:16,101 [     63]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-19 17:32:33,694 [  17656]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 16332 ms
+2022-01-19 17:32:41,100 [  25062]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-19 17:32:56,998 [  40960]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 15887 ms
+2022-01-19 17:32:57,639 [  41601]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-19 17:33:07,951 [  51913]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-23 04:20:28,160 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-23 04:20:28,176 [     16]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-23 04:20:31,020 [   2860]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 2641 ms
+2022-01-23 04:20:32,629 [   4469]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-23 04:20:39,101 [  10941]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 6471 ms
+2022-01-23 04:20:39,101 [  10941]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-23 04:20:41,304 [  13144]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-23 04:20:43,725 [  15565]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:true; isMake:false parallel compilation:true
+2022-01-23 04:20:44,210 [  16050]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-01-23 04:20:44,210 [  16050]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-01-23 04:20:44,272 [  16112]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-01-23 04:20:44,272 [  16112]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 58f0b902
+2022-01-23 04:20:44,429 [  16269]   INFO - s.index.CompilerReferenceIndex - backward reference index version doesn't exist
+2022-01-23 04:20:47,116 [  18956]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 1102 ms
+2022-01-23 04:20:51,288 [  23128]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Backward references indexer' took 152 ms; 0 sources processed
+2022-01-23 04:20:51,288 [  23128]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Groovy stub generator' took 195 ms; 0 sources processed
+2022-01-23 04:20:51,288 [  23128]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 90 ms; 0 sources processed
+2022-01-23 04:20:51,288 [  23128]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Maven dependency resolver' took 192 ms; 0 sources processed
+2022-01-23 04:20:51,288 [  23128]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Resource compiler' took 69 ms; 0 sources processed
+2022-01-23 04:20:51,288 [  23128]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Scala IDEA builder' took 925 ms; 0 sources processed
+2022-01-23 04:20:51,288 [  23128]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Scala sbt builder' took 206 ms; 0 sources processed
+2022-01-23 04:20:51,288 [  23128]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Form-bindings' took 110 ms; 0 sources processed
+2022-01-23 04:20:56,241 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-23 04:20:56,241 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-23 04:20:58,084 [   1843]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 1706 ms
+2022-01-23 04:20:58,350 [   2109]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2022-01-23 04:20:58,537 [   2296]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-23 04:21:00,162 [   3921]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1615 ms
+2022-01-23 04:21:00,162 [   3921]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-23 04:21:01,241 [   5000]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-23 04:21:02,459 [   6218]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 6218 ms
+2022-01-23 23:32:37,100 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-23 23:32:37,131 [     31]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-23 23:32:44,381 [   7281]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 6993 ms
+2022-01-23 23:32:47,584 [  10484]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-23 23:32:53,303 [  16203]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 5713 ms
+2022-01-23 23:32:53,303 [  16203]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-23 23:33:00,615 [  23515]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-24 00:59:04,198 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-24 00:59:04,729 [    531]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-24 00:59:14,198 [  10000]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 9021 ms
+2022-01-24 00:59:21,791 [  17593]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-24 00:59:25,447 [  21249]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 3645 ms
+2022-01-24 00:59:25,447 [  21249]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-24 00:59:35,447 [  31249]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-25 02:57:38,033 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-25 02:57:38,069 [     36]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-25 02:57:44,757 [   6724]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 6354 ms
+2022-01-25 02:57:48,363 [  10330]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-25 02:57:55,297 [  17264]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 6934 ms
+2022-01-25 02:57:55,298 [  17265]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-25 02:58:00,124 [  22091]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-25 08:47:51,046 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-25 08:47:51,577 [    531]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-25 08:47:57,327 [   6281]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 5526 ms
+2022-01-25 08:47:59,515 [   8469]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-25 08:48:03,155 [  12109]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 3645 ms
+2022-01-25 08:48:03,155 [  12109]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-25 08:48:05,186 [  14140]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-25 17:34:57,333 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-25 17:34:57,349 [     16]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-25 17:35:04,348 [   7015]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 6621 ms
+2022-01-25 17:35:10,817 [  13484]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-25 17:35:18,051 [  20718]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 7229 ms
+2022-01-25 17:35:18,051 [  20718]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-25 17:35:23,535 [  26202]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-25 21:07:25,427 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-25 21:07:25,466 [     39]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-25 21:07:41,051 [  15624]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 14754 ms
+2022-01-25 21:07:48,891 [  23464]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-25 21:08:04,440 [  39013]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 15548 ms
+2022-01-25 21:08:04,445 [  39018]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-25 21:08:15,923 [  50496]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-25 23:34:06,723 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-25 23:34:06,738 [     15]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-25 23:34:10,254 [   3531]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 3232 ms
+2022-01-25 23:34:12,191 [   5468]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-25 23:34:16,004 [   9281]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 3825 ms
+2022-01-25 23:34:16,004 [   9281]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-25 23:34:18,035 [  11312]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-26 21:14:56,211 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-26 21:14:56,226 [     15]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-26 21:15:08,538 [  12327]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 12204 ms
+2022-01-26 21:15:12,523 [  16312]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-26 21:15:19,069 [  22858]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 6549 ms
+2022-01-26 21:15:19,069 [  22858]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-26 21:15:27,507 [  31296]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-01-27 06:08:15,683 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-01-27 06:08:15,777 [     94]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2021.3/plugins/java/lib/jps-launcher.jar
+2022-01-27 06:08:27,480 [  11797]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 11519 ms
+2022-01-27 06:08:47,370 [  31687]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/user, global options path = C:/Users/user/AppData/Roaming/JetBrains/IntelliJIdea2021.3/options
+2022-01-27 06:08:50,401 [  34718]   INFO - el.serialization.JpsLoaderBase - Loading attempt #1 failed for C:\Users\user\AppData\Roaming\JetBrains\IntelliJIdea2021.3\options\filetypes.xml
+org.jdom.JDOMException: Unexpected End-of-input in prolog
+ at [row,col {unknown-source}]: [1,1]
+	at com.intellij.openapi.util.JDOMUtil.loadUsingStaX(JDOMUtil.java:239)
+	at com.intellij.openapi.util.JDOMUtil.load(JDOMUtil.java:324)
+	at org.jetbrains.jps.model.serialization.JpsLoaderBase.tryLoadRootElement(JpsLoaderBase.java:76)
+	at org.jetbrains.jps.model.serialization.JpsLoaderBase.loadRootElement(JpsLoaderBase.java:64)
+	at org.jetbrains.jps.model.serialization.JpsLoaderBase.loadRootElement(JpsLoaderBase.java:34)
+	at org.jetbrains.jps.model.serialization.JpsLoaderBase.loadComponentData(JpsLoaderBase.java:56)
+	at org.jetbrains.jps.model.serialization.JpsLoaderBase.loadComponents(JpsLoaderBase.java:44)
+	at org.jetbrains.jps.model.serialization.JpsGlobalLoader.loadGlobalComponents(JpsGlobalLoader.java:73)
+	at org.jetbrains.jps.model.serialization.JpsGlobalLoader.load(JpsGlobalLoader.java:63)
+	at org.jetbrains.jps.model.serialization.JpsGlobalLoader.loadGlobalSettings(JpsGlobalLoader.java:45)
+	at org.jetbrains.jps.model.serialization.impl.JpsSerializationManagerImpl.loadModel(JpsSerializationManagerImpl.java:21)
+	at org.jetbrains.jps.cmdline.JpsModelLoaderImpl.loadModel(JpsModelLoaderImpl.java:34)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:63)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:311)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:162)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler.lambda$channelRead0$0(BuildMain.java:218)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.fasterxml.aalto.WFCException: Unexpected End-of-input in prolog
+ at [row,col {unknown-source}]: [1,1]
+	at com.fasterxml.aalto.stax.StreamReaderImpl.throwWfe(StreamReaderImpl.java:1777)
+	at com.fasterxml.aalto.stax.StreamReaderImpl.throwUnexpectedEOI(StreamReaderImpl.java:1796)
+	at com.fasterxml.aalto.stax.StreamReaderImpl.handlePrologEoi(StreamReaderImpl.java:1756)
+	at com.fasterxml.aalto.stax.StreamReaderImpl.next(StreamReaderImpl.java:810)
+	at com.intellij.openapi.util.SafeStAXStreamBuilder.build(SafeStAXStreamBuilder.java:102)
+	at com.intellij.openapi.util.JDOMUtil.loadUsingStaX(JDOMUtil.java:232)
+	... 18 more
+2022-01-27 06:08:50,526 [  34843]   INFO - el.serialization.JpsLoaderBase - File content: 
+2022-01-27 06:08:53,244 [  37561]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 5872 ms
+2022-01-27 06:08:53,276 [  37593]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 5 modules, 10 libraries
+2022-01-27 06:08:56,401 [  40718]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680

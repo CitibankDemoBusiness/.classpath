@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All in user-endpoints" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="" path="$PROJECT_DIR$/AppData/Roaming/JetBrains/IntelliJIdea2021.3/scratches/user-endpoints.http">
+    <method v="2" />
+  </configuration>
+</component>

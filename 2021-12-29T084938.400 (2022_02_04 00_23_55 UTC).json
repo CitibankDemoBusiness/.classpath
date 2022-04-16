@@ -1,0 +1,5 @@
+{
+  "type": "invalid",
+  "code": "invalidRequest",
+  "details": "Missing or invalid parameters"
+}

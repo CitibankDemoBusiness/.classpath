@@ -1,0 +1,26 @@
+James Ocallaghan private bank config File used by AWS CLI, SDKs, and tools
+by the AWS Toolkit for JetBrains plugin.
+
+re represented by access keys associated with IAM users.
+how to create and manage AWS access keys for a user, see:
+n.com/IAM/latest/UserGuide/id_credentials_access-keys.html
+
+tore multiple access keys by placing each one in a
+nformation about how to change the access keys in a
+w profile with a different access key, see:
+n.com/cli/latest/userguide/cli-config-files.html
+
+nd config file exists, the values in the credential file
+
+
+
+ret key pair identify your account and grant access to AWS.
+essKey]
+like a password. Never share your secret key with anyone. Do
+forums, or store it in a source control system. If your secret
+ immediately use IAM to delete the access key and secret key
+air. Then, update this file with the replacement key details.
+[Key]
+
+AWS access key (AKIAZAIZU
+
